@@ -64,13 +64,19 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 
 با این حال، یک لیست کامل از موجودیت‌ها با مشخصات HTML و XML تعریف شده است که در لینک زیر قابل مشاهده می باشد:
 
-en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 
 در چارچوب یک اقدام HTML یا کد جاوا اسکریپت، مجموعه متفاوتی از کاراکترهای خاص هست که باید Escape شده، کدگذاری، جایگزین یا فیلتر شوند. این کاراکترها عبارتند از:
+<div dir="ltr">
+
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/WSTG-INPV-01-03.png)
+<div dir="rtl">
 
 برای یک مرجع کامل‌تر، به راهنمای JavaScript مربوط به موزیلا در لینک زیر مراجعه نمایید.
 
-راهنمای جاوا اسکریپت
+[راهنمای جاوا اسکریپت](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#using_special_characters_in_strings)
+
+
 
 مثال یک
 
