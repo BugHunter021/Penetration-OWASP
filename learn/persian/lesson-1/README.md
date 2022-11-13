@@ -116,7 +116,8 @@ https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 این باعث می‌شود کاربر با کلیک بر روی پیوند ارائه شده توسط آزمایشگر، فایل malicious.exe را از سایتی که تحت کنترل خود است دانلود کند.
 
 <div dir="rtl">
-## Bypass XSS Filters
+
+## توضیح Bypass XSS Filters
 
 برنامه‌های تحت وب می‌توانند با بررسی ورودی‌ها و پاک‌سازی آن‌ها (Sanitization) از بروز حملات Reflected XSS جلوگیری کنند. همچنین یک فایروال تحت وب یا مکانیزم‌های تعبیه‌شده در مرورگرهای وب مدرن، جلوی ورودی مخرب را می‌گیرند.
 
