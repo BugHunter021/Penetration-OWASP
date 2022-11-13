@@ -160,8 +160,11 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 ## مثال پنج: Bypassing Non-Recursive Filtering
 
 گاهی اوقات، فرآیند Sanitization تنها یک‌بار به کار برده می‌شود و به صورت بازگشتی اجرا نمی‌شود. در این حالت مهاجم می‌تواند فیلتر را با ارسال یک رشته حاوی تلاش‌های متعدد، مانند مثال زیر، شکست دهد:
+```js
+<src<script>ip>alert(document.cookie)</script> 
+```
 
-مثال شش: Including External Script
+## مثال شش: Including External Script
 
 حال فرض کنید که توسعه دهندگان سایت هدف، کد زیر را برای محافظت از ورودی در برابر وارد شدن اسکریپت‌های خارجی اجرا کرده‌اند:
 
