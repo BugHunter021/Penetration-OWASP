@@ -167,6 +167,20 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 ## مثال شش: Including External Script
 
 حال فرض کنید که توسعه دهندگان سایت هدف، کد زیر را برای محافظت از ورودی در برابر وارد شدن اسکریپت‌های خارجی اجرا کرده‌اند:
+```js
+<?
+$re = "/<script[^>]+src/i";
+
+if (preg_match($re, $_GET['var']))
+{
+echo "Filtered"; 
+Return;
+}
+echo "Welcome ".$_GET['var']." !";
+?>
+
+ 
+```
 
 جداسازی عبارت منظم بالا:
 
