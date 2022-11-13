@@ -101,12 +101,18 @@ https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 <div dir="rtl">
 این نشان می‌دهد که یک آسیب‌پذیری XSS وجود دارد و به نظر می‌رسد که تست نفوذگر می‌تواند کد انتخاب خود را در مرورگر هر کسی که بر روی این لینک کلیک می‌کند، اجرا نماید.
 
-مثال دو
+## مثال دو
 
 بیایید بخش دیگری از کد (‏لینک)‏ را امتحان کنیم:
+<div dir="ltr">
 
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-07.png)
+<div dir="rtl">
 این امر رفتار زیر را ایجاد می‌کند:
+<div dir="ltr">
 
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-08.png)
+<div dir="rtl">
 این باعث می‌شود کاربر با کلیک بر روی پیوند ارائه شده توسط آزمایشگر، فایل malicious.exe را از سایتی که تحت کنترل خود است دانلود کند.
 
 Bypass XSS Filters
