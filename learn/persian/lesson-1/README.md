@@ -1,8 +1,5 @@
-<center><img src="https://www.computerhope.com/cdn/media/logo-200-gray.png" alt="what image shows" height="150" width="200"></center>
-
-<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg" align="center" >
-
 <div dir="rtl">
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg" align="center" >
 
 # درس اول
 
