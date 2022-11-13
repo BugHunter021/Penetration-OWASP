@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 بررسی Reflected Cross Site Scripting
 
 در این بخش از دوره آموزشی OWASP-WSTG به هفتمین بخش از استاندارد WSTG با شناسه WSTG-INPV-01 می پردازیم که مربوط به بررسی Reflected Cross Site Scripting می باشد.
@@ -20,6 +22,7 @@ Reflected XSS رایج‌ترین نوع از حملات XSS است. حملات 
 آزمایش جعبه سیاه
 
 یک تست جعبه سیاه حداقل شامل سه مرحله است:
+</div>
 
 Detect Input Vectors
 
