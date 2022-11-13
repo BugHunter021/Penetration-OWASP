@@ -44,7 +44,7 @@ Reflected XSS رایج‌ترین نوع از حملات XSS است. حملات 
   نمونه‌های این داده‌های ورودی به شرح زیر هستند:
 <div dir="ltr">
   
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/WSTG-INPV-01-01.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-01.png)
 <div dir="rtl">
 برای یک لیست جامع از رشته‌های آزمایشی بالقوه به لینک زیر مراجعه نمایید:
 </div>
@@ -59,7 +59,7 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 در حالت ایده‌آل همه کاراکترهای ویژه HTML با HTML Entities جایگزین خواهند شد. Entity های کلیدی HTML که باید شناسایی شوند عبارتند از:
 <div dir="ltr">
 
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/WSTG-INPV-01-02.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-02.png)
 <div dir="rtl">
 
 با این حال، یک لیست کامل از موجودیت‌ها با مشخصات HTML و XML تعریف شده است که در لینک زیر قابل مشاهده می باشد:
@@ -69,7 +69,7 @@ https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 در چارچوب یک اقدام HTML یا کد جاوا اسکریپت، مجموعه متفاوتی از کاراکترهای خاص هست که باید Escape شده، کدگذاری، جایگزین یا فیلتر شوند. این کاراکترها عبارتند از:
 <div dir="ltr">
 
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/WSTG-INPV-01-03.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-03.png)
 <div dir="rtl">
 
 برای یک مرجع کامل‌تر، به راهنمای JavaScript مربوط به موزیلا در لینک زیر مراجعه نمایید.
@@ -81,13 +81,24 @@ https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 ## مثال یک
 
 به عنوان مثال، سایتی را در نظر بگیرید که یک اعلان Welcome %username%و یک لینک دانلود دارد.
+<div dir="ltr">
+
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-04.png)
+<div dir="rtl">
 
 تست نفوذگر باید شک کند که هر نقطه ورود داده می‌تواند منجر به حمله XSS شود. برای تجزیه و تحلیل آن، وی با متغیر کاربر بازی می‌کند و سعی می‌کند آسیب‌پذیری را شناسایی کند.
 
 بیایید روی لینک زیر کلیک کنیم و ببینیم چه اتفاقی می‌افتد:
+<div dir="ltr">
+
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-05.png)
+<div dir="rtl">
 
 اگر هیچ Sanitization اعمال نشده باشد، این امر منجر به popup زیر خواهد شد:
+<div dir="ltr">
 
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/WSTG-INPV-01-06.png)
+<div dir="rtl">
 این نشان می‌دهد که یک آسیب‌پذیری XSS وجود دارد و به نظر می‌رسد که تست نفوذگر می‌تواند کد انتخاب خود را در مرورگر هر کسی که بر روی این لینک کلیک می‌کند، اجرا نماید.
 
 مثال دو
