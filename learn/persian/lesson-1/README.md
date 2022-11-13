@@ -1,3 +1,6 @@
+<div dir="ltr">
+
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg)
 <div dir="rtl">
 
 # درس اول
