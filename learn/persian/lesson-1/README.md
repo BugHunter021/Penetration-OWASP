@@ -141,6 +141,9 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 ```
 
 سپس یک مهاجم می‌تواند کد زیر را ارسال کند:
+```php
+" onfocus="alert(document.cookie) 
+```
 
 مثال چهار: Different Syntax or Encoding
 
