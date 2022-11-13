@@ -140,18 +140,24 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 <input type="text" name="state" value="INPUT_FROM_USER"> 
 ```
 
-سپس یک مهاجم می‌تواند کد زیر را ارسال کند:
+سپس مهاجم می‌تواند کد زیر را ارسال کند:
 ```js
 " onfocus="alert(document.cookie) 
 ```
 
-مثال چهار: Different Syntax or Encoding
+## مثال چهار: Different Syntax or Encoding
 
 در برخی موارد این احتمال وجود دارد که فیلترهای مبتنی بر امضا را بتوان به سادگی با مبهم کردن حمله شکست داد. به طور معمول شما می‌توانید این کار را از طریق درج تغییرات غیر منتظره در Syntax یا در Encoding انجام دهید. این تغییرات توسط مرورگرها به عنوان HTML معتبر زمانی که کد برگشت داده می‌شود، پذیرفته شده و در عین حال آن‌ها می‌توانند توسط فیلتر نیز پذیرفته شوند.
 
 به مثال‌های زیر توجه نمایید:
+```js
+"><script >alert(document.cookie)</script >
+"><ScRiPt>alert(document.cookie)</ScRiPt> 
+"%3cscript%3ealert(document.cookie)%3c/script%3e 
+ 
+```
 
-مثال پنج: Bypassing Non-Recursive Filtering
+## مثال پنج: Bypassing Non-Recursive Filtering
 
 گاهی اوقات، فرآیند Sanitization تنها یک‌بار به کار برده می‌شود و به صورت بازگشتی اجرا نمی‌شود. در این حالت مهاجم می‌تواند فیلتر را با ارسال یک رشته حاوی تلاش‌های متعدد، مانند مثال زیر، شکست دهد:
 
