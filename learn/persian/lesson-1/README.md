@@ -1,5 +1,5 @@
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg)" align="center" >
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg)" align="center" >
 
 <div dir="rtl">
 
