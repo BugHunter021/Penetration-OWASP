@@ -1,7 +1,6 @@
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" align="right" width="208">
+<img src="[https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg)" align="center" >
 
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg)
 <div dir="rtl">
 
 # درس اول
