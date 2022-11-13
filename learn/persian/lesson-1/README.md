@@ -185,10 +185,12 @@ echo "Welcome ".$_GET['var']." !";
 جداسازی عبارت منظم بالا:
 <div dir="ltr">
 
+```
 1. Check for a <script 
 2. Check for a “ “ (white space) 
 3. Any character but the character > for one or more occurrences 
 4. Check for a src
+```
 <div dir="rtl">
 
 
