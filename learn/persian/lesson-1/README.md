@@ -138,6 +138,7 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 
 ```php
 <input type="text" name="state" value="INPUT_FROM_USER"> 
+```
 
 سپس یک مهاجم می‌تواند کد زیر را ارسال کند:
 
