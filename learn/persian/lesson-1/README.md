@@ -171,11 +171,11 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 <?
 $re = "/<script[^>]+src/i";
 
-if (preg_match($re, $_GET['var']))
-{
-echo "Filtered"; 
-Return;
-}
+	if (preg_match($re, $_GET['var']))
+	{
+		echo "Filtered"; 
+		Return;
+	}
 echo "Welcome ".$_GET['var']." !";
 ?>
 
