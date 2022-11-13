@@ -183,6 +183,14 @@ echo "Welcome ".$_GET['var']." !";
 ```
 
 جداسازی عبارت منظم بالا:
+<div dir="ltr">
+
+1. Check for a <script 
+2. Check for a “ “ (white space) 
+3. Any character but the character > for one or more occurrences 
+4. Check for a src
+<div dir="rtl">
+
 
 این امر برای فیلتر کردن عباراتی که داخل تگ اسکریپت قرار داده می شوند مفید است. اما در این حالت، می‌توان با استفاده از کاراکتر در یک Attribute بین scritp و src مانند زیر، Sanitization را دور زد:
 
