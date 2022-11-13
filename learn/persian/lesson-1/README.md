@@ -1,6 +1,6 @@
 <div dir="rtl">
 
-بررسی Reflected Cross Site Scripting
+# بررسی Reflected Cross Site Scripting
 
 در این بخش از دوره آموزشی OWASP-WSTG به هفتمین بخش از استاندارد WSTG با شناسه WSTG-INPV-01 می پردازیم که مربوط به بررسی Reflected Cross Site Scripting می باشد.
 خلاصه
