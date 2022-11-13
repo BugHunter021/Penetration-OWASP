@@ -78,7 +78,7 @@ https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
 
 
 
-مثال یک
+## مثال یک
 
 به عنوان مثال، سایتی را در نظر بگیرید که یک اعلان Welcome %username%و یک لینک دانلود دارد.
 
