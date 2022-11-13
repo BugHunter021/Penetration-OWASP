@@ -48,7 +48,7 @@ Reflected XSS رایج‌ترین نوع از حملات XSS است. حملات 
 <div dir="rtl">
 برای یک لیست جامع از رشته‌های آزمایشی بالقوه به لینک زیر مراجعه نمایید:
 </div>
-[https://owasp.org/www-community/xss-filter-evasion-cheatsheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
+https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 
 
 <div dir="rtl">
