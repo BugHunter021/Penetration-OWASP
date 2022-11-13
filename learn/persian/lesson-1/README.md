@@ -57,8 +57,10 @@ https://owasp.org/www-community/xss-filter-evasion-cheatsheet
 برای هر ورودی آزمون در مرحله قبل، تست نفوذگر نتیجه را تحلیل می‌کند و تعیین می‌کند که آیا یک آسیب‌پذیری را نشان می‌دهد که تاثیر واقعی بر امنیت برنامه کاربردی وب داشته باشد یا خیر. این امر نیازمند بررسی صفحه وب HTML حاصل و جستجو برای ورودی آزمون است. در صورت تشخیص آسیب‌پذیری، تست نفوذگر هر کاراکتر خاصی را شناسایی می‌کند که به درستی کدگذاری، جایگزین یا فیلتر نشده باشد. مجموعه کاراکترهای خاص آسیب‌پذیر فیلترنشده به زمینه (Context) آن بخش از HTML بستگی خواهد داشت.
 
 در حالت ایده‌آل همه کاراکترهای ویژه HTML با HTML Entities جایگزین خواهند شد. Entity های کلیدی HTML که باید شناسایی شوند عبارتند از:
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/WSTG-INPV-01-01.png)
+<div dir="ltr">
 
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/WSTG-INPV-01-02.png)
+<div dir="rtl">
 
 با این حال، یک لیست کامل از موجودیت‌ها با مشخصات HTML و XML تعریف شده است که در لینک زیر قابل مشاهده می باشد:
 
