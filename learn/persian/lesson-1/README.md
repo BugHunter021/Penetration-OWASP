@@ -236,8 +236,13 @@ http://example/page.php?param=<script&param=>[...]</&param=script>
 ## ابزارهای کمکی
 
 • PHP Charset Encoder(PCE)
+
 • Hackvertor
+
 • XSS-Proxy
+
 • Ratproxy
+
 • Burp Proxy
+
 • OWASP Zed Attack Proxy (ZAP)
