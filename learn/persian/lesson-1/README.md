@@ -247,3 +247,6 @@ http://example/page.php?param=<script&param=>[...]</&param=script>
 • Burp Proxy
 
 • OWASP Zed Attack Proxy (ZAP)
+
+منبع :
+https://securityworld.ir/wstg-inpv-01/
