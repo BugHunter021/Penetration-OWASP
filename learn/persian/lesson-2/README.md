@@ -67,6 +67,10 @@
 **توجه:** تمام حوزه‌های برنامه قابل‌دسترس توسط مدیران باید برای شناسایی حضور هر گونه داده ارسال‌شده توسط کاربران مورد آزمایش قرار گیرند.
 
 **مثال:** پست الکترونیکی داده‌ها را در index2.phpذخیره می‌کند.
+  <div dir="ltr">
+  
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-2/images/WSTG-INPV-02-01.png)
+<div dir="rtl">
 
 کد HTML مربوط به index2.php که در آن مقدار ایمیل قرار دارد:
 
