@@ -83,10 +83,21 @@
 ### روش Testing for Stored XSS
 
 این امر شامل تست اعتبارسنجی ورودی و کنترل‌های فیلترینگ برنامه است. مثال‌های تزریق پایه در این مورد است:
+```js
+aaa@aa.com&quot;&gt;&lt;script&gt; alert(document.cookie)&lt;/script&gt;
+aaa@aa.com%22%3E%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
+```
 
 اطمینان حاصل کنید که ورودی از طریق برنامه ارسال شده‌باشد. این معمولاً شامل غیرفعال کردن جاوا اسکریپت در صورتی که کنترل‌های امنیتی سمت کلاینت اجرا شود یا درخواست HTTP را با یک پروکسی وب تغییر می‌دهد. همچنین مهم است که همان تزریق را با هر دو درخواست HTTP GET و POST آزمایش کنید. تزریق بالا منجر به نمایش یک پنجره popup حاوی مقادیر کوکی می‌شود.
+<div dir="ltr">
 
-**کد HTML پس از تزریق:**
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-2/images/5.1.png)
+<div dir="rtl">
+
+کد HTML پس از تزریق:
+```js
+<input class="inputbox" type="text" name="email" size="40" value="aaa@aa.com"> <script>alert(document.cookie)</script>
+```
 
 ورودی ذخیره می‌شود و پیلود XSS توسط مرورگر در هنگام بارگذاری مجدد صفحه اجرا می‌شود. اگر ورودی توسط برنامه حذف شود، تست نفودگر باید برنامه را برای فیلترهای XSS آزمایش کند. برای مثال، اگر رشته “SCRIPT” با یک Space یا با یک کاراکتر NULL جایگزین شود، آنگاه این می‌تواند نشانه بالقوه فیلترینگ XSS باشد.
 
