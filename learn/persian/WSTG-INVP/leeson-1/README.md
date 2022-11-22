@@ -1,5 +1,5 @@
 <div dir="rtl">
-<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-1/img/owasp-WSTG-INVP-01.jpg" align="center" >
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-1/images/owasp-WSTG-INVP-01.jpg" align="center" >
 
 # درس اول
 
