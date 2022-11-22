@@ -1,5 +1,5 @@
 <div dir="rtl">
-  <img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-2/images/owasp-WSTG-INVP-02.jpg" align="center" >
+  <img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-2/images/owasp-WSTG-INVP-02.jpg">
 
 ## بررسی Stored Cross Site Scripting
   
