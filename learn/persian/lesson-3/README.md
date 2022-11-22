@@ -1,5 +1,5 @@
 <div dir="rtl">
-<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-3/img/owasp-WSTG-INVP-04.jpg" align="center" >
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/lesson-3/img/owasp-WSTG-INVP-04.jpg--" align="center" >
 
 # بررسی HTTP Parameter Pollution
 
