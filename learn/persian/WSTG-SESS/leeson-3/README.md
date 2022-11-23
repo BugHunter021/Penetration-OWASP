@@ -1,3 +1,6 @@
+<div dir="rtl">
+
+
 بررسی Session Fixation
 
 در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-03 می پردازیم که مربوط به بررسی Session Fixation می باشد.
