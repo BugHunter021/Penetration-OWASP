@@ -87,6 +87,10 @@ http://example.com/?mode=guest&search_string=kittens&num_results=100
 ```  
 
 اضافه نمودن همان پارامتر با مقدار متفاوت:
+```bash
+http://example.com/?mode=guest&search_string=kittens&num_results=100&search_string=puppies
+```
+
 
 و درخواست جدید را با اعمال تغییرات بالا، ارسال می‌کنیم.
 
