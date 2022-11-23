@@ -82,6 +82,9 @@ URL مورد نظر در این بخش example.com/?color=red&color=blue می‌
 http://example.com/?search_string=kittens
 ```  
 این پارامتر خاص ممکن است در میان چندین پارامتر دیگر پنهان باشد، اما این رویکرد ما جهت تست، یکسان خواهد بود:
+```bash
+http://example.com/?mode=guest&search_string=kittens&num_results=100
+```  
 
 اضافه نمودن همان پارامتر با مقدار متفاوت:
 
