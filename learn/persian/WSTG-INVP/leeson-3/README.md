@@ -1,6 +1,7 @@
 <div dir="rtl">
   
   
+  
 <img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-3/images/owasp-WSTG-INVP-04.jpg" align="center" >
 
 # بررسی HTTP Parameter Pollution
