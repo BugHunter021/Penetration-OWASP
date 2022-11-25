@@ -2,7 +2,7 @@
 
 # بررسی Session Management Schema
 
-در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-01 می پردازیم که مربوط به بررسی Session Management Schema می باشد.
+در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-01 می پردازیم که مربوط به بررسی **Session Management Schema** می باشد.
 
 ## خلاصه
 
@@ -131,9 +131,9 @@ owaspuser:192.168.100.1:a7656fafe94dae72b1e1487670148412
 
 **این ویژگی‌ها در زیر خلاصه شده‌اند:**
 
-* **غیرقابل‌پیش‌بینی بودن:** یک کوکی باید حاوی مقدار داده سخت در برابر حدس باشد. هر چه ساختن و جعل یک کوکی معتبر سخت‌تر باشد، ورود به جلسه قانونی کاربر سخت‌تر است. اگر یک مهاجم بتواند کوکی مورد استفاده در یک جلسه فعال از یک کاربر قانونی را حدس بزند، قادر به جعل کامل آن کاربر (‏ربودن جلسه)‏ خواهد بود. به منظور غیرقابل‌پیش‌بینی کردن یک کوکی، می‌توان از مقادیر تصادفی یا رمزنگاری استفاده کرد. 
+* **غیرقابل‌پیش‌بینی بودن:** یک کوکی باید حاوی مقدار داده سخت در برابر حدس باشد. هر چه ساختن و جعل یک کوکی معتبر سخت‌تر باشد، ورود به جلسه قانونی کاربر سخت‌تر است. اگر یک مهاجم بتواند کوکی مورد استفاده در یک جلسه فعال از یک کاربر قانونی را حدس بزند، قادر به جعل کامل آن کاربر (ربودن جلسه) خواهد بود. به منظور غیرقابل‌پیش‌بینی کردن یک کوکی، می‌توان از مقادیر تصادفی یا رمزنگاری استفاده کرد. 
 
-* **مقاومت در برابر دستکاری:** کوکی باید در برابر تلاش‌های مخرب اصلاح مقاومت کند. اگر تست نفوذگر یک کوکی مانند IsAdmin=No را دریافت کند، اصلاح آن برای گرفتن حقوق مدیریت بدیهی به نظر می‌رسد، مگر اینکه برنامه یک بررسی دوگانه انجام دهد (‏به عنوان مثال، یک هش رمزگذاری شده از مقدار آن را به کوکی ارسال کند).
+* **مقاومت در برابر دستکاری:** کوکی باید در برابر تلاش‌های مخرب اصلاح مقاومت کند. اگر تست نفوذگر یک کوکی مانند IsAdmin=No را دریافت کند، اصلاح آن برای گرفتن حقوق مدیریت بدیهی به نظر می‌رسد، مگر اینکه برنامه یک بررسی دوگانه انجام دهد (به عنوان مثال، یک هش رمزگذاری شده از مقدار آن را به کوکی ارسال کند).
     
 * **انقضاء:** یک کوکی حیاتی باید تنها برای یک دوره زمانی مناسب معتبر باشد و باید از دیسک یا حافظه پس از آن حذف شود تا از خطر بازپخش شدن آن جلوگیری شود. این امر در مورد کوکی‌ها که داده‌های غیر حیاتی را ذخیره می‌کنند که باید در طول جلسات به خاطر سپرده شوند صدق نمی‌کند.
     
@@ -181,37 +181,44 @@ ID=5a0acfc7ffeb919: CR=1: TM=1120514521: LM-1120514521: S=j3am5KzC4v01ba3q
 
 اگر تست نفوذگر به پیاده سازی طرح مدیریت جلسه دسترسی داشته باشد، می‌تواند موارد زیر را بررسی کند:
 
-• توکن نشست تصادفی
+* توکن نشست تصادفی
+
 شناسه نشست یا کوکی صادر شده به مشتری نباید به راحتی قابل‌پیش‌بینی باشد (از الگوریتم های خطی براساس متغیرهای قابل‌پیش‌بینی مانند آدرس IP مشتری استفاده نکرده باشد) استفاده از الگوریتم های رمزنگاری با طول کلید ۲۵۶ بیت مانند AES توصیه می‌شود.
 
-• طول توکن
-Session ID باید حداقل ۵۰ کاراکتر طول داشته باشد.
+* طول توکن
 
-• Session Time-out
+مقدار Session ID باید حداقل ۵۰ کاراکتر طول داشته باشد.
+
+
+* توکن Session Time-out
+
 توکن نشست باید یک زمان – خروج تعریف‌شده داشته باشد (‏این زمان به حساسیت داده‌های مدیریت برنامه بستگی دارد)‏.
 
-• پیکربندی کوکی:
-non-persistent: تنها در حافظه RAM
-Secure Flag: (تنها در کانال HTTPS تنظیم شده‌است)
+* پیکربندی کوکی:
 
+مقدار non-persistent: تنها در حافظه RAM
+
+مقدار Secure Flag: (تنها در کانال HTTPS تنظیم شده‌است)
+```bash
 Set-Cookie: cookie=data; path=/; domain=.aaa.it; secure
-
+```
 تنظیم HTTPOnly Flag: (عدم دسترسی به کوکی از طریق اسکریپت)
-
+```bash
 Set-Cookie: cookie=data; path=/; domain=.aaa.it; HttpOnly
-ابزارها
+```
+## ابزارها
 
-ZAP
-Burp Sequencer
-YEHG’s JHijack
-مراجع
+* ZAP
+* Burp Sequencer
+* YEHG’s JHijack
+## مراجع
 
-• RFC 2965 “HTTP State Management Mechanism”
-• RFC 1750 “Randomness Recommendations for Security”
-• Michal Zalewski: “Strange Attractors and TCP/IP Sequence Number Analysis” (2001)
-• Michal Zalewski: “Strange Attractors and TCP/IP Sequence Number Analysis – One Year Later” (2002)
-• Correlation Coefficient
-• ENT
-• DMA[2005-0614a] – ‘Global Hauri ViRobot Server cookie overflow’
-• Gunter Ollmann: “Web Based Session Management”
-• OWASP Code Review Guide
+* RFC 2965 “HTTP State Management Mechanism”
+* RFC 1750 “Randomness Recommendations for Security”
+* Michal Zalewski: “Strange Attractors and TCP/IP Sequence Number Analysis” (2001)
+* Michal Zalewski: “Strange Attractors and TCP/IP Sequence Number Analysis – One Year Later” (2002)
+* Correlation Coefficient
+* ENT
+* DMA[2005-0614a] – ‘Global Hauri ViRobot Server cookie overflow’
+* Gunter Ollmann: “Web Based Session Management”
+* OWASP Code Review Guide
