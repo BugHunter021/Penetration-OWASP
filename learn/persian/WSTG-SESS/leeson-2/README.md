@@ -1,5 +1,6 @@
 <div dir="rtl">
 # بررسی Cookies Attributes
+    
 
 در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-02 می پردازیم که مربوط به بررسی Cookies Attributes می باشد.
 خلاصه
