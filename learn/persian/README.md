@@ -6,7 +6,7 @@
 ## فهرست 
 
   1. [دوره WSTG-INVP]
-     * [11111]([#use-meaningful-and-pronounceable-variable-names](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1))
+     * [11111]([https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1])
      * [از همان واژگان برای همان نوع متغیر استفاده کنید](#use-the-same-vocabulary-for-the-same-type-of-variable)
      * [از نام های قابل جستجو استفاده کنید (بخش 1)](#use-searchable-names-part-1)
   
