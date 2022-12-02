@@ -6,6 +6,10 @@
 ## فهرست 
 
   1. [دوره WSTG-INVP](#introduction)
+     * [از نام های متغیر معنی دار و قابل تلفظ استفاده کنید](#use-meaningful-and-pronounceable-variable-names)
+     * [از همان واژگان برای همان نوع متغیر استفاده کنید](#use-the-same-vocabulary-for-the-same-type-of-variable)
+     * [از نام های قابل جستجو استفاده کنید (بخش 1)](#use-searchable-names-part-1)
+  
   2. [متغیرها](#variables)
      * [از نام های متغیر معنی دار و قابل تلفظ استفاده کنید](#use-meaningful-and-pronounceable-variable-names)
      * [از همان واژگان برای همان نوع متغیر استفاده کنید](#use-the-same-vocabulary-for-the-same-type-of-variable)
