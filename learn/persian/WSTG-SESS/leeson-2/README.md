@@ -128,9 +128,11 @@ Set-Cookie: __Host-SID=12345; Secure; Domain=site.example; Path=/
 
 * کوکی باید با مشخصه Secure تنظیم شود.
 * کوکی باید از یک URI که توسط user agent ایمن در نظر گرفته می‌شود، تنظیم شود.
-Strong Practices
+    
+### نمونه Strong Practices
 
 براساس نیازهای کاربردی و نحوه عملکرد کوکی، ویژگی‌ها و پیشوندها باید اعمال شوند. هرچه کوکی بیشتر قفل شود، بهتر است.
+    
 با کنار هم قرار دادن همه این موارد، می‌توانیم امن‌ترین پیکربندی مشخصه کوکی را به صورت زیر تعریف کنیم:
 
 Set-Cookie: __Host-SID=session token; path=/; Secure; HttpOnly; SameSite=Strict.
