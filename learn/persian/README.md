@@ -1,11 +1,11 @@
 
 <div dir="rtl">
 
-# Clean Code در PHP
+# دوره آموزشی OWASP
 
 ## فهرست 
 
-  1. [مقدمه](#introduction)
+  1. [دوره WSTG-INVP](#introduction)
   2. [متغیرها](#variables)
      * [از نام های متغیر معنی دار و قابل تلفظ استفاده کنید](#use-meaningful-and-pronounceable-variable-names)
      * [از همان واژگان برای همان نوع متغیر استفاده کنید](#use-the-same-vocabulary-for-the-same-type-of-variable)
