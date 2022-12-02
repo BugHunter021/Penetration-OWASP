@@ -4,7 +4,7 @@
 # دوره آموزشی OWASP
 
 ## فهرست 
-
+<div dir="rtl">
   1. [دوره آموزش WSTG-INVP](#variables) 
      * [درس اول](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1) 
      * [از همان واژگان برای همان نوع متغیر استفاده کنید](#use-the-same-vocabulary-for-the-same-type-of-variable)
