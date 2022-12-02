@@ -113,10 +113,12 @@ HTTP یک پروتکل بدون وضعیت یا Stateless است، به این �
 
 به همین دلیل کوکی Set-Cookie: __Host-SID=12345; Secure; Path=/ پذیرفته می شود در حالی که هر یک از موارد زیر همیشه رد می شود:
 
-* Set-Cookie: __Host-SID=12345 Set-Cookie: __Host-SID=12345; Secure
-* Set-Cookie: __Host-SID=12345; Domain=site.example
-* Set-Cookie: __Host-SID=12345; Domain=site.example; Path=/
-* Set-Cookie: __Host-SID=12345; Secure; Domain=site.example; Path=/
+```js
+Set-Cookie: __Host-SID=12345 Set-Cookie: __Host-SID=12345; Secure
+Set-Cookie: __Host-SID=12345; Domain=site.example
+Set-Cookie: __Host-SID=12345; Domain=site.example; Path=/
+Set-Cookie: __Host-SID=12345; Secure; Domain=site.example; Path=/
+```
 
 ### مقدار  Secure Prefix
 
