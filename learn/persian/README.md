@@ -13,3 +13,4 @@
      * [درس اول](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-1)  
      * [درس دوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-2)   
      * [درس سوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-3)        
+     * [درس چهارم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-4)        
