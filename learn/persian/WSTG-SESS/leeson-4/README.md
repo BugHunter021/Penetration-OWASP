@@ -62,6 +62,15 @@
 
 تمام کدهای سمت سرور که داده‌ها را از درخواست‌های POST دریافت می‌کنند باید تست شوند تا اطمینان حاصل شود که داده‌ها را در صورت ارسال شدن به صورت GET قبول نمی‌کند. برای مثال، درخواست POST زیر را در نظر بگیرید که توسط یک صفحه ورود ایجاد شده‌است.
 
+```js
+POST /login.asp HTTP/1.1
+Host: owaspapp.com
+[...]
+Cookie: ASPSESSIONIDABCDEFG-ASKLJDLKJRELKHJG
+Content-Length: 51
+Login Username&password=Password&SessionID=12345678
+
+```
 اگر login.asp به خوبی پیاده سازی نشده باشد، ممکن است بتوان با استفاده از URL زیر وارد سیستم شد:
 
 owaspapp.com/login.asp?Login=Username&password=Password&SessionID=12345678
