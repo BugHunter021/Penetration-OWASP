@@ -73,7 +73,7 @@ Login Username&password=Password&SessionID=12345678
 ```
 اگر login.asp به خوبی پیاده سازی نشده باشد، ممکن است بتوان با استفاده از URL زیر وارد سیستم شد:
 
-owaspapp.com/login.asp?Login=Username&password=Password&SessionID=12345678
+www.owaspapp.com/login.asp?Login=Username&password=Password&SessionID=12345678
 
 اسکریپت‌های سمت سرور که به طور بالقوه نا امن ایجاد شده اند ممکن است با بررسی هر درخواست POST به این روش شناسایی شوند.
 Testing for Transport Vulnerabilities
