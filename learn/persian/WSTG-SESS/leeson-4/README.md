@@ -1,5 +1,6 @@
+<div dir="rtl">
 
-بررسی Exposed Session Variables
+# بررسی Exposed Session Variables
 
 در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-04 می پردازیم که مربوط به بررسی Exposed Session Variables می باشد.
 خلاصه
