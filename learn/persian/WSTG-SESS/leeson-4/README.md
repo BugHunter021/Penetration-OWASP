@@ -28,7 +28,7 @@
   
 ## چگونه تست را انجام دهیم
 
-###روش Testing for Encryption & Reuse of Session Tokens Vulnerabilities
+### روش Testing for Encryption & Reuse of Session Tokens Vulnerabilities
 
 حفاظت از استراق‌سمع، اغلب توسط رمزگذاری SSL فراهم می‌شود، اما ممکن است دیگر Tunneling یا رمزگذاری را نیز شامل شود. لازم به ذکر است که رمزگذاری یا درهم سازی (Hashing) Session IDباید به طور جداگانه از رمزگذاری انتقال در نظر گرفته شود، زیرا خود Session IDدر حال محافظت است، نه داده‌ای که ممکن است توسط آن نشان داده شود.
 
