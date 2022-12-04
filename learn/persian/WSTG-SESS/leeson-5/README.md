@@ -1,4 +1,7 @@
-بررسی Cross Site Request Forgery
+<div dir="rtl">
+
+
+# بررسی Cross Site Request Forgery
 
 در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-05 می پردازیم که مربوط به بررسی Cross Site Request Forgery یا CSRF می باشد.
 خلاصه
