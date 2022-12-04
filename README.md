@@ -1,3 +1,1 @@
-- usefull learn for penetration test
-
-link or file
+12 قانون کدنویسی برای دانشجویان برنامه نویسی
