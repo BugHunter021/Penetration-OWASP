@@ -80,12 +80,12 @@
 
 حذف قانون شماره یک:
 ```bash
-    https://[target]/fwmgt/delete?rule=*
+    https://[target]/fwmgt/delete?rule=1
 
 ```
 
 حذف همه قوانین:
-```js
+```bash
     https://www.company.example/fwmgt/delete?rule=*
 
 ```
