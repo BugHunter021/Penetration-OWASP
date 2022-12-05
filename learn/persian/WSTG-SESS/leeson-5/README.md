@@ -86,7 +86,7 @@
 
 حذف همه قوانین:
 ```bash
-    https://www.company.example/fwmgt/delete?rule=*
+    https://[target]/fwmgt/delete?rule=*
 
 ```
 این مثال به صورت عمدی ساده است، اما به شیوه‌ای ساده شده خطرات CSRF را نشان می‌دهد.
