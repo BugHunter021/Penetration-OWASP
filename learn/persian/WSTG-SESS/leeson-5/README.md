@@ -32,7 +32,7 @@
 <img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-SESS/leeson-5/images/5.1.jpg" >
 
 
-درخواست GET می‌تواند توسط کاربر به چند روش مختلف ارسال شود:
+### درخواست GET می‌تواند توسط کاربر به چند روش مختلف ارسال شود:
 
 • با استفاده از برنامه کاربردی وب
 • تایپ URL به طور مستقیم در مرورگر
