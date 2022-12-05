@@ -96,7 +96,8 @@
 با استفاده از فرم نشان‌داده‌شده در شکل بالا، وارد کردن مقدار * و کلیک کردن بر روی دکمه حذف، درخواست GET زیر را ارسال خواهد کرد:
 ```bash
 https://www.company.example/fwmgt/delete?rule=*
-    ```
+```
+    
 این کار تمام قوانین دیواره آتش را حذف خواهد کرد.
 <img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-SESS/leeson-5/images/5.8.jpg" >
 
