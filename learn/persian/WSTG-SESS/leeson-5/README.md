@@ -90,10 +90,13 @@
 
 ```
 این مثال به صورت عمدی ساده است، اما به شیوه‌ای ساده شده خطرات CSRF را نشان می‌دهد.
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-SESS/leeson-5/images/5.6.jpg" >
+
 
 با استفاده از فرم نشان‌داده‌شده در شکل بالا، وارد کردن مقدار * و کلیک کردن بر روی دکمه حذف، درخواست GET زیر را ارسال خواهد کرد:
 
 این کار تمام قوانین دیواره آتش را حذف خواهد کرد.
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-SESS/leeson-5/images/5.8.jpg" >
 
 کاربر همچنین ممکن است نتایج مشابهی را با ارسال دستی URL زیر تجربه نماید:
 
