@@ -102,7 +102,10 @@ https://www.company.example/fwmgt/delete?rule=*
 <img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-SESS/leeson-5/images/5.8.jpg" >
 
 کاربر همچنین ممکن است نتایج مشابهی را با ارسال دستی URL زیر تجربه نماید:
+```bash
+    https://[target]/fwmgt/delete?rule=*
 
+```
 این کار می تواند با دنبال کردن یک لینک، به طور مستقیم یا از طریق یک Redirection، به URL بالا صورت پذیرد.
 
 همچنین با دسترسی به یک صفحه HTML با یک تگ img تعبیه‌شده که به همان URL بالا اشاره می‌کند، حذف صورت می‌گیرد.
