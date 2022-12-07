@@ -167,5 +167,5 @@ Content-Type: text/plain
 
 زمانی که این داده به عنوان یک درخواست POST ارسال می‌شود، سرور با خوشحالی فیلد نام و رمز عبور را می‌پذیرد و فیلد با نام padding را نادیده می‌گیرد چون نیازی به آن ندارد.
                                                              
-برای انجام اقدامات پیش‌گیرانه به OWASP CSRF Prevention Cheat Sheet مراجعه کنید. 
+برای انجام اقدامات پیش‌گیرانه به [OWASP CSRF Prevention Cheat Sheet ](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1)مراجعه کنید. 
 
