@@ -144,7 +144,7 @@ https://www.company.example/fwmgt/delete?rule=*
     
 در مورد برنامه‌های کاربردی وب که در آن توسعه دهندگان از JSON برای ارتباط سرور استفاده می‌کنند، یک مشکل ممکن است با این واقعیت ایجاد شود که هیچ پارامتر پرسوجو با فرمت JSON وجود ندارد، که یک ضرورت با فرم‌های self-submitting است. برای دور زدن این مورد، ما می‌توانیم از یک فرم خود ارسال یا self-submitting با پیلود‌های JSON شامل ورودی‌های پنهان برای بهره‌برداری از CSRF استفاده کنیم. ما باید نوع رمزگذاری (enctype) را به text/plain تغییر دهیم تا اطمینان حاصل کنیم که پیلود به صورت as-is تحویل داده می‌شود. کد اکسپلویت شبیه به موارد زیر خواهد بود:
 ```html
-    <html>
+<html>
 <body>
    <script>history.pushState('', '', '/')</script>
     <form action="http://victimsite.com' method='POST' enctype='text/plain'>
