@@ -157,7 +157,7 @@ https://www.company.example/fwmgt/delete?rule=*
 ```
 
 درخواست POST به شرح زیر خواهد بود:
-```html
+```js
 POST/ HTTP/1.1
 Host: victimsite.com
 Content-Type: text/plain
