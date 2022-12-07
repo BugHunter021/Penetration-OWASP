@@ -157,6 +157,13 @@ https://www.company.example/fwmgt/delete?rule=*
 ```
 
 درخواست POST به شرح زیر خواهد بود:
+```html
+POST/ HTTP/1.1
+Host: victimsite.com
+Content-Type: text/plain
+{"name":"hacked", "password": "hacked","padding":"=something"}
+```
+
 
 زمانی که این داده به عنوان یک درخواست POST ارسال می‌شود، سرور با خوشحالی فیلد نام و رمز عبور را می‌پذیرد و فیلد با نام padding را نادیده می‌گیرد چون نیازی به آن ندارد.
 Remediation
