@@ -42,7 +42,7 @@ http://127.0.0.1:631/admin/?kerberos onmouseover=alert(1)&kerberos
 
 یک آسیب‌پذیری حتی مهم‌تر از نوع HPP در Blogger که یک پلتفرم وبلاگ نویسی محبوب می‌باشد، کشف شد. این مشکل به کاربران مخرب این امکان را می‌داد تا مالکیت وبلاگ قربانی را با استفاده از درخواست HTTP زیر به دست آورند.
 
-```html
+```js
 POST /add-authors.do HTTP/1.1
 [. . . ]
 security_token=attackertoken&blogID=attackerblogidvalue&blogID=victimblogidvalue&
