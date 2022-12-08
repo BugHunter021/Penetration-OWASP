@@ -1,7 +1,7 @@
 
 # بررسی HTTP Parameter Pollution
 
-در این بخش از دوره آموزشی OWASP-WSTG به هفتمین بخش از استاندارد WSTG با شناسه WSTG-INPV-04 می پردازیم که مربوط به بررسی HTTP Parameter Pollution می باشد.
+در این بخش از دوره آموزشی OWASP-WSTG به هفتمین بخش از استاندارد **WSTG** با شناسه WSTG-INPV-04 می پردازیم که مربوط به بررسی HTTP Parameter Pollution می باشد.
 
 ### خلاصه
 
