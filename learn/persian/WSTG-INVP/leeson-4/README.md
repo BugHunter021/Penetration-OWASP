@@ -55,7 +55,7 @@ authorsList-goldshlager19test%40gmail.com (attacker email)&ok=Invite
 
 جدول زیر نشان می‌دهد که تکنولوژی‌های مختلف وب در هنگام حضور چندین اتفاق از یک پارامتر HTTP یکسان، از خود رفتار چه رفتاری نشان می‌دهند.
 
-URL مورد نظر در این بخش example.com/?color=red&color=blue می‌باشد.
+در این مثال URL مورد نظر example.com/?color=red&color=blue می‌باشد.
 اهداف تست
 
 • شناسایی Back-End و روش تجزیه مورد استفاده.
