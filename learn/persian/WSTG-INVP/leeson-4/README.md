@@ -50,7 +50,8 @@ authorsList-goldshlager19test%40gmail.com (attacker email)&ok=Invite
 ```
 
 این نقص در مکانیزم احراز هویت مورد استفاده برنامه وب قرار داشت، زیرا بررسی امنیتی در پارامتر اول blogID انجام می‌شد، در حالی که عملیات واقعی از رخداد دوم استفاده کرد.
-Expected Behavior by Application Server
+
+### بررسی Expected Behavior by Application Server
 
 جدول زیر نشان می‌دهد که تکنولوژی‌های مختلف وب در هنگام حضور چندین اتفاق از یک پارامتر HTTP یکسان، از خود رفتار چه رفتاری نشان می‌دهند.
 
