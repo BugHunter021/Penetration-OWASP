@@ -2,7 +2,8 @@
 # بررسی HTTP Parameter Pollution
 
 در این بخش از دوره آموزشی OWASP-WSTG به هفتمین بخش از استاندارد WSTG با شناسه WSTG-INPV-04 می پردازیم که مربوط به بررسی HTTP Parameter Pollution می باشد.
-خلاصه
+
+### خلاصه
 
 HTTP Parameter Pollution، برنامه‌های کاربردی را در پاسخ به دریافت چندین پارامتر HTTP با نام یکسان آزمایش می‌کند. به عنوان مثال، اگر پارامتر username دو بار در پارامترهای GET یا POST گنجانده شود.
 
