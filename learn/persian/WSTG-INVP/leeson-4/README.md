@@ -38,9 +38,16 @@ http://127.0.0.1:631/admin/?kerberos onmouseover=alert(1)&kerberos
 ```
 
 با اضافه کردن یک آرگومان kerberos اضافی که دارای یک رشته معتبر است (‏به عنوان مثال رشته خالی)‏، می‌توان نقطه کنترل اعتبار برنامه را دور زد. از آنجا که کنترل اعتبارسنجی تنها رخداد دوم را در نظر می‌گیرد، اولین پارامتر kerberos قبل از استفاده برای تولید محتوای HTML پویا به درستی Sanitize نشده است. بهره‌برداری موفق در این بخش، منجر به اجرای کد JavaScript در سایت خواهد شد.
-Authentication Bypass
+### تکنیک Authentication Bypass
 
 یک آسیب‌پذیری حتی مهم‌تر از نوع HPP در Blogger که یک پلتفرم وبلاگ نویسی محبوب می‌باشد، کشف شد. این مشکل به کاربران مخرب این امکان را می‌داد تا مالکیت وبلاگ قربانی را با استفاده از درخواست HTTP زیر به دست آورند.
+
+```js
+POST /add-authors.do HTTP/1.1
+[. . . ]
+security_token=attackertoken&blogID=attackerblogidvalue&blogID=victimblogidvalue&
+authorsList-goldshlager19test%40gmail.com (attacker email)&ok=Invite
+```
 
 این نقص در مکانیزم احراز هویت مورد استفاده برنامه وب قرار داشت، زیرا بررسی امنیتی در پارامتر اول blogID انجام می‌شد، در حالی که عملیات واقعی از رخداد دوم استفاده کرد.
 Expected Behavior by Application Server
