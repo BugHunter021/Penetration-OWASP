@@ -56,8 +56,7 @@ authorsList-goldshlager19test%40gmail.com (attacker email)&ok=Invite
 جدول زیر نشان می‌دهد که تکنولوژی‌های مختلف وب در هنگام حضور چندین اتفاق از یک پارامتر HTTP یکسان، از خود رفتار چه رفتاری نشان می‌دهند.
 
 در این مثال URL مورد نظر example.com/?color=red&color=blue می‌باشد.
-<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-4/images/14.5.png
-" align="center" >
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-4/images/14.5.png" align="center" >
 
 ### اهداف تست
 
