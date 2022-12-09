@@ -77,9 +77,13 @@ authorsList-goldshlager19test%40gmail.com (attacker email)&ok=Invite
 http://example.com/?search_string=kittens
 ```
 این پارامتر خاص ممکن است در میان چندین پارامتر دیگر پنهان باشد، اما این رویکرد ما جهت تست، یکسان خواهد بود:
-
-اضافه نمودن همان پارامتر با مقدار متفاوت:
-
+```js
+http://example.com/?mode=guest&search_string=kittens&num_results=100
+```
+اضافه نمودن همان پارامتر با مقداری متفاوت:
+```js
+http://example.com/?mode=guest&search_string=kittens&num_results=100&search_string=puppies
+```
 و درخواست جدید را با اعمال تغییرات بالا، ارسال می‌کنیم.
 
 صفحه پاسخ را تجزیه و تحلیل کنید تا مشخص شود که کدام مقادیر تجزیه شده‌اند. در مثال بالا، نتایج جستجو ممکن است kittens، puppies، ترکیبی از هر دو (‏kittens,puppies or kittens~puppies or [‘kittens’,’puppies’])‏ نشان داده شده و یا ممکن است نتیجه تهی یا صفحه خطا را نشان دهد.
