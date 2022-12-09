@@ -56,7 +56,10 @@ authorsList-goldshlager19test%40gmail.com (attacker email)&ok=Invite
 جدول زیر نشان می‌دهد که تکنولوژی‌های مختلف وب در هنگام حضور چندین اتفاق از یک پارامتر HTTP یکسان، از خود رفتار چه رفتاری نشان می‌دهند.
 
 در این مثال URL مورد نظر example.com/?color=red&color=blue می‌باشد.
-اهداف تست
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/WSTG-INVP/leeson-4/images/14.5.png
+" align="center" >
+
+### اهداف تست
 
 • شناسایی Back-End و روش تجزیه مورد استفاده.
 • نقاط تزریق را ارزیابی کنید و سعی کنید فیلترهای ورودی را با استفاده از HPP دور بزنید.
