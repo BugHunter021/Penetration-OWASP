@@ -102,7 +102,6 @@ $password = 1' or '1' = '1
 ```sql
 SELECT * FROM Users WHERE Username='1' OR '1' = '1' AND Password='1' OR '1' = '1'
 ```
-
 اگر فرض کنیم که مقادیر پارامترها از طریق متد GET به سرور فرستاده می‌شوند و اگر دامنه وب سایت آسیب‌پذیر www.example.com باشد، درخواستی که ما انجام خواهیم داد این خواهد بود:
 ```sql
 http://www.example.com/index.php?username=1'%20or%20'1'%20=%20'1&amp;
