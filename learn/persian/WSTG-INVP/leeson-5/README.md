@@ -132,7 +132,7 @@ SELECT * FROM Users WHERE ((Username='$username') AND (Password=MD5('$password')
 
 به این ترتیب، ما درخواستی مانند موارد زیر را ایجاد می‌کنیم:
 
-SELECT Statement
+### بررسی SELECT Statement
 
 پرس و جوی SQL زیر را در نظر بگیرید:
 
