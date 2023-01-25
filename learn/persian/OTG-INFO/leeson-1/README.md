@@ -33,14 +33,13 @@
 
 می‌توانید از موتورهای جست و جوی زیر استفاده کنید:
 
-• Baidu
-• binsearch.info
-• Bing
-• Duck Duck Go
-• ixquick/Startpage
-• Google
-• Shodan
-• PunkSpider
+* Baidu
+* binsearch.info
+* Bing
+* Duck Duck Go
+* ixquick/Startpage
+* Shodan
+* PunkSpider
 
 موتورهای Duck Duck Go و ixquick/startpage نتایج خلاصه‌تری نسبت به نشت اطلاعات به ارزیاب می‌دهند.
 
