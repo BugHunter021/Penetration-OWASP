@@ -82,11 +82,16 @@ cache:owasp.org
 # ابزارها
 
 FoundStone SiteDigger – http://www.mcafee.com/uk/downloads/free-tools/sitedigger.aspx
+
 Google Hacker – http://yehg.net/lab/pr0js/files.php/googlehacker.zip
+
 Bishop Fox’s Google Hacking Diggity Project – http://www.bishopfox.com/resources/tools/google-hacking-diggity/
+
 PunkSPIDER – http://punkspider.hyperiongray.com/
 # منابع
 
 [1] “Google Basics: Learn how Google Discovers, Crawls, and Serves Web Pages” – https://support.google.com/webmasters/answer/70897
+
 [2] “Operators and More Search Help” – https://support.google.com/websearch/answer/136861?hl=en
+
 [3] “Google Hacking Database” – http://www.exploit-db.com/google-dorks/ 
