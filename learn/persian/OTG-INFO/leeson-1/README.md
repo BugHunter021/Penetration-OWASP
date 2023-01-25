@@ -61,29 +61,31 @@ site:owasp.org
 
 
 برای نمایش index.html سایت owasp.org که cache شده است، از دستور زیر استفاده کنید:
-
+```html
 cache:owasp.org
-دیتابیس گوگل هکینگ
+```
+### دیتابیس گوگل هکینگ
 
 دیتابیس گوگل هکینگ یک لیست کاربردی از کوئری‌های گوگل است. این کوئری‌ها در چند گروه طبقه‌بندی می‌شوند:
 
-• رد پا
-• فایل‌های حاوی نام‌های کاربری
-• دایرکتوری‌های حساس
-• شناسایی وب سرور
-• فایل‌های آسیب‌پذیر
-• سرورهای آسیب‌پذیر
-• پیام‌های خطا
-• فایل‌های حاوی اطلاعات مهم و به درد بخور
-• فایل‌های حاوی رمزهای عبور
-• اطلاعات حساس خریدهای اینترنتی
-ابزارها
+* رد پا
+* فایل‌های حاوی نام‌های کاربری
+* دایرکتوری‌های حساس
+* شناسایی وب سرور
+* فایل‌های آسیب‌پذیر
+* سرورهای آسیب‌پذیر
+* پیام‌های خطا
+* فایل‌های حاوی اطلاعات مهم و به درد بخور
+* فایل‌های حاوی رمزهای عبور
+* اطلاعات حساس خریدهای اینترنتی
+
+# ابزارها
 
 FoundStone SiteDigger – http://www.mcafee.com/uk/downloads/free-tools/sitedigger.aspx
 Google Hacker – http://yehg.net/lab/pr0js/files.php/googlehacker.zip
 Bishop Fox’s Google Hacking Diggity Project – http://www.bishopfox.com/resources/tools/google-hacking-diggity/
 PunkSPIDER – http://punkspider.hyperiongray.com/
-منابع
+# منابع
 
 [1] “Google Basics: Learn how Google Discovers, Crawls, and Serves Web Pages” – https://support.google.com/webmasters/answer/70897
 [2] “Operators and More Search Help” – https://support.google.com/websearch/answer/136861?hl=en
