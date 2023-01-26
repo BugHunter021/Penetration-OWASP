@@ -41,8 +41,10 @@ Content-Type: text/html
 ```
 
 اطلاعات بخش Server بیانگر این هستند که نوع و نسخه سرور مورد نظر آپاچی 1.3.3 است. در زیر چهار سرایند پاسخ HTTP برای سرورهای مختلف آورده شده است.
-سرور آپاچی نسخه 1.3.23
 
+#### سرور آپاچی نسخه 1.3.23
+
+```js
 HTTP/1.1 200 OK
 Date: Sun, 15 Jun 2003 17:10: 49 GMT
 Server: Apache/1.3.23
@@ -52,8 +54,11 @@ Accept-Ranges: bytes
 Content-Length: 196
 Connection: close
 Content-Type: text/HTML
-سرور IIS مایکروسافت نسخه 5.0
+```
 
+#### سرور IIS مایکروسافت نسخه 5.0
+
+```js
 HTTP/1.1 200 OK
 Server: Microsoft-IIS/5.0
 Expires: Yours, 17 Jun 2003 01:41: 33 GMT
@@ -63,8 +68,10 @@ Accept-Ranges: bytes
 Last-Modified: Wed, 28 May 2003 15:32: 21 GMT
 ETag: b0aac0542e25c31: 89d
 Content-Length: 7369
-سرور Netscape Enterprise نسخه 4.1
+```
+#### سرور Netscape Enterprise نسخه 4.1
 
+```js
 HTTP/1.1 200 OK
 Server: Netscape-Enterprise/4.1
 Date: Mon, 16 Jun 2003 06:19: 04 GMT
@@ -73,8 +80,10 @@ Last-modified: Wed, 31 Jul 2002 15:37: 56 GMT
 Content-length: 57
 Accept-ranges: bytes
 Connection: close
-سرور SunONE نسخه 6.1
+```
+#### سرور SunONE نسخه 6.1
 
+```js
 TTP/1.1 200 OK
 Server: Sun-ONE-Web-Server/6.1
 Date: Tue, 16 Jan 2007 14:53:45 GMT
@@ -84,27 +93,33 @@ Date: Tue, 16 Jan 2007 14:50:31 GMT
 Last-Modified: Wed, 10 Jan 2007 09:58:26 GMT
 Accept-Ranges: bytes
 Connection: close
+```
 
 با این حال، روش تست و ارزیابی ذکر شده قدرت بالایی در تشخیص سرور ندارد و دقت آن محدود است چرا که روش‌هایی وجود دارند که اطلاعات بخش Server سرایند پاسخ HTTP را می‌توانند مخفی کرده یا حتی اطلاعات دیگری نشان دهند. به عنوان مثال، یکی از خروجی‌های احتمالی می‌تواند به شکل زیر باشد:
 
+```js
 403 HTTP/1.1 Forbidden
 Date: Mon, 16 Jun 2003 02:41: 27 GMT
 Server: Unknown-Webserver/1.0
 Connection: close
 Content-Type: text/HTML; charset=iso-8859-1
+```
 
 در این حالت، اطلاعات بخش Server مخفی شده‌اند. بنابراین، ارزیاب امنیتی نمی‌تواند با تکیه بر این اطلاعات، نوع و نسخه سرور را تشخیص دهد.
-رفتار پروتکلی
+
+### رفتار پروتکلی
 
 تکنیک‌های بهبود و ارتقاء یافته زیادی به ویژگی‌های وب سرورهای موجود در بازار دقت می‌کنند. در زیر روش‌هایی ذکر شده‌اند که به ارزیاب امنیتی اجازه می‌دهند تا نوع وب سرور مورد استفاده را تشخیص بدهد.
-ترتیب فیلد سرایند HTTP
+### ترتیب فیلد سرایند HTTP
 
 روش اول شامل مشاهده ترتیب سرایندهای متعدد در پاسخ HTTP است. هر سروری یک ترتیب داخلی سرایند دارد. به عنوان مثال، پاسخ‌های زیر را در نظر بگیرید:
 سرور آپاچی نسخه 1.3.23
-
+```bash
 $ nc apache.example.com 80
 HEAD / HTTP/1.0
+```
 
+```js
 HTTP/1.1 200 OK
 Date: Sun, 15 Jun 2003 17:10: 49 GMT
 Server: Apache/1.3.23
@@ -114,11 +129,13 @@ Accept-Ranges: bytes
 Content-Length: 196
 Connection: close
 Content-Type: text/HTML
-سرور IIS مایکروسافت نسخه 5.0
-
+```
+### سرور IIS مایکروسافت نسخه 5.0
+```bash
 $ nc iis.example.com 80
 HEAD / HTTP/1.0
-
+```
+```js
 HTTP/1.1 200 OK
 Server: Microsoft-IIS/5.0
 Content-Location: http://iis.example.com/Default.htm
@@ -128,11 +145,15 @@ Accept-Ranges: bytes
 Last-Modified: Fri, 01 Jan 1999 20:13: 52 GMT
 ETag: W/e0d362a4c335be1: ae1
 Content-Length: 133
-سرور Netscape Enterprise نسخه 4.1
+```
+### سرور Netscape Enterprise نسخه 4.1
 
+```bash
 $ nc netscape.example.com 80
 HEAD / HTTP/1.0
+```
 
+```js
 HTTP/1.1 200 OK
 Server: Netscape-Enterprise/4.1
 Date: Mon, 16 Jun 2003 06:01: 40 GMT
@@ -141,11 +162,15 @@ Last-modified: Wed, 31 Jul 2002 15:37: 56 GMT
 Content-length: 57
 Accept-ranges: bytes
 Connection: close
-سرور SunONE نسخه 6.1
+```
+### سرور SunONE نسخه 6.1
 
+```bash
 $ nc sunone.example.com 80
 HEAD / HTTP/1.0
+```
 
+```js
 HTTP/1.1 200 OK
 Server: Sun-ONE-Web-Server/6.1
 Date: Tue, 16 Jan 2007 15:23:37 GMT
@@ -154,6 +179,7 @@ Content-type: text/html
 Date: Tue, 16 Jan 2007 15:20:26 GMT
 Last-Modified: Wed, 10 Jan 2007 09:58:26 GMT
 Connection: close
+```
 
 اگر به دقت این پاسخ‌های بررسی کرده باشید، متوجه خواهید شد که ترتیب بخش Date و Server بین سرورهای آپاچی، Netscape Enterprise و IIS متفاوت است.
 تست درخواست‌های ناقص و ناهنجار
