@@ -182,25 +182,33 @@ Connection: close
 ```
 
 اگر به دقت این پاسخ‌های بررسی کرده باشید، متوجه خواهید شد که ترتیب بخش Date و Server بین سرورهای آپاچی، Netscape Enterprise و IIS متفاوت است.
-تست درخواست‌های ناقص و ناهنجار
+
+### تست درخواست‌های ناقص و ناهنجار
 
 یکی دیگر از روش‌های تست و ارزیابی، ارسال درخواست‌های ناقص و ناهنجار یا درخواست‌های صفحات نامعتبر و بی‌وجود به سرور است. پاسخ‌های HTTP زیر را در نظر بگیرید:
-سرور آپاچی نسخه 1.3.23
 
+#### سرور آپاچی نسخه 1.3.23
+```bash
 $ nc apache.example.com 80
 GET / HTTP/3.0
+```
 
+```js
 HTTP/1.1 400 Bad Request
 Date: Sun, 15 Jun 2003 17:12: 37 GMT
 Server: Apache/1.3.23
 Connection: close
 Transfer: chunked
 Content-Type: text/HTML; charset=iso-8859-1
-سرور IIS مایکروسافت نسخه 5.0
+```
+#### سرور IIS مایکروسافت نسخه 5.0
 
+```bash
 $ nc iis.example.com 80
 GET / HTTP/3.0
+```
 
+```js
 HTTP/1.1 200 OK
 Server: Microsoft-IIS/5.0
 Content-Location: http://iis.example.com/Default.htm
@@ -210,35 +218,46 @@ Accept-Ranges: bytes
 Last-Modified: Fri, 01 Jan 1999 20:14: 02 GMT
 ETag: W/e0d362a4c335be1: ae1
 Content-Length: 133
-سرور Netscape Enterprise نسخه 4.1
+```
+#### سرور Netscape Enterprise نسخه 4.1
 
+```bash
 $ nc netscape.example.com 80
 GET / HTTP/3.0
+```
 
+```js
 HTTP/1.1 505 HTTP Version Not Supported
 Server: Netscape-Enterprise/4.1
 Date: Mon, 16 Jun 2003 06:04: 04 GMT
 Content-length: 140
 Content-type: text/HTML
 Connection: close
-سرور SunONE نسخه 6.1
+#### سرور SunONE نسخه 6.1
 
+```bash
 $ nc sunone.example.com 80
 GET / HTTP/3.0
+```
 
+```js
 HTTP/1.1 400 Bad request
 Server: Sun-ONE-Web-Server/6.1
 Date: Tue, 16 Jan 2007 15:25:00 GMT
 Content-length: 0
 Content-type: text/html
 Connection: close
+```
 
 در مثال‌های فوق، شاهد پاسخ‌های گوناگون از سرورها هستیم. مشاهدات و ارزیابی‌های یکسانی نیز با ارسال درخواست‌های نامعتبر قابل انجام است. به عنوان مثال، پاسخ‌های زیر را در نظر بگیرید:
-سرور آپاچی نسخه 1.3.23
+#### سرور آپاچی نسخه 1.3.23
 
+```bash
 $ nc apache.example.com 80
 GET / JUNK/1.0
+```
 
+```js
 HTTP/1.1 200 OK
 Date: Sun, 15 Jun 2003 17:17: 47 GMT
 Server: Apache/1.3.23
@@ -248,30 +267,39 @@ Accept-Ranges: bytes
 Content-Length: 196
 Connection: close
 Content-Type: text/HTML
-سرور IIS مایکروسافت نسخه 5.0
+````
+#### سرور IIS مایکروسافت نسخه 5.0
 
+```bash
 $ nc iis.example.com 80
 GET / JUNK/1.0
+```
 
+```js
 HTTP/1.1 400 Bad Request
 Server: Microsoft-IIS/5.0
 Date: Fri, 01 Jan 1999 20:14: 34 GMT
 Content-Type: text/HTML
 Content-Length: 87
-سرور Netscape Enterprise نسخه 4.1
+```
+#### سرور Netscape Enterprise نسخه 4.1
 
+```bash
 $ nc netscape.example.com 80
 GET / JUNK/1.0
-سرور SunONE نسخه 6.1
+```
+#### سرور SunONE نسخه 6.1
 
+```bash
 $ nc sunone.example.com 80
 GET / JUNK/1.0
-ابزارها
+```
+# ابزارها
 
-• httprint – http://net-square.com/httprint.html
-• httprecon – http://www.computec.ch/projekte/httprecon/
-• Netcraft – http://www.netcraft.com
-ارزیابی خودکار
+* httprint – http://net-square.com/httprint.html
+* httprecon – http://www.computec.ch/projekte/httprecon/
+* Netcraft – http://www.netcraft.com
+# ارزیابی خودکار
 
 در کنار اتکا به روش‌های دستی جمع آوری اطلاعات و بررسی سرایندهای وب سرور، ارزیاب امنیتی می‌تواند از ابزارهای خودکار برای دستیابی به نتایج یکسان و مشابه قبلی استفاده کند.
 
