@@ -289,12 +289,16 @@ Content-Length: 87
 $ nc netscape.example.com 80
 GET / JUNK/1.0
 ```
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-2/images/owasp-02-1.jpg" align="center" >
+
 #### سرور SunONE نسخه 6.1
 
 ```bash
 $ nc sunone.example.com 80
 GET / JUNK/1.0
 ```
+<img src="https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-2/images/owasp-02-1.jpg" align="center" >
+
 # ابزارها
 
 * httprint – http://net-square.com/httprint.html
