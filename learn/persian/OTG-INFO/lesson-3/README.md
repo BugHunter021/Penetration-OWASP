@@ -20,6 +20,7 @@
 
 به عنوان مثال، چند خط ابتدایی فایل robots.txt سایت گوگل واقع در آدرس http://www.google.com/robots.txt در تاریخ 11 آگوست 2013 در ادامه آورده شده است:
 
+```bash
 User-agent: *
 Disallow: /search
 Disallow: /sdch
@@ -27,6 +28,7 @@ Disallow: /groups
 Disallow: /images
 Disallow: /catalogs
 …
+```
 
 عبارت User-Agent به اسپایدر، ربات و کرالر اشاره دارد. به عنوان مثال، User-Agent: Googlebot به اسپایدر گوگل و User-Agent: bingbot به کرالر مایکروسافت/یاهو اشاره دارند. User-Agent: * به تمامی اسپایدرها، ربات‌ها و کرالرها اشاره دارد.
 
