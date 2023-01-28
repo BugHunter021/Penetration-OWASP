@@ -39,6 +39,7 @@ Robots.txt در webroot – با استفاده از wget یا curl
 
 فایل robots.txt از دایرکتوری ریشه وب سرور گرفته می‌شود. به عنوان مثال، برای گرفتن فایل robots.txt واقع در www.google.com با استفاده از wget یا curl به نحو زیر عمل می‌کنیم:
 
+```bash
 cmlh$ wget http://www.google.com/robots.txt
 –2013-08-11 14:40:36– http://www.google.com/robots.txt
 Resolving www.google.com… 74.125.237.17, 74.125.237.18, 74.125.237.19, …
@@ -47,7 +48,8 @@ HTTP request sent, awaiting response… 200 OK
 Length: unspecified [text/plain]
 Saving to: ‘robots.txt.1’
 2013-08-11 14:40:37 (59.7 MB/s) – ‘robots.txt’ saved [7074]
-
+```
+```bash
 cmlh$ head -n5 robots.txt
 User-agent: *
 Disallow: /search
@@ -55,7 +57,9 @@ Disallow: /sdch
 Disallow: /groups
 Disallow: /images
 cmlh$
+```
 
+```bash
 cmlh$ curl -O http://www.google.com/robots.txt
 % Total % Received % Xferd Average Speed Time Time Time Current
 Dload Upload Total Spent Left Speed
@@ -68,7 +72,7 @@ Disallow: /groups
 Disallow: /images
 cmlh$
 Robots.txt در webroot – با استفاده از rockspider
-
+```
 ابزار rockspider فرایند ساخت محدوده و دامنه اولیه فایل‌ها و دایرکتوری‌ها را برای اسپایدرها، ربات‌ها و کرالرها به طور خودکار انجام می‌دهد. به عوان مثال، برای ساخت یک دامنه اولیه مبنی برای دستور Allowed: از سایت www.google.com به نحو زیر عمل می‌کنیم:
 
 cmlh$ ./rockspider.pl -www www.google.com
