@@ -183,40 +183,45 @@ DNS Inverse Queries
 این فرایند بیشتر شبیه به فرایند قبلی است؛ با این تفاوت که وابسته به رکوردهای معکوس (PTR) است. به جای درخواست zone transfer، سعی کنید تا نوع رکورد را به PTR تغییر داده و کوئری را به آدرس IP هدف ارسال کنید.
 
 اگر خوش شانس باشید، می‌توانید اطلاعات اسامی DNS را استخراج کنید. این تکنیک به نگاشت‌های IP به نام‌های نمادین، که ضمانت همیشگی ندارند، تکیه دارد.
-Web-based DNS Searches
+
+### روش Web-based DNS Searches
 
 این نوع جست و جو همانند zone transfer است؛ اما وابسته به سرویس‌های تحت اینترنتی است که امکان جست و جوی اسامی روی DNS را می‌دهند. یکی از آن سرویس‌ها، Netcraft Search DNS واقع در http://searchdns.netcraft.com/?host است.
 
 ارزیاب امنیتی می‌تواند لیستی از اسامی که مربوط به دامنه شما است را جست و جو کند. بعد از انجام این کار، از مرتبط بودن اسامی گرفته شده با هدف مورد ارزیابی اطمینان حاصل می‌کنند.
-Reverse IP services
+
+### روش Reverse IP services
 
 سرویس‌های معکوس IP شبیه به کوئری‌های معکوس DNS هستند؛ با این تفاوت که ارزیاب امنیتی به جای ارسال کوئری به name server، به اپلیکیشن تحت وب کوئری ارسال می‌کنند.
 
 تعدادی از سرویس‌هایی از این قبیل موجود هستند. از آنجایی که نتایج این سرویس‌های با یکدیگر متفاوت هستند، توصیه می‌شود که از چند سرویس مجزا برای استخراج کامل‌ترین و جامع‌ترین اطلاعات استفاده کنید.
 
-Domain tools reverse IP: http://www.domaintools.com/reverse-ip/
-MSN search: http://search.msn.com
-Webhosting info: http://whois.webhosting.info/
-DNSstuff: http://www.dnsstuff.com/
-Net Square: http://www.net-square.com/mspawn.html
-tomDNS: http://www.tomdns.net/index.php
-SEOlogs.com: http://www.seologs.com/ip-domains.html
+* Domain tools reverse IP: http://www.domaintools.com/reverse-ip/
+* MSN search: http://search.msn.com
+* Webhosting info: http://whois.webhosting.info/
+* DNSstuff: http://www.dnsstuff.com/
+* Net Square: http://www.net-square.com/mspawn.html
+* tomDNS: http://www.tomdns.net/index.php
+* SEOlogs.com: http://www.seologs.com/ip-domains.html
 
 مثال زیر، نتیجه و خروجی یکی از سرویس‌های معکوس IP فوق از آدرس 216.48.3.18 که آدرس IP سایت owasp.org است را نشان می‌دهد. سه مورد از نام‌های نمادین غیر آشکار که به آدرس IP داده شده اشاره می‌کنند، توسط این سرویس پیدا شدند.
-Googling
+
+![image](https://user-images.githubusercontent.com/76444458/215271315-1b587a86-0c38-4361-a9e3-01969912c4b0.png)
+
+### روش Googling
 
 در کنار روش‌های جمع آوری اطلاعات ذکر شده در تکنیک‌های فوق، ارزیاب امنیتی می‌تواند از موتورهای جست و جو برای بالا بردن دقت و بهینه کردن نتایج بررسی خود استفاده کند. این کار می‌تواند لینک‌ها و اپلیکیشن‌های غیر آشکار دیگری نیز نمایان کند.
 
 برای نمونه، مثال قبل را در نظر بگیرید. ارزیاب امنیتی می‌توانست به گوگل و سایر موتورهای جست و جو یک کوئری بفرستد تا اطلاعات دامنه‌های کشف شده جدید را استخراج کند. تکنیک‌های گوگلینگ در بخش‌ اسپایدرها، ربات‌ها و کرالرها توضیح داده شده است.
-تست جعبه خاکستری
+### تست جعبه خاکستری
 
 در واقع تست جعبه خاکستری غیر ممکن است چرا که این متدولوژی جعبه سیاه است و ارتباطی با میزان اطلاعات اولیه ارزیاب از پروژه و هدف ندارد.
 
-ابزارها
+# ابزارها
 
-• DNS lookup tools such as nslookup, dig and similar.
-• Search engines (Google, Bing and other major search engines).
-• Specialized DNS-related web-based search service: see text.
-• Nmap – http://www.insecure.org
-• Nessus Vulnerability Scanner – http://www.nessus.org
-• Nikto – http://www.cirt.net/nikto2
+* DNS lookup tools such as nslookup, dig and similar.
+* Search engines (Google, Bing and other major search engines).
+* Specialized DNS-related web-based search service: see text.
+* Nmap – http://www.insecure.org
+* Nessus Vulnerability Scanner – http://www.nessus.org
+* Nikto – http://www.cirt.net/nikto2
