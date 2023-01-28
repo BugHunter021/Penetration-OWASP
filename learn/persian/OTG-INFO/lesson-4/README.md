@@ -166,9 +166,11 @@ owasp.org name server ns2.secure.net.
 این اطلاعات شامل www.example.com و حتی سایر لینک‌های غیر آشکار همانند helpdesk.example.com و webmail.example.com می‌باشد.
 
 تمامی اسامی که از zone transfer استخراج کرده‌اید را به دقت بررسی کنید. در مثال زیر سعی می‌کنیم که یک درخواست zone transfer به یکی از name serverهای owasp.org ارسال کنیم:
-
+```bash
 $ host -l www.owasp.org ns1.secure.net
+```
 
+```bash
 Using domain server:
 Name: ns1.secure.net
 Address: 192.220.124.10#53
@@ -176,6 +178,7 @@ Aliases:
 Host www.owasp.org not found: 5(REFUSED)
 ; Transfer failed.
 DNS Inverse Queries
+```
 
 این فرایند بیشتر شبیه به فرایند قبلی است؛ با این تفاوت که وابسته به رکوردهای معکوس (PTR) است. به جای درخواست zone transfer، سعی کنید تا نوع رکورد را به PTR تغییر داده و کوئری را به آدرس IP هدف ارسال کنید.
 
