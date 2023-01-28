@@ -110,9 +110,8 @@ cmlh$
 با تکیه بر دستورهای Disallow لیست شده در فایل robots.txt، یک جست و جوی META NAME=”ROBOTS” در داخل هر صفحه انجام گرفته و نتیجه آن با robots.txt واقع در دایرکتوری ریشه مقایسه می‌شود.
 
 به عنوان مثال، robots.txt فیس‌بوک حاوی یک خط دستور Disallow: /ac.php است و نتیجه جست و جو عبارت META NAME=”ROBOTS” در زیر آورده شده است:
-```bash
-OTG-INFO-003OTG-INFO-003
-```
+
+![owasp](https://raw.githubusercontent.com/BugHunter021/penetration-test/main/learn/persian/OTG-INFO/lesson-3/images/owasp-05.jpg)
 
 شاید به نظر برسد که نتیجه جست و جوی فوق ناموفق باشد چرا که INDEX, FOLLOW مقدار پیش‌فرض مشخص شده توسط پروتکل ممنوعیت ربات‌ها برای تگ META است در حالیکه Disallow: /ac.php در robots.txt لیست شده است.
 
