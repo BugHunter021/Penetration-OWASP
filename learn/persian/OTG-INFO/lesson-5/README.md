@@ -23,41 +23,52 @@
 </div>
 ```
 ارزیاب می‌تواند به اطلاعات حساس دیگری نیز دست بیابد:
-OTG-INFO-005
+```bash
+<!-- Use the DB administrator password for testing: f@keP@a$$word -->
+```
 
 نسخه HTML را بررسی کنید تا از شماره نسخه درست و آدرس‌های DTD صحیح اطمینان حاصل فرمایید.
-
+```js
 !DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01//EN” “http://www.w3.org/TR/html4/strict.dtd”
+```
 
-• “strict.dtd” — default strict DTD
-• “loose.dtd” — loose DTD
-• “frameset.dtd” — DTD for frameset documents
+* “strict.dtd” — default strict DTD
+* “loose.dtd” — loose DTD
+* “frameset.dtd” — DTD for frameset documents
 
 بعضی از تگ‌ها مانند تگ META نیز به طور مستقیم یک بردار حمله محسوب نمی‌شوند اما اطلاعات حساس و مهمی را فاش می‌کنند:
 
+```js
 META name=”Author” content=”Andrew Muller”
+```
 
 بعضی از تگ‌ها مانند http-equiv نیز سرایند جواب‌های HTTP را تغییر می‌دهند.
-
+```js
 META http-equiv=”Expires” content=”Fri, 21 Dec 2012 12:34:56 GMT”
 META http-equiv=”Cache-Control” content=”no-cache”
+```
 
 سرایند جواب HTTP تگ‌های فوق به صورت زیر خواهد بود:
-
+```js
 Expires: Fri, 21 Dec 2012 12:34:56 GMT
 Cache-Control: no-cache
+```
 
 تگ معروف دیگر refresh است:
-
+```js
 META http-equiv=”Refresh” content=”15;URL=https://www.owasp.org/index.html”
+```
 
 تگ keywords برای مشخص نمودن کلمات خاصی است که موتورهای جست و جو از آن‌ها برای ارتقا و بهبود کیفیت جست و جو خود استفاده می‌کنند:
-
+```js
 META name=”keywords” lang=”en-us” content=”OWASP, security, sunshine, lollipops”
+```
 
 علی رغم اینکه بسیاری از وب سرورها با استفاده از فایل robots.txt ایندکیسنگ موتورهای جست و جو را مدیریت می‌کنند، این عمل را می‌توان با استفاده تگ‌های متا نیز انجام داد. به عنوان مثال، تگ زیر ربات‌ها را از ایندکس کردن و دنبال کردن لینک‌های صفحه وب منع می‌کند:
 
+```js
 META name=”robots” content=”none”
+```
 
 Platform for Internet Content Selection و Protocol for Web Description Resources زیر ساختی برای ارتباط بین تگ‌ها متا و محتوای اینترنت فراهم می‌کنند.
 ابزار
