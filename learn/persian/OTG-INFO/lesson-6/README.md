@@ -40,47 +40,51 @@
 
 در زیر دو مثال برای نحوه چک و بررسی نقاط ورودی اپلیکیشن آورده شده است:
 
-مثال 1)
+#### مثال 1)
 
 این مثال یک درخواست GET را نشان می‌دهد که یک آیتم از یک اپلیکیشن سایت فروشگاهی آنلاین خریداری می‌کند.
 
+```js
 GET https://x.x.x.x/shoppingApp/buyme.asp?CUSTOMERID=100&ITEM=z101a&PRICE=62.50&IP=x.x.x.x
 Host: x.x.x.x
 Cookie: SESSIONID=Z29vZCBqb2IgcGFkYXdhIG15IHVzZXJuYW1lIGlzIGZvbyBhbmQgcGFzc3dvcmQgaXMgYmFy
+```
 
-توضیح نتیجه:
+### توضیح نتیجه:
 
 در این مثال، ارزیاب امنیتی می‌تواند به وجود پارامترهایی مانند CUSTOMERID، ITEM، PRICE، IP و Cookie پی ببرد.
 
-مثال 2)
+#### مثال 2)
 
 این مثال یک درخواست POST را نشان می‌دهد که منجر به ورود کاربر به حساب کاربری خود روی اپلیکیشن می‌شود.
 
+```js
 POST https://x.x.x.x/KevinNotSoGoodApp/authenticate.asp?service=login
 Host: x.x.x.x
 Cookie: SESSIONID=dGhpcyBpcyBhIGJhZCBhcHAgdGhhdCBzZXRzIHByZWRpY3RhYmxlIGNvb2tpZXMgYW5kIG1pbmUgaXMgMTIzNA==
 CustomCookie=00my00trusted00ip00is00x.x.x.x00
-
-متن پیام POST:
-
+```
+### متن پیام POST:
+```js
 user=admin&pass=pass123&debug=true&fromtrustIP=true
+```
 
-توضیح نتیجه:
+### توضیح نتیجه:
 
 در این مثال، ارزیاب امنیتی همانند روش قبلی به وجود پارامترها پی می‌برد. البته تفاوت این مثال با مثال قبل در این است که پارامترها به جای اینکه در آدرس URL ارسال شوند، در قالب یک پیام ارسال شده‌اند. توجه کنید که از یک کوکی سفارشی و ویژه نیز در این مثال استفاده شده است.
-تست جعبه خاکستری
+### تست جعبه خاکستری
 
 تست جعبه خاکستری نقاط ورودی اپلیکیشن، در کنار موارد فوق، شامل یک مورد اضافی نیز می‌باشد. در مواقعی که اپلیکیشن از منابع خارجی مانند SNMP، پیام‌های syslog، SMTP و پیام‌های SOAP از سایر سرورها، داده و اطلاعات می‌گیرد و آن‌ها را پردازش می‌کند، مذاکره با توسعه دهندگان اپلیکیشن می‌تواند در شناسایی نقاط ورودی و نحوه فرمت آن‌ها کمک کند.
-ابزارها
+# ابزارها
 
-پراکسی‌ها:
+#### پراکسی‌ها:
 
-• OWASP: Zed Attack Proxy (ZAP)
-• OWASP: WebScarab
-• Burp Suite
-• CAT
+* OWASP: Zed Attack Proxy (ZAP)
+* OWASP: WebScarab
+* Burp Suite
+* CAT
 
-پلاگین مرورگر:
+####پلاگین مرورگر:
 
-• TamperIE برای Internet Explorer
-• Tamper Data برای Firefox
+* TamperIE برای Internet Explorer
+* Tamper Data برای Firefox
