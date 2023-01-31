@@ -41,6 +41,6 @@
 * Spider all in Scope: لیست دانه شامل تمامی URIهایی که کاربر به عنوان in Scope انتخاب کرده است، می‌باشد.
 ابزارها
 
-• Zed Attack Proxy (ZAP)
+* ابزار Zed Attack Proxy (ZAP)
 • ابزار یادداشت برداری
 • ابزار رسم دیاگرام
