@@ -84,7 +84,7 @@ user=admin&pass=pass123&debug=true&fromtrustIP=true
 * Burp Suite
 * CAT
 
-####پلاگین مرورگر:
+#### پلاگین مرورگر:
 
 * TamperIE برای Internet Explorer
 * Tamper Data برای Firefox
