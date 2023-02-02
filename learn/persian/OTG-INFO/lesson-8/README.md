@@ -93,6 +93,20 @@ Configure::write('Session.cookie', 'CAKEPHP');
 
 با توجه به اسکرین شات زیر، ارزیاب امنیتی می‌تواند به سادگی به نوع و نسخه فریم ورک پی ببرد. کامنت‌ها، مسیرهای مشخص و خاص و متغیرهای اسکریپتی، همگی به ارزیاب در تشخیص فریم ورک ZK کمک می‌کنند.
 
+```html
+<script type="text/javascript" src="/zkau/web/bb9dff2f/js/zk.wpd" charset="UTF-8"></script> 14 <script type="text/javascript" src="/zkau/web/bb9dff2f/js/zul.lang.wpd" charset="UTF-8"></script> 15 <script type="text/javascript" src="/zkau/web/bb9dff2f/js/zuljsp.js" charset="UTF-8"></script> 16 <!-- ZK 6.5.1.1 EE 2012121311 -->
+17 <script class="z-runonce" type="text/javascript"> //<![CDATA[
+18 zkopt({to:660});//]]>
+19 </script><script type="text/javascript">
+20
+21
+22
+zUtl.progressbox = function(id, msg, mask, icon, _opts) {
+if (mask && zk. Page. contained.length) {
+for (var c= zk.Page. contained. length, e = zk.Page. contained [--c]; e; e = zk.Page. contained [--c]) {
+
+  ```
+
 معمولاً این اطلاعات در بین تگ‌های head، تگ‌های meta یا حتی در آخر صفحه وب ذکر می‌شوند. با این اوصاف، توصیه می‌شود که کل صفحه بررسی شود، چرا که می‌توان به اطلاعات مهم دیگری اعم از کامنت‌ها و فیلدهای مخفی پی برد. گاهی اوقات، توسعه دهندگان اطلاعات فریم ورک استفاده شده را مخفی نمی‌کنند و اهمیتی به این موضوع نمی‌دهند. از این رو، احتمال مواجه شدن با تصویر زیر در انتهای صفحه وجود دارد:
 پسوند فایل‌ها
 
