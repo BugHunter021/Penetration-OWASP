@@ -62,6 +62,16 @@ X-Powered-By: Blood, sweat and tears
 ### کوکی‌ها
 
 یکی دیگر از راه‌های مشابه و مطمئن در تشخیص فریم ورک، بررسی کوکی‌های مختص فریم ورک است. مثال زیر را در نظر بگیرید:
+```js
+GET /cake HTTP/1.1
+Host: defcon-moscow.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv: 22.0) Gecko/20100101 Firefox/22.0 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru, ru;q=0.8, en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+DNT: 1
+Cookie: CAKEPHP=rm72kprivgmau5fmjdesbugi71; Connection: keep-alive
+Cache-Control: max-age=0
+```
 
 کوکی CAKEPHP به طور خودکار ارسال شده است و به همین علت نوع فریم ورک مشخص می‌شود. لیستی از کوکی‌های معروف در ادامه آورده شده است. محدودیت‌های این روش نیز مانند روش قبل است و می‌توان نام کوکی را تغییر داد. به عنوان مثال، برای فریم ورک CAKEPHP می‌توان مانند پیکربندی زیر عمل کرد:
 
