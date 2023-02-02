@@ -74,7 +74,17 @@ Cache-Control: max-age=0
 ```
 
 کوکی CAKEPHP به طور خودکار ارسال شده است و به همین علت نوع فریم ورک مشخص می‌شود. لیستی از کوکی‌های معروف در ادامه آورده شده است. محدودیت‌های این روش نیز مانند روش قبل است و می‌توان نام کوکی را تغییر داد. به عنوان مثال، برای فریم ورک CAKEPHP می‌توان مانند پیکربندی زیر عمل کرد:
-
+```
+/**
+The name of CakePHP's session cookie.
+*Note the guidelines for Session names
+*
+states: "The session name references
+the session id in cookies and URLs. It should contain only alphanumeric characters."
+* @link http://php.net/session_name
+*/
+Configure::write('Session.cookie', 'CAKEPHP');
+```
 با این حال، این نوع دستکاری نسبت به دستکاری X-Powered-By کمتر به چشم می‌خورد. به همین علت، این روش قابل مطمئن‌تر است.
 سورس کد HTML
 
