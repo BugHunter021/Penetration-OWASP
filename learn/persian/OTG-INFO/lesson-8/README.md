@@ -115,36 +115,48 @@ Built upon the Banshee PHP framework v3.1
 
 پسوندهای زیر به تکنولوژی‌های خاص خود اشاره می‌کنند:
 
-• .php –> PHP
-• .aspx –> Microsoft ASP.NET
-• .jsp –> Java Server pages
-فایل‌ها و فولدرهای مشخص
+* .php –> PHP
+* .aspx –> Microsoft ASP.NET
+* .jsp –> Java Server pages
+### فایل‌ها و فولدرهای مشخص
 
 فایل‌ها و فولدرهای خاص هر فریم ورک منحصر به فرد است. توصیه می‌شود حین تست نفوذ، فریم ورک مربوطه را نصب کرده تا درک بهتری از زیرساخت و ساختار فایل‌های آن داشته باشید. با این حال، لیست‌های فایلی مختلفی در اینترنت وجود دارند و یکی از بهترین‌ مثال‌ها، FuzzDB که لیستی از فولدرها و فایل‌های قابل پیش‌بینی است، می‌باشد.
-علائم فریم ورک‌های معروف
-ابزارها
+
+### علائم فریم ورک‌های معروف
+![alt text](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-8/images/owasp-016.jpg)
+#### ابزارها
 
 لیستی از ابزارهای جامع و معروف در زیر آورده شده است. ابزارهای کاربردی دیگر و ابزارهای مختص نوع خاصی از فریم ورک نیز وجود دارند.
-WhatWeb
+#### ابزار WhatWeb
 
-وب سایت: www.morningstarsecurity.com/research/whatweb
+وب سایت: https://morningstarsecurity.com/research/whatweb
 
 یکی از بهترین ابزارهای جمع آوری اطلاعات در بازار است. به طور پیش فرض در کالی نصب شده است. به زبان Ruby نوشته شده است. به علائم زیر حساس است:
 
-• رشته‌های متنی
-• الگوهای با قاعده
-• کوئری‌های دیتابیس Google Hack
-• هش‌های MD5
-• شناسایی و تشخیص URL
-• الگوهای تگ HTML
-• کد اختصاصی به زبان Ruby برای فعالیت‌های passive
+* رشته‌های متنی
+* الگوهای با قاعده
+* کوئری‌های دیتابیس Google Hack
+* هش‌های MD5
+* شناسایی و تشخیص URL
+* الگوهای تگ HTML
+* کد اختصاصی به زبان Ruby برای فعالیت‌های passive
 
 خروجی این ابزار به شکل زیر است:
-BlindElephant
+![alt-image](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-8/images/owasp-017.jpg)
+
+#### ابزار BlindElephant
 
 وب سایت: community.qualys.com/community/blindelephant
-ابزار جمع آوری اطلاعات با دقت بسیار بالا که بر اساس مقایسه نسخه‌های چِکسام فایل‌های ایستا کار می‌کند و به زبان پایتون نوشته شده است. خروجی این برنامه به شکل زیر خواهد بود:
-Wappalyzer
 
-وب سایت: wappalyzer.com
+ابزار جمع آوری اطلاعات با دقت بسیار بالا که بر اساس مقایسه نسخه‌های چِکسام فایل‌های ایستا کار می‌کند و به زبان پایتون نوشته شده است. خروجی این برنامه به شکل زیر خواهد بود:
+
+![alt-image](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-8/images/owasp-014.jpg)
+
+#### ابزار Wappalyzer
+
+وب سایت: https://wappalyzer.com
+
 پلاگین مرورگرهای فایرفاکس و کروم است. این پلاگین بر اساس مقایسه الگوهای با قاعده کار می‌کند و به چیز دیگری جز بارگذاری کامل صفحه وب در مرورگر ندارد. خروجی این پلاگین به شکل آیکون است. احتمال دارد این پلاگین در مواقعی حدس‌های اشتباهی بزند، اما در کل یک پلاگین بسیار کاربردی در یافتن تکنولوژی‌های یک سایت، تنها با یک بار بارگذاری، محسوب می‌شود. خروجی این پلاگین به شکل زیر خواهد بود:
+
+![alt-image](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-8/images/owasp-019-1024x518.jpg)
+
