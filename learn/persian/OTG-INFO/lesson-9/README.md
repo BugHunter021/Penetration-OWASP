@@ -64,3 +64,4 @@ Host: blog.owasp.org
 ![alt text](https://github.com/BugHunter021/penetration-test/blob/main/learn/persian/OTG-INFO/lesson-9/images/owasp-026.jpg)
 
 برای اطلاعات بیشتر به آدرس www.owasp.org/index.php/Web-metadata مراجعه کنید.
+
