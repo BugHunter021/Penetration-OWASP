@@ -70,4 +70,3 @@
 * Curl
 * Wget
 * mirroring tools را در گوگل جست و جو کنید.
-
