@@ -80,6 +80,11 @@ var adminUser=false;
 if (adminUser) menu.add (new menuItem ("Maintain users", "/admin/useradmin.jsp"));
 ```
 صفحات HTML ممکن است حاوی فرم‌هایی باشند که با غیرفعال بودن عنصر SUBMIT پنهان هستند:
+```js
+<form action="forgot Password.jsp" method="post">
+<input type="hidden" name="userID" value="123">
+<!-- <input type="submit" value="Forgot Password"> --> </form>
+```
 
 منبع دیگر سرنخ‌ها در مورد دایرکتوری‌های Unreferenced، فایلrobots.txt است که برای ارائه دستورالعمل به ربات‌های وب مورد استفاده قرار می‌گیرد:
 
