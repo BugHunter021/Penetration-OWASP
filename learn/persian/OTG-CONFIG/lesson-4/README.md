@@ -87,8 +87,14 @@ if (adminUser) menu.add (new menuItem ("Maintain users", "/admin/useradmin.jsp")
 ```
 
 منبع دیگر سرنخ‌ها در مورد دایرکتوری‌های Unreferenced، فایلrobots.txt است که برای ارائه دستورالعمل به ربات‌های وب مورد استفاده قرار می‌گیرد:
+```js
+User-agent:
+Disallow: /Admin
+Disallow: /uploads
+Disallow: /backup Disallow: /~jbloggs Disallow: /include
+```
 
-حدس زدن کور
+### حدس زدن کور
 
 در ساده‌ترین شکل ممکن، این کار شامل اجرای فهرستی از نام فایل‌های رایج از طریق یک موتور درخواست و تلاش برای حدس زدن فایل‌ها و دایرکتوری‌های موجود بر روی سرور است. اسکریپت زیر که باnetcat ترکیب شده است یک Guessing Attack ساده را علیه وب سرور انجام می‌دهد:
 
