@@ -80,7 +80,7 @@ var adminUser=false;
 if (adminUser) menu.add (new menuItem ("Maintain users", "/admin/useradmin.jsp"));
 ```
 صفحات HTML ممکن است حاوی فرم‌هایی باشند که با غیرفعال بودن عنصر SUBMIT پنهان هستند:
-```js
+```html
 <form action="forgot Password.jsp" method="post">
 <input type="hidden" name="userID" value="123">
 <!-- <input type="submit" value="Forgot Password"> --> </form>
