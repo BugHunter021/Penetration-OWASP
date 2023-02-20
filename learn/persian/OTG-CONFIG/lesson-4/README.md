@@ -106,7 +106,7 @@ while read url
 do
 echo -ne "$url\t"
 echo -e "GET /$url HTTP/1.0\nHost: $server\n" | netcat $server $port | head -1 
-done tee outputfile
+done | tee outputfile
 ```
 
 بسته به سرور، شما ممکن است متد GET را برای دریافت سریع تر نتایج با متد HEAD جایگزین نمایید. با بررسی کدهای وضعیت (Status Code) موجود در پاسخ، می‌توان نتیجه لازم را دریافت نمود. کد پاسخ ۲۰۰ (OK)‏ ‏معمولا نشان می‌دهد که یک منبع معتبر پیدا شده ‌است. (‏در صورتی که سرور صفحه سفارشی “not found” را با استفاده از کد ۲۰۰ تحویل ندهد) اما همچنین به دنبال ۳۰۱ (Moved)‏، ۳۰۲ (Found)‏، ۴۰۱ ‏ (Unauthorized)‏، ۴۰۳ (Forbidden)‏و ۵۰۰ (Internal Error)‏ باشید، چراکه ممکن است منابع یا دایرکتورهایی را نشان دهد که ارزش بررسی بیشتر را دارند.
