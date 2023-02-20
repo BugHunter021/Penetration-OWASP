@@ -68,7 +68,7 @@
 به عنوان مثال:
 
 نظرات برنامه نویسان و بخش‌های توضیحی موجود در سورس کد ممکن است به محتوای پنهان اشاره داشته باشند:
-```html
+```js
 <!-- <A HREF="uploadfile.jsp">Upload a document to the server</A> -->
 <!-- Link removed while bugs in uploadfile.jsp are fixed -->
 
