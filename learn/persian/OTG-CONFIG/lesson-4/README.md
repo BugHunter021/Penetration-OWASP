@@ -68,14 +68,14 @@
 به عنوان مثال:
 
 نظرات برنامه نویسان و بخش‌های توضیحی موجود در سورس کد ممکن است به محتوای پنهان اشاره داشته باشند:
-```js
+```html
 <!-- <A HREF="uploadfile.jsp">Upload a document to the server</A> -->
 <!-- Link removed while bugs in uploadfile.jsp are fixed -->
 
 ```
 
 فایل‌ها یا کدهای جاوا اسکریپت ممکن است حاوی لینک‌ مربوط به صفحه‌ای باشند که تنها در واسط گرافیکی کاربر تحت شرایط خاصی ارائه شده‌اند:
-```js
+```html
 var adminUser=false;
 if (adminUser) menu.add (new menuItem ("Maintain users", "/admin/useradmin.jsp"));
 ```
@@ -87,7 +87,7 @@ if (adminUser) menu.add (new menuItem ("Maintain users", "/admin/useradmin.jsp")
 ```
 
 منبع دیگر سرنخ‌ها در مورد دایرکتوری‌های Unreferenced، فایلrobots.txt است که برای ارائه دستورالعمل به ربات‌های وب مورد استفاده قرار می‌گیرد:
-```js
+```html
 User-agent:
 Disallow: /Admin
 Disallow: /uploads
