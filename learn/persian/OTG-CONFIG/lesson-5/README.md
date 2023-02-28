@@ -65,6 +65,9 @@ www.netsparker.com/blog/web-security/svn-digger-better-lists-for-forced-browsing
 
 ## منابع:
 
-cirt.net/passwords
-github.com/fuzzdb-project/fuzzdb/blob/master/discovery/predictable-filepaths/login-file-locations/Logins.txt
-github.com/fuzzdb-project/fuzzdb/blob/master/attack/business-logic/CommonDebugParamNames.txt
+
+https://cirt.net/passwords
+
+https://github.com/fuzzdb-project/fuzzdb/blob/master/discovery/predictable-filepaths/login-file-locations/Logins.txt
+
+https://github.com/fuzzdb-project/fuzzdb/blob/master/attack/business-logic/CommonDebugParamNames.txt
