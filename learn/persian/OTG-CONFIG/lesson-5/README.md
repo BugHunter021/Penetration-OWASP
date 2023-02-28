@@ -34,7 +34,9 @@
 * پورت‌های موجود در سرور. اینترفیس‌های مدیریتی ممکن است بر روی یک پورت متفاوت در سرور میزبان قرار گرفته باشند. به عنوان مثال، اینترفیس مدیریت Apache tomcat اغلب در پورت ۸۰۸۰ دیده می‌شود.
 
 * دستکاری در پارامتر. برای فعال کردن عملکرد مدیریتی ممکن است به یک پارامتر GET یا POST یا یک متغیر در کوکی نیاز باشد. مواردی که به این موضوع مربوط می‌شوند شامل فیلدهای مخفی مانند
-
+```js
+<input type="hidden" name="admin" value="no">
+```
 یا در یک کوکی مانند Cookie: session_cookie; useradmin=0 می‌باشند.
 
 هنگامی که یک اینترفیس مدیریتی کشف شد، ترکیبی از تکنیک‌های بالا ممکن است برای تلاش برای دور زدن احراز هویت، مورد استفاده قرار گیرد. اگر این تست با شکست روبرو شود، تست نفوذگر ممکن است تلاش برای یک حمله Brute Force را در دستور کار خود قرار دهد. در صورتی که تست نفوذگر قصد انجام حمله Brute Force را داشته باشد، باید از پتانسیل قفل حساب کاربری آگاه لازم را داشته باشد.
@@ -45,14 +47,63 @@
 هر چارچوب وب ممکن است صفحات یا مسیر پیش‌فرض مدیریت خود را داشته باشد. به عنوان مثال:
 
 WebSphere:
+```text
+/admin
+/admin-authz.xml
+/admin.conf
+/admin.passwd
+/admin/*
+/admin/logon.jsp
+/admin/secure/logon.jsp
 
+```
 PHP:
+```text
+/phpinfo /phpmyadmin/
+/phpMyAdmin/
+/mysqladmin/
+/MySQLadmin
+/MySQLAdmin
+/login.php
+/logon.php
+/xmlrpc.php
+/dbadmin
 
+```
 FrontPage:
-
+```text
+/admin.dll 
+/admin.exe
+/administrators.pwd
+/author.dll
+/author.exe
+/author.log
+/authors.pwd
+/cgi-bin
+```
 WebLogic:
-
+```text
+/AdminCaptureRootCA 
+/AdminClients
+/AdminConnections
+/AdminEvents
+/Admin JDBC
+/AdminLicense
+/AdminMain
+/AdminProps
+/AdminRealm
+/AdminThreads
+```
 WordPress:
+```text
+wp-admin/
+wp-admin/about.php
+wp-admin/admin-ajax.php
+wp-admin/admin-db.php
+wp-admin/admin-footer.php
+wp-admin/admin-functions.php
+wp-admin/admin-header.php
+```
 ## ابزارها
 
 ابزار OWASP ZAP – Forced Browse که از پروژه قبلی OWASP با نام DirBuster در حال حاضر استفاده می‌شود.
