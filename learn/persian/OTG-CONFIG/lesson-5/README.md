@@ -53,7 +53,7 @@ FrontPage:
 WebLogic:
 
 WordPress:
-ابزارها
+## ابزارها
 
 OWASP ZAP – Forced Browse که از پروژه قبلی OWASP با نام DirBuster در حال حاضر استفاده می‌شود.
 
