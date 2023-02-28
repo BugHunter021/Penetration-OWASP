@@ -55,9 +55,9 @@ WebLogic:
 WordPress:
 ## ابزارها
 
-OWASP ZAP – Forced Browse که از پروژه قبلی OWASP با نام DirBuster در حال حاضر استفاده می‌شود.
+ابزار OWASP ZAP – Forced Browse که از پروژه قبلی OWASP با نام DirBuster در حال حاضر استفاده می‌شود.
 
-THC-HYDRA ابزاری که به منظور انجام Brute Force از آن استفاده می‌شود.
+ابزار THC-HYDRA ابزاری که به منظور انجام Brute Force از آن استفاده می‌شود.
 
 توجه داشته باشید که یک Brute Forcer زمانی که از یک دیکشنری خوب مانند دیکشنری Netsparker استفاده شود، نتایج بهتری را فراهم می‌نماید.
 
