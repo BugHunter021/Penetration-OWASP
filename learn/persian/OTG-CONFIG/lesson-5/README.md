@@ -63,7 +63,7 @@ THC-HYDRA ابزاری که به منظور انجام Brute Force از آن ا�
 
 www.netsparker.com/blog/web-security/svn-digger-better-lists-for-forced-browsing/
 
-منابع:
+## منابع:
 
 cirt.net/passwords
 github.com/fuzzdb-project/fuzzdb/blob/master/discovery/predictable-filepaths/login-file-locations/Logins.txt
