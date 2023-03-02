@@ -38,6 +38,7 @@
 <input type="hidden" name="admin" value="no">
 ```
 یا در یک کوکی مانند زیر می‌باشند.
+
  ```html
  Cookie: session_cookie; useradmin=0
 ```
