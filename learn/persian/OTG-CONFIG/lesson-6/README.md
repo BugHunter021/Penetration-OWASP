@@ -173,18 +173,18 @@ Date: Sat, 04 Apr 2020 19:26:01 GMT
 Server: Apache
 ```
 
-Remediation
+### بررسی Remediation
 
 اطمینان حاصل نمایید که تنها هدرهای مورد نیاز مجاز بوده و همچنین هدرهای مجاز به درستی پیکربندی شده باشند.
 
 اطمینان حاصل نمایید که هیچ راهکاری برای عبور از اقدمات امنیتی اعمال شده توسط User-agent، Framework یا وب سرور وجود نداشته باشد.
 ابزارها
 
-• Ncat
-• cURL
-• nmap http-methods NSE script
-• w3af plugin htaccess_methods
-منابع
+* Ncat
+* cURL
+* nmap http-methods NSE script
+* w3af plugin htaccess_methods
+# منابع
 
 • RFC 2109 and RFC 2965: “HTTP State Management Mechanism”
 • HTACCESS: BILBAO Method Exposed
