@@ -79,7 +79,9 @@ Set-Cookie: PHPSESSID=pKi...; path=/; HttpOnly
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 Pragma: no-cache
-Set-Cookie: adminOnlyCookie1= ...; expires=Tue, 18-Aug-2009 22:44:31 GMT; domain=www.example.com Set-Cookie: adminOnlyCookie2= ...; expires=Mon, 18-Aug-2008 22:54:31 GMT; domain=www.example.com Set-Cookie: adminOnlyCookie3=...; expires=Sun, 19-Aug-2007 22:44:30 GMT; domain=www.example.com Content-Language: EN
+Set-Cookie: adminOnlyCookie1= ...; expires=Tue, 18-Aug-2009 22:44:31 GMT; domain=www.example.com 
+Set-Cookie: adminOnlyCookie2= ...; expires=Mon, 18-Aug-2008 22:54:31 GMT; domain=www.example.com 
+Set-Cookie: adminOnlyCookie3=...; expires=Sun, 19-Aug-2007 22:44:30 GMT; domain=www.example.com Content-Language: EN
 Connection: close
 Content-Type: text/html; charset=ISO-8859-1
 ```
