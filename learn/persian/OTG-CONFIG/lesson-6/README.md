@@ -87,6 +87,11 @@ Content-Type: text/html; charset=ISO-8859-1
 ```
 اگر سیستم آسیب‌پذیر به نظر برسد، شما می‌توانید حملاتی مشابه CSRF را بر روی هدف پیاده سازی نمایید. بدین منظور پیشنهاد می‌شود که برای بهره‌برداری کامل‌تر از این مساله از موارد زیر استفاده نمایید:
 
+```js
+HEAD /admin/createUser.php?member=myAdmin
+PUT /admin/change Pw.php?member=myAdmin&passwd=foo123&confirm=foo123
+CATS /admin/groupEdit.php?group=Admins&member=myAdmin&action=add
+```
 با استفاده از دستورات بالا و با توجه به ساختار برنامه، امکان ایجاد حساب کاربری جدید، تخصیص یک کلمه عبور و یا تبدیل کاربر به مدیر برنامه، وجود خواهد داشت که البته تمامی این موارد به صورت کورکورانه انجام می‌پذیرد.
 بررسی آسیب‌پذیری Cross Site Tracing
 
