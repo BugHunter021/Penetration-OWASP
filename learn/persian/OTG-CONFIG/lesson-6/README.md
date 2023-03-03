@@ -70,8 +70,13 @@ HTTP PUT Method is Enabled
 
 همچنین از موارد دلخواه نیز می‌توان به جای متدهای معمول استفاده نمود.(BILBAO,CATS و غیره) اگر برنامه وب با یک HTTP/1.1 200 OK به شما پاسخ داده و صفحه لاگین نیز نبود، ممکن است امکان عبور از احراز هویت میسر باشد. در مثال زیر از ncat برای این کار استفاده شده است:
 
+```shell
+$ ncat www.example.com 80 
+HEAD /admin HTTP/1.1 
+Host: www.example.com
+```
+
 ```js
-$ ncat www.example.com 80 HEAD /admin HTTP/1.1 Host: www.example.com
 HTTP/1.1 200 OK
 Date: Mon, 18 Aug 2008 22:44:11 GMT
 Server: Apache
