@@ -50,7 +50,9 @@ nmap -p 443 --script http-methods --script-args http-methods.url-path='/index.ph
 • متد را در درخواست، به PUT تغییر داده و فایل test.html را اضافه نموده و درخواست را به سرور ارسال نمایید.
 
 ```html
-PUT /test.html HTTP/1.1 Host: testing-website
+PUT /test.html 
+HTTP/1.1 Host: testing-website
+
 <html>
 HTTP PUT Method is Enabled
 </html>
