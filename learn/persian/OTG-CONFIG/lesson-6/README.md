@@ -186,8 +186,8 @@ Server: Apache
 * w3af plugin htaccess_methods
 # منابع
 
-• RFC 2109 and RFC 2965: “HTTP State Management Mechanism”
-• HTACCESS: BILBAO Method Exposed
-• Amit Klein: “XS(T) attack variants which can, in some cases, eliminate the need for TRACE”
-• Fortify – Misused HTTP Method Override
-• CAPEC-107: Cross Site Tracing
+* RFC 2109 and RFC 2965: “HTTP State Management Mechanism”
+* HTACCESS: BILBAO Method Exposed
+* Amit Klein: “XS(T) attack variants which can, in some cases, eliminate the need for TRACE”
+* Fortify – Misused HTTP Method Override
+* CAPEC-107: Cross Site Tracing
