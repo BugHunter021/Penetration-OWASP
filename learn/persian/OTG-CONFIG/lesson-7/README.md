@@ -32,3 +32,7 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 ### چگونه تست را انجام دهیم
 
 حضور هدر HSTS را می‌توان با بررسی پاسخ سرور از طریق یک پروکسی رهگیری نموده و یا با استفاده از curl به شرح زیر وجود آن را تایید کرد:
+```js
+$ curl -s -D- https://owasp.org | grep -i strict
+Strict-Transport-Security: max-age=31536000
+```
