@@ -1,4 +1,4 @@
-بررسی وجود هدرHTTP Strict Transport Security
+بررسی وجود هدرHTTP Strict Transport Security #
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-CONFIG-007 می پردازیم که مربوط به بررسی هدر HSTS می باشد.
 خلاصه
