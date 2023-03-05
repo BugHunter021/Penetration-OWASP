@@ -164,7 +164,8 @@ Vary: Accept-Encoding
 اما پس از اضافه نموده X_HTTP_Header به هدر، پاسخ سرور تغییر نموده و کد وضعیت 200 را باز می‌گرداند:
 ```shell
 $ ncat www.example.com 80
-DELETE /resource.html HTTP/1.1 Host: www.example.com
+DELETE /resource.html HTTP/1.1 
+Host: www.example.com
 X-HTTP-Method: DELETE
 ```
 ```js
