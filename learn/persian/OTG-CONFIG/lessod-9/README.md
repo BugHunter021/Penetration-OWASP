@@ -36,8 +36,9 @@ namei -l /PathToCheck/
 ### بررسی Remediation
 
 سطوح دسترسی فایل‌ها و دایرکتوری‌ها می‌بایست به درستی تنظیم شود تا کاربران غیر مجاز نتوانند بدون دلیل به منابع حیاتی سیستم دسترسی داشته باشند.
-ابزارها
 
-• Windows AccessEnum
-• Windows AccessChk
-• Linux namei
+# ابزارها
+
+* Windows AccessEnum
+* Windows AccessChk
+* Linux namei
