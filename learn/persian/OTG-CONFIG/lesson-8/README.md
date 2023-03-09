@@ -1,6 +1,6 @@
 # بررسی RIA Cross Domain Policy
 
-در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-CONFIG-008 می پردازیم که مربوط به بررسی RIA Cross Domain Policy می باشد.
+در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد **WSTG** با شناسه WSTG-CONFIG-008 می پردازیم که مربوط به بررسی RIA Cross Domain Policy می باشد.
 خلاصه
 
 Rich Internet Applicationها (RIA)‏ از فایل‌های ساختاری crossdomain.xml به منظور کنترل دسترسی دامین‌های دیگر استفاده می‌کنند. این موارد برای تکنولوژی‌هایی مانند Adobe Flash، Oracle Java و Silverlight کاربرد دارد. بنابراین، یک دامنه می‌تواند دسترسی از راه دور به خدمات خود را از یک دامنه متفاوت اعطا نماید.
