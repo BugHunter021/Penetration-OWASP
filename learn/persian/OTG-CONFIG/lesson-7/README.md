@@ -36,4 +36,3 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 $ curl -s -D- https://owasp.org | grep -i strict
 Strict-Transport-Security: max-age=31536000
 ```
-
