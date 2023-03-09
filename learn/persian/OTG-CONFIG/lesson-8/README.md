@@ -1,4 +1,4 @@
-بررسی # RIA Cross Domain Policy
+# بررسی RIA Cross Domain Policy
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-CONFIG-008 می پردازیم که مربوط به بررسی RIA Cross Domain Policy می باشد.
 خلاصه
