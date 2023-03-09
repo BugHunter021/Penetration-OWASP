@@ -32,8 +32,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain -policy.dtd">
 <cross-domain-policy>
-<site-control permitted-cross-domain -policies="all"/> <allow-access- from domain="*" secure="false" />
-<allow-http-request-headers-from domain="*" headers="*" secure="false" />
+    <site-control permitted-cross-domain -policies="all"/> 
+    <allow-access- from domain="*" secure="false" />
+    <allow-http-request-headers-from domain="*" headers="*" secure="false" />
 </cross-domain-policy>
 ```
 # چگونه می توان از فایل‌های Cross Domain Policy سوء استفاده کرد؟
@@ -65,7 +66,7 @@
 ### به عنوان نمونه
 ```xml
 <cross-domain-policy>
-<allow-access- from domain="*" />
+   <allow-access- from domain="*" />
 </cross-domain-policy>
 ```
 در این مثال ابتدا یک فایل مربوط به Policy شناسایی شده است که همانند فایل بالا بوده و در آن تنظیمات مربوط به دسترسی به صورت ستاره مشخص شده است که پیکربندی مناسبی نبوده و باید مورد بررسی قرار گیرد.
