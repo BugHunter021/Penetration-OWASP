@@ -36,7 +36,7 @@
 <allow-http-request-headers-from domain="*" headers="*" secure="false" />
 </cross-domain-policy>
 ```
-چگونه می توان از فایل‌های Cross Domain Policy سوء استفاده کرد؟
+# چگونه می توان از فایل‌های Cross Domain Policy سوء استفاده کرد؟
 
 • سیاست‌های Cross-Domain با مجوزهای بیش از حد.
 • ایجاد پاسخ‌های سرور که ممکن است به عنوان فایل‌های سیاست Cross-Domain در نظر گرفته شوند.
