@@ -28,6 +28,14 @@
 * اجازه دسترسی مبتنی بر Credential های رمزنگاری
 
 مثالی از یک فایل Policy با مجوزهای بیش از حد به شکل زیر می‌باشد:
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain -policy.dtd">
+<cross-domain-policy>
+<site-control permitted-cross-domain -policies="all"/> <allow-access- from domain="*" secure="false" />
+<allow-http-request-headers-from domain="*" headers="*" secure="false" />
+</cross-domain-policy>
+```
 چگونه می توان از فایل‌های Cross Domain Policy سوء استفاده کرد؟
 
 • سیاست‌های Cross-Domain با مجوزهای بیش از حد.
