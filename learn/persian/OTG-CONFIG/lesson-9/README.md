@@ -42,3 +42,4 @@ namei -l /PathToCheck/
 * Windows AccessEnum
 * Windows AccessChk
 * Linux namei
+
