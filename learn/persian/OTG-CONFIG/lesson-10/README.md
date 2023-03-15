@@ -47,11 +47,11 @@
 
 روش دیگر استفاده از دستور dig می باشد. با استفاده از دستور dig، تست نفوذگر به دنبال پیغام‌های پاسخ سرور DNS زیر است که پس از آن بررسی بیشتر را آغاز کند:
 
-NXDOMAIN
-SERVFAIL
-REFUSED
-no servers could be reached.
-Testing DNS A, CNAME Record Subdomain Takeover
+* NXDOMAIN
+* SERVFAIL
+* REFUSED
+* no servers could be reached.
+* Testing DNS A, CNAME Record Subdomain Takeover
 
 در این بخش ابتدا یک DNS Enumeration اولیه در مورد دامنه قربانی با استفاده از dnsrecon انجام می‌گردد:
 
