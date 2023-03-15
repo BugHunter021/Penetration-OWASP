@@ -23,7 +23,8 @@
 قربانی تصمیم می‌گیرد که مخزن کد خود را از Github به یک پلت فرم تجاری منتقل کند و coderepo.victim.com را از سرور DNS خود حذف نمی‌کند.
 
 یک نفوذگر متوجه می‌شود که coderepo.victim.com در Github میزبانی می‌شود و از GitHub Pages برای بدست آوردن coderepo.victim.com با استفاده از حساب Github خود استفاده می‌کند.
-Expired Domain
+
+# وضعیت Expired Domain
 
 قربانی (victim.com)صاحب دامنه دیگری است (victimotherdomain.com) ‏ ‏و از یک رکورد CNAME ‏(www) ‏برای ارجاع به دامنه دیگر استفاده می‌کند.
 
