@@ -1,4 +1,4 @@
-بررسی#  Subdomain Takeover
+# بررسی Subdomain Takeover
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-CONFIG-010 می پردازیم که مربوط به بررسی Subdomain Takeover می باشد.
 خلاصه
