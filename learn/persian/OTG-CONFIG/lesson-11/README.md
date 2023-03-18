@@ -1,4 +1,4 @@
- بررسی###  Cloud Storage
+ ### بررسی  Cloud Storage
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-CONFIG-11 می پردازیم که مربوط به بررسی Cloud Storage می باشد.
 خلاصه
