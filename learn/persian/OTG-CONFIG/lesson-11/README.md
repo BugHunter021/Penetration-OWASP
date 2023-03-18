@@ -40,7 +40,7 @@ URL های باکت S3 آمازون یکی از دو فرمت Virtual Hosted Sty
 
 برای برخی Region ها،legacy global endpoint که یک نقطه پایانی خاص منطقه‌ای را مشخص نمی‌کند، می‌تواند مورد استفاده قرار گیرد. فرمت آن هم virtual hosted style یا path-style است.
 
-• دسترسی به Virtual Hosted Style
+* دسترسی به Virtual Hosted Style
 
 • دسترسی به Path-Style
 شناسایی Bucket URL
