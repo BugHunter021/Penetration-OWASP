@@ -40,27 +40,34 @@ https://bucket-name.s3.Region.amazonaws.com/key-name
 
 
 در مثال زیر، نام باکت my-bucket می‌باشد، us-west-2 نام Region بوده و puppy.png نام کلید است.
+
 https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png
 
 * دسترسی به Path-Style
+
 https://s3.Region.amazonaws.com/bucket-name/key-name
 
 مانند مثال بالا، در مثال زیر، نام باکت my-bucket است،us-west-2 نام Region بوده و puppy.jpg نام کلید است:
+
 https://s3-us-west-2.amazonaws.com/my-bucket/puppy.jpg
 
 
 برای برخی Region ها،legacy global endpoint که یک نقطه پایانی خاص منطقه‌ای را مشخص نمی‌کند، می‌تواند مورد استفاده قرار گیرد. فرمت آن هم virtual hosted style یا path-style است.
 
 * دسترسی به Virtual Hosted Style
+
 https://bucket-name.s3.amazonaws.com
 
 * دسترسی به Path-Style
+
 https://s3.amazonaws.com/bucket-name
 
 ### شناسایی Bucket URL
 
 برای تست جعبه سیاه، می‌توانURL های S3 را در پیغام‌های HTTP پیدا کرد. مثال زیر نشان می‌دهد که یک Bucket URL در برچسب img در پاسخ HTTP فرستاده می‌شود:
+```html
 <img src="https://my-bucket.s3.us-west-2.amazonaws.com/puppy.png">
+```
 
 برای تست جعبه خاکستری، می‌توانید URL های باکت را از رابط وب آمازون، اسناد، کد منبع، یا هر منبع موجود دیگری به دست آورید.
 
@@ -71,26 +78,31 @@ https://s3.amazonaws.com/bucket-name
 ### حالت List
 
 دستور زیر تمام اشیا باکت را زمانی که پیکربندی عمومی انجام گرفته است، لیست می‌کند:
+
 aws s3 1s s3://<bucket-name>
 
 ### حالت Upload
 
 در مثال زیر نیز، فرمانی برای آپلود یک فایل آورده شده‌است:
-aws s3 cp arbitrary-file s3://bucket-name/path-to-save
+
+ aws s3 cp arbitrary-file s3://bucket-name/path-to-save
 
 زمانی که آپلود، موفقیت آمیز باشد، پاسخی مانند مثال زیر نمایش داده می‌شود:
+
 $ aws s3 cp test.txt s3://bucket-name/test.txt 
 upload: ./test.txt to s3://bucket-name/test.txt
 
 زمانی که آپلود، با شکست مواجه شود، پاسخی مانند مثال زیر نمایش داده می‌شود:
-$ aws s3 cp test.txt s3://bucket-name/test.txt
+
+ $ aws s3 cp test.txt s3://bucket-name/test.txt
 upload failed: ./test2.txt to s3://bucket-name/test2.txt An error occurred (AccessDenied) when calling
 the PutObject operation: Access Denied
 
 ### حالت Remove
 
 همچنین در مثال زیر، فرمانی برای حذف شی آورده شده‌است:
-aws s3 rm s3://bucket-name/object-to-remove
+
+ aws s3 rm s3://bucket-name/object-to-remove
 
 # ابزارها
 
