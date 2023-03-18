@@ -42,8 +42,9 @@ URL های باکت S3 آمازون یکی از دو فرمت Virtual Hosted Sty
 
 * دسترسی به Virtual Hosted Style
 
-• دسترسی به Path-Style
-شناسایی Bucket URL
+* دسترسی به Path-Style
+
+### شناسایی Bucket URL
 
 برای تست جعبه سیاه، می‌توانURL های S3 را در پیغام‌های HTTP پیدا کرد. مثال زیر نشان می‌دهد که یک Bucket URL در برچسب img در پاسخ HTTP فرستاده می‌شود:
 
