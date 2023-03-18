@@ -28,7 +28,7 @@
 
 تست پیکربندی نادرست باکت S3 آمازون
 
-URL های باکت S3 آمازون یکی از دو فرمت Virtual Hosted Style و Path-Style را دنبال می‌کنند.
+موارد URL های باکت S3 آمازون یکی از دو فرمت Virtual Hosted Style و Path-Style را دنبال می‌کنند.
 
 *  دسترسی به Virtual Hosted Style
 
