@@ -55,5 +55,5 @@ https://blog.twitter.com/en_us/topics/company/2020/an-update-on-our-security-inc
 تست‌های ذکر شده در بالا را می‌توان بدون استفاده از هر ابزاری به جز ابزاری که برای دسترسی به سیستم استفاده می‌شود، انجام داد.
 برای آسان‌تر کردن و مستندسازی بیشتر موارد، می‌توانید از ابزارهای زیر استفاده کنید:
 
-• Burp’s Autorize extension
-• ZAP’s Access Control Testing add-on
+* Burp’s Autorize extension
+* ZAP’s Access Control Testing add-on
