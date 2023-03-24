@@ -1,4 +1,4 @@
-بررسی Role Definitions
+بررسی #  Role Definitions
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-IDNT-01 می پردازیم که مربوط به بررسی Role Definitions می باشد.
 خلاصه
