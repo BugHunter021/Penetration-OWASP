@@ -48,6 +48,7 @@
 یک مدیر یا Administrator نباید قدرت کامل بر روی سیستم را داشته باشد. عملکرد حساس مدیریت باید از MFA یا Multi Factor Authentication برای اطمینان از این که واقعا مدیر تراکنش را انجام می‌دهد استفاده کند.
 
 یک مثال واضح در این مورد حادثه توئیتر در سال ۲۰۲۰ بود:
+
 [An update on our security incident
 ](https://blog.twitter.com/en_us/topics/company/2020/an-update-on-our-security-incident.html
 )
