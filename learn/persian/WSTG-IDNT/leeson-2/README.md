@@ -7,7 +7,7 @@
   </div>
 
 
-بررسی###  User Registration Process
+### بررسی  User Registration Process
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-IDNT-02 می پردازیم که مربوط به بررسی User Registration Process می باشد.
 خلاصه
