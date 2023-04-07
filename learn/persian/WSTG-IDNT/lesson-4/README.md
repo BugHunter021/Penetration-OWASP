@@ -124,7 +124,7 @@ Invalid authentication
 Invalid username: email address is not valid or the specified user was not found.
 Valid username: Your password has been successfully sent to the email address you registered with.
 
-پیغام خطای دوستانه ۴۰۴
+### پیغام خطای دوستانه ۴۰۴
 
 هنگامی که ما یک کاربر را در دایرکتوری درخواست می‌کنیم که وجود ندارد، همیشه ۴۰۴ کد خطا دریافت نمی‌کنیم.
 
