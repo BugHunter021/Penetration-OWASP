@@ -87,8 +87,10 @@ Login failed for User foo: invalid Account
 ### تجزیه و تحلیل آدرس‌ها و آدرس‌ها Re-directions
 
 برای مثال:
+```text
 http://www.foo.com/err.jsp?User=baduser&Error=0
 http://www.foo.com/err.jsp?User=gooduser&Error=2
+```
 
 همانطور که در بالا دیده می‌شود، زمانی که تست نفوذگر یک شناسه کاربری و رمز عبور را به برنامه کاربردی وب ارسال می‌کند، پیامی را می‌بینند که نشان می‌دهد یک خطا در URL رخ داده‌است. در مورد اول، آن‌ها نام کاربری و رمز عبور اشتباه را وارد نموده اند. در مرحله دوم، نام کاربری صحیح و رمز عبور اشتباه وارد شده است، بنابراین به همین طریق و بررسی پیام‌های خطا، آن‌ها می‌توانند نام‌های کاربری معتبر را شناسایی کنند.
 
@@ -102,9 +104,10 @@ http://www.foo.com/err.jsp?User=gooduser&Error=2
 404 Not found error code
 
 مثال:
-
+```text
 www.foo.com/account1 – we receive from web server: 403 Forbidden
 www.foo.com/account2 – we receive from web server: 404 file Not Found
+```
 
 در حالت اول کاربر وجود دارد، اما تست نفوذگر نمی‌تواند صفحه وب را ببیند، در حالت دوم کاربر “account2” وجود ندارد. با جمع‌آوری این اطلاعات، تست کنندگان می‌توانند کاربران را شناسایی نمایند.
 
