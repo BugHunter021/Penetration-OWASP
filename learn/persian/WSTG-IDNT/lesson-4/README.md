@@ -40,7 +40,10 @@ Length of the response
 اکنون، تست نفوذگر باید سعی کند یک User ID معتبر را به همراه یک رمز عبور اشتباه وارد کند و پیام خطای ایجاد شده توسط برنامه را ثبت کند.
 
 مرورگر باید پیامی شبیه به پیغام زیر را نمایش دهد:
-
+```text
+Authentication failed.
+Return to Login page
+```
 برخلاف هر پیامی که وجود کاربر را مانند موارد زیر نشان می‌دهد:
 
 Login for User foo: invalid password
