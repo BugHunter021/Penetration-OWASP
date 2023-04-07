@@ -69,10 +69,10 @@ Login failed for User foo: invalid Account
 ```
 به طور کلی برنامه باید با پیام خطا و طول یکسان به درخواست‌های نادرست مختلف پاسخ دهد. اگر پاسخ‌ها یکسان نباشند، تست نفوذگر باید تفاوت بین این دو پاسخ را بررسی و پیدا کند. برای مثال:
 
-• Client request: Valid user/wrong password
-• Server response: The password is not correct
-• Client request: Wrong user/wrong password
-• Server response: User not recognized
+* Client request: Valid user/wrong password
+* Server response: The password is not correct
+* Client request: Wrong user/wrong password
+* Server response: User not recognized
 
 پاسخ‌های بالا به client این امکان را می‌دهد تا نام کاربری معتبر را شناسایی نماید. بنابراین آن‌ها می‌توانند با ارتباط گرفتن با برنامه و ارسال درخواست به آن و مشاهده پاسخ، مجموعه‌ای از User ID های موجود را استخراج نمایند.
 
