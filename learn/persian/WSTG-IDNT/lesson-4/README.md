@@ -1,6 +1,7 @@
 # بررسی Account Enumeration and Guessable User Account
 
 در این بخش از دوره آموزشی OWASP-WSTG به دومین بخش از استاندارد WSTG با شناسه WSTG-IDNT-04 می پردازیم که مربوط به بررسی Account Enumeration and Guessable User Account می باشد.
+
 ### خلاصه
 
 هدف از این تست بررسی این موضوع است که آیا امکان جمع‌آوری مجموعه‌ای از نام‌های کاربری معتبر از طریق تعامل با مکانیزم احراز هویت برنامه وجود دارد یا خیر.
