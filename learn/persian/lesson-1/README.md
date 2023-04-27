@@ -1,4 +1,4 @@
- بررسی Credentials Transported over an Encrypted Channel
+ # بررسی Credentials Transported over an Encrypted Channel
 
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-01 می پردازیم که مربوط به بررسی Credentials Transported over an Encrypted Channel می باشد.
 خلاصه
