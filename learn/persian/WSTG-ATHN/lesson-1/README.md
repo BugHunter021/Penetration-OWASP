@@ -94,7 +94,8 @@ Password Reset, Change Password or Other Account Manipulation
 اگر مرورگر یک Session Token را بر روی HTTP در هر بخشی از وب سایت ارسال کند، حتی اگر Force Browsing برای راه‌اندازی این مورد لازم باشد، آن گاه تست Failed خواهد شد:
 
 * درخواست GET نشانه نشست JSESSIONID (‏از مرورگر به سرور)‏ را در درخواست آدرس www.example.org نمایش می‌دهد.
-Remediation
+
+### تست Remediation
 
 از HTTPS برای کل وب سایت استفاده کنید. همچنین قابلیتHSTS را پیاده‌سازی نموده و تا هر درخواست HTTP را به HTTPS هدایت کنید. این سایت مزایای زیر را با استفاده از HTTPS برای همه ویژگی‌های خود کسب می‌کند:
 
