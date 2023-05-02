@@ -1,5 +1,6 @@
 بررسی Default Credentials
 
+
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-02 می پردازیم که مربوط به بررسی Default Credentials می باشد.
 خلاصه
 
