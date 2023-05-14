@@ -1,4 +1,4 @@
-بررسی Weak Lock Out Mechanism
+# بررسی Weak Lock Out Mechanism
 
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-03 می پردازیم که مربوط به بررسی Weak Lock Out Mechanism می باشد.
 خلاصه
