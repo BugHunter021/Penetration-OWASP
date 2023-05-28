@@ -1,4 +1,4 @@
- بررسی Bypassing Authentication Schema
+ # بررسی Bypassing Authentication Schema
 
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-04 می پردازیم که مربوط به بررسی Bypassing Authentication Schema می باشد.
 خلاصه
