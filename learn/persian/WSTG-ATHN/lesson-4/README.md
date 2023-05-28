@@ -52,6 +52,8 @@ Content-Type: text/html; charset=iso-8859-1
 <H1>You Are Authenticated</H1>
 </BODY></HTML>
 ```
+![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHN/lesson-4/images/wstg-ATHN-04-03.jpg)
+
 ### پیش‌بینی شناسه نشست
 
 بسیاری از برنامه‌های کاربردی وب احراز هویت را با استفاده از شناسه‌های نشست (session IDs)‏مدیریت می‌کنند. بنابراین، اگر تولید شناسه نشست قابل‌پیش‌بینی باشد، یک کاربر مخرب می‌تواند یک شناسه نشست معتبر را پیدا نموده و دسترسی غیر مجاز به برنامه پیدا کند، و یک کاربر قبلا تایید شده را جعل کند.
@@ -59,6 +61,8 @@ Content-Type: text/html; charset=iso-8859-1
 در شکل زیر، مقادیر داخل کوکی‌ها به صورت خطی افزایش می‌یابد، بنابراین برای یک مهاجم حدس زدن شناسه نشست معتبر آسان است.
 
 در شکل زیر، مقادیر داخل کوکی‌ها فقط تا حدی تغییر می‌کنند، بنابراین می‌توان حمله Brute Force را به قسمت‌های تعریف شده در زیر محدود کرد.
+![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHN/lesson-4/images/wstg-ATHN-04-04.jpg)
+
 
 ### تزریق SQL ( HTML Form Authentication)
 
