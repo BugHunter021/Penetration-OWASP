@@ -52,6 +52,7 @@ Content-Type: text/html; charset=iso-8859-1
 <H1>You Are Authenticated</H1>
 </BODY></HTML>
 ```
+
 ![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHN/lesson-4/images/wstg-ATHN-04-03.jpg)
 
 ### پیش‌بینی شناسه نشست
