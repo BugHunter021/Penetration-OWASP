@@ -79,6 +79,5 @@ Content-Type: text/html; charset=iso-8859-1
 درPHP، مقایسه بین یک مقدار رشته و یک مقدار بولی (1 and TRUE) همیشه درست است، بنابراین با تامین رشته زیر (بخش b:1 مهم است) برای تابعunserialize()‏، می‌توان کنترل احراز هویت را دور زد:
 
 # ابزارها
-
 * WebGoat
 * OWASP Zed Attack Proxy (ZAP)
