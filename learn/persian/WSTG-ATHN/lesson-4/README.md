@@ -64,7 +64,6 @@ Content-Type: text/html; charset=iso-8859-1
 در شکل زیر، مقادیر داخل کوکی‌ها فقط تا حدی تغییر می‌کنند، بنابراین می‌توان حمله Brute Force را به قسمت‌های تعریف شده در زیر محدود کرد.
 ![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHN/lesson-4/images/wstg-ATHN-04-04.jpg)
 
-
 ### تزریق SQL ( HTML Form Authentication)
 
 تزریق SQL یک تکنیک حمله شناخته‌شده است. در این بخش به طور مفصل به توضیح این تکنیک نخواهیم پرداخت، زیرا بخش‌های متعددی در راهنمای OWASP وجود دارند که تکنیک‌های تزریق را فراتر از محدوده این بخش توضیح می‌دهند.
