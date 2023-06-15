@@ -24,7 +24,7 @@
 
 این Credential ها نباید به هیچ وجه در برنامه سمت مشتری ذخیره شوند و باید توسط نشانه‌های تولید شده در سمت سرور جایگزین شود.
 
-برخی از برنامه‌ها به طور خودکار Credential های کاربر را تزریق می کنند که می‌تواند توسط حملات ClickJacking و CSRF مورد سوء استفاده قرار گیرد.
+برخی از برنامه‌ها به طور خودکار Credential های کاربر را تزریق می کنند که می‌تواند توسط حملات [ClickJacking](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking) و [CSRF](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery) مورد سوء استفاده قرار گیرد.
 
 توکن‌ها باید از نظر طول عمر توکن تحلیل شوند جائیکه در آن برخی توکن‌ها هرگز منقضی نمی‌شوند و اگر آن توکن‌ها به سرقت بروند کاربران را در معرض خطر قرار می‌دهند. در این بخش می بایست اطمینان حاصل کنید که سناریوی تست Session Timeout را انجام داده اید.
 
