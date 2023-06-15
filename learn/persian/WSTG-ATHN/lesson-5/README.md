@@ -20,7 +20,7 @@
 
 از آنجا که این روش‌ها تجربه کاربری بهتری را فراهم می‌کنند و به کاربر اجازه می‌دهند تا تمام credential های خود را فراموش کند، سطح حمله را افزایش می‌دهند.
 
-برخی برنامه‌ها اطلاعات کاربری را به صورت رمزگذاری شده در مکانیزم های ذخیره سازی مرورگر ذخیره می کنند، که با دنبال کردن Web Storage Testing Scenario و گذر از سناریوهای Session Analysis، می‌توانید اعتبار را تأیید کنید.
+برخی برنامه‌ها اطلاعات کاربری را به صورت رمزگذاری شده در مکانیزم های ذخیره سازی مرورگر ذخیره می کنند، که با دنبال کردن [Web Storage Testing Scenario](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/12-Testing_Browser_Storage) و گذر از سناریوهای [Session Analysis](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema#session-analysis)، می‌توانید اعتبار را تأیید کنید.
 Credential ها نباید به هیچ وجه در برنامه سمت مشتری ذخیره شوند و باید توسط نشانه‌های تولید شده در سمت سرور جایگزین شود.
 
 برخی از برنامه‌ها به طور خودکار Credential های کاربر را تزریق می کنند که می‌تواند توسط حملات ClickJacking و CSRF مورد سوء استفاده قرار گیرد.
