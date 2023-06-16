@@ -34,4 +34,3 @@
 
 اطمینان حاصل کنید که هیچ Credential ای به صورت Clear Text ذخیره نشده و یا به راحتی در فرم‌های Encode یا Encrypt شده در مکانیزم‌های ذخیره‌سازی مرورگر قابل بازیابی نیستند؛ آن‌ها باید در سمت سرور ذخیره شوند
 و از [شیوه‌های ذخیره‌سازی رمز عبور](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) خوبی پیروی کنند.
-
