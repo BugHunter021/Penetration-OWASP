@@ -73,7 +73,7 @@ Expires: "past date or illegal value (e.g., 0)"
 
 فایرفاکس قابلیت نمایش اطلاعات Cache شده را فراهم می‌کند که ممکن است به نفع شما به عنوان یک تست نفوذگر باشد. البته این صنعت همچنین برنامه‌های کاربردی جانبی و متنوعی را تولید کرده‌است که شما ممکن است آن‌ها را برای کروم، اینترنت اکسپلورر یا Edge ترجیح دهید یا نیاز داشته باشید.
 
-جزئیات Cache نیز از طریق ابزارهای توسعه دهنده در اکثر مرورگرهای مدرن مانند [فایرفاکس](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector#Cache_Storage)، کروم و Edge در دسترس هستند. با فایرفاکس، استفاده از نشانی اینترنتی about:cache برای بررسی جزئیات Cache نیز امکان پذیر است.
+جزئیات Cache نیز از طریق ابزارهای توسعه دهنده در اکثر مرورگرهای مدرن مانند [فایرفاکس](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector#Cache_Storage)، [کروم](https://developers.google.com/web/tools/chrome-devtools/storage/cache) و Edge در دسترس هستند. با فایرفاکس، استفاده از نشانی اینترنتی about:cache برای بررسی جزئیات Cache نیز امکان پذیر است.
 
 ### بررسی نحوه رسیدگی به مرورگرهای موبایل
 
