@@ -57,6 +57,16 @@ Expires: "past date or illegal value (e.g., 0)"
 
 مکان دقیق ذخیره اطلاعات به سیستم‌عامل کلاینت و مرورگر مورد استفاده بستگی دارد. در اینجا چند مثال آورده شده‌است.
 
+Mozilla Firefox:
+• Unix/Linux: ~/.cache/mozilla/firefox/
+• C:\Users\<user_name>\AppData\Local\Mozilla\Firefox\Profiles\<profile-
+• Windows: id>\Cache2\
+⚫ Internet Explorer:
+• C:\Users\<user_name>\AppData\Local\Microsoft\Windows\INetCache\
+• Chrome:
+• Windows: C:\Users\<user_name>\AppData\Local\Google\Chrome\User Data\Default\Cache
+Unix/Linux:~/.cache/google-chrome
+
 بازبینی اطلاعات Cache شده
 
 فایرفاکس قابلیت نمایش اطلاعات Cache شده را فراهم می‌کند که ممکن است به نفع شما به عنوان یک تست نفوذگر باشد. البته این صنعت همچنین برنامه‌های کاربردی جانبی و متنوعی را تولید کرده‌است که شما ممکن است آن‌ها را برای کروم، اینترنت اکسپلورر یا Edge ترجیح دهید یا نیاز داشته باشید.
