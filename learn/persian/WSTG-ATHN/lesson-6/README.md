@@ -59,8 +59,7 @@ Expires: "past date or illegal value (e.g., 0)"
 
 ### Mozilla Firefox:
 * Unix/Linux: ~/.cache/mozilla/firefox/
-* C:\Users\<user_name>\AppData\Local\Mozilla\Firefox\Profiles\<profile-
-* Windows: id>\Cache2\
+* Windows: C:\Users\<user_name>\AppData\Local\Mozilla\Firefox\Profiles\<profile-id>\Cache2\
 
 ### Internet Explorer:
 * C:\Users\<user_name>\AppData\Local\Microsoft\Windows\INetCache\
