@@ -57,15 +57,17 @@ Expires: "past date or illegal value (e.g., 0)"
 
 مکان دقیق ذخیره اطلاعات به سیستم‌عامل کلاینت و مرورگر مورد استفاده بستگی دارد. در اینجا چند مثال آورده شده‌است.
 
-Mozilla Firefox:
-• Unix/Linux: ~/.cache/mozilla/firefox/
-• C:\Users\<user_name>\AppData\Local\Mozilla\Firefox\Profiles\<profile-
-• Windows: id>\Cache2\
-⚫ Internet Explorer:
-• C:\Users\<user_name>\AppData\Local\Microsoft\Windows\INetCache\
-• Chrome:
-• Windows: C:\Users\<user_name>\AppData\Local\Google\Chrome\User Data\Default\Cache
-Unix/Linux:~/.cache/google-chrome
+### Mozilla Firefox:
+* Unix/Linux: ~/.cache/mozilla/firefox/
+* C:\Users\<user_name>\AppData\Local\Mozilla\Firefox\Profiles\<profile-
+* Windows: id>\Cache2\
+
+### Internet Explorer:
+* C:\Users\<user_name>\AppData\Local\Microsoft\Windows\INetCache\
+
+### Chrome:
+* Windows: C:\Users\<user_name>\AppData\Local\Google\Chrome\User Data\Default\Cache
+* Unix/Linux:~/.cache/google-chrome
 
 بازبینی اطلاعات Cache شده
 
