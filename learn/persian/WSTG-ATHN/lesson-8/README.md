@@ -1,4 +1,4 @@
-بررسی Weak Security Question Answer
+# بررسی Weak Security Question Answer
 
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-08 می پردازیم که مربوط به بررسی Weak Security Question Answer می باشد.
 خلاصه
