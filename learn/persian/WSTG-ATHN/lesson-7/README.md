@@ -1,4 +1,4 @@
-بررسی Weak Password Policy
+# بررسی Weak Password Policy
 
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-07 می پردازیم که مربوط به بررسی Weak Password Policy می باشد.
 خلاصه
