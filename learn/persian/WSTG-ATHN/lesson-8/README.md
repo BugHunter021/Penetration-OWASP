@@ -1,7 +1,8 @@
 # بررسی Weak Security Question Answer
 
 در این بخش از دوره آموزشی OWASP-WSTG به چهارمین بخش از استاندارد WSTG با شناسه WSTG-ATHN-08 می پردازیم که مربوط به بررسی Weak Security Question Answer می باشد.
-خلاصه
+
+### خلاصه
 
 سوالات و پاسخ‌های امنیتی اغلب برای بازیابی رمزهای عبور فراموش‌شده مورد استفاده قرار می‌گیرند. ( بخش Testing for weak password change or reset functionalities نیز مشاهده نمایید)
 
