@@ -127,13 +127,13 @@ o ..%c1%9c represents ..\
 
 **مورد Windows API:** موارد زیر هنگامی که در هر دستور پوسته یا فراخوانی API استفاده می‌شوند که در آن یک رشته به عنوان نام پرونده گرفته می‌شود، دور انداخته می‌شوند:
 
-• periods
-• spaces
+* periods
+* spaces
 
 **مورد Windows UNC Filepaths:** برای ارجاع پرونده‌ها بر روی ‍SMB Shareها استفاده می‌شود. گاهی اوقات، یک برنامه می‌تواند برای ارجاع به فایل‌هایی در یک UNC filepath راه دور ایجاد شود. در این صورت، سرور Windows SMB ممکن است اعتبارات ذخیره‌شده را برای مهاجم ارسال کند، که می‌تواند ضبط و شکسته شود. این‌ها همچنین ممکن است با یک آدرس IP خود ارجاع یا نام دامنه برای فرار از فیلتر استفاده شوند، یا برای دسترسی به فایل‌های روی SMB Shareها که برای مهاجم خارج از دسترس هستند اما از سرور وب در دسترس هستند، استفاده شوند.
 
-• \\server_or_ip\path\to\file.abc
-• \\?\server_or_ip\path\to\file.abc
+* \\server_or_ip\path\to\file.abc
+* \\?\server_or_ip\path\to\file.abc
 
 **مورد Windows NT Device Namespace:** برای اشاره به فضای نام دستگاه ویندوز استفاده می‌شود. مراجع خاص، امکان دسترسی به فایل سیستم‌ها را با استفاده از یک مسیر متفاوت فراهم می‌کنند.
 
@@ -166,10 +166,10 @@ o ..%c1%9c represents ..\
 
 # ابزارها
 
-• DotDotPwn – The Directory Traversal Fuzzer
-• Path Traversal Fuzz Strings (from WFuzz Tool)
-• OWASP ZAP
-• Burp Suite
-• Enconding/Decoding tools
-• String searcher “grep”
-• DirBuster
+* DotDotPwn – The Directory Traversal Fuzzer
+* Path Traversal Fuzz Strings (from WFuzz Tool)
+* OWASP ZAP
+* Burp Suite
+* Enconding/Decoding tools
+* String searcher “grep”
+* DirBuster
