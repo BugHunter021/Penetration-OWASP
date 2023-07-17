@@ -39,12 +39,15 @@
 * آیا نام‌های متغیر جالبی وجود دارند؟
 
 • example.com/getUserProfile.jsp?item=ikki.html
+
 • example.com/index.php?file=content
+
 • example.com/main.cgi?home=index.htm
 
 * آیا شناسایی کوکی‌های مورد استفاده توسط برنامه وب برای تولید پویای صفحات یا الگوها ممکن است؟
 
 • Cookie: ID=d9ccd3f4f9f18cc1:TM=2166255468:LM=1162655568:S=3cFpqbJgMSSPKVMV:TEMPLATE=flower
+
 • Cookie: USER=1826cc8f:PSTYLE=GreenDotRed
 ### تکنیک‌های ارزیابی
 
@@ -69,28 +72,47 @@
 هر سیستم‌عامل از کاراکترهای مختلف به عنوان جداکننده مسیر استفاده می‌کند:
 
 Unix-like OS:
+
 o root directory: /
+
 o directory separator: /
+
 Windows OS:
+
 o root directory: drive letter :
+
 o directory separator: \ or /
+
 Classic macOS:
+
 o root directory: drive letter :
+
 o directory separator: :
 
 ما باید مکانیزم‌های کدگذاری کاراکتر زیر را در نظر بگیریم:
 
-URL encoding and double URL encoding
+URL encoding and double URL encoding 
+
 o %2e%2e%2f represents ../
+
 o %2e%2e/ represents ../
+
 o ..%2f represents ../
+
 o %2e%2e%5c represents ..\
+
 o %2e%2e\ represents ..\
+
 o ..%5c represents ..\
+
 o %252e%252e%255c represents ..\
+
 o ..%255c represents ..\ and so on.
+
 Unicode/UTF-8 Encoding (it only works in systems that are able to accept overlong UTF-8 sequences)
+
 o ..%c0%af represents ../
+
 o ..%c1%9c represents ..\
 
 سیستم‌عامل و چارچوب برنامه‌های کاربردی دیگری نیز وجود دارند. برای مثال، ویندوز در تجزیه مسیرهای فایل خود انعطاف‌پذیر است.
