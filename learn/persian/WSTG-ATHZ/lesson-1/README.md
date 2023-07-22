@@ -172,6 +172,12 @@ o ..%c1%9c represents ..\
 
 استفاده از inclusion functions/methods، عملیات فایل سیستم و غیره.
 
+```txt
+PHP: include(), include_once(), require(), require_once(), fopen(), readfile(),...
+JSP/Servlet: java.io.File(), java.io.FileReader(),...
+ASP: include file, include virtual,...
+```
+
 با استفاده از موتورهای جستجوی کد آنلاین (‏به عنوان مثالSearchcode)‏، همچنین ممکن است امکان پیدا کردن معایب path traversal در نرم‌افزارهای Open Source منتشر شده در اینترنت وجود داشته باشد.
 
 برای PHP، تست نفوذگرها می‌توانند از regex زیر استفاده کنند:
