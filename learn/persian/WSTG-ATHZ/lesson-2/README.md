@@ -132,14 +132,11 @@ www.example.com/admin/addUser
 Remediation
 
 استفاده از اصل حداقل امتیاز در کاربران، نقش‌ها و منابع برای اطمینان از این که هیچ دسترسی غیر مجاز رخ نمی‌دهد، در این بخش مناسب می‌باشد. همچنین تعیین صحیح نقش‌ها و دسترسی‌ها موضوع دیگری است که باید به آن توجه شود.
-ابزارها
 
-OWASP Zed Attack Proxy (ZAP)
+# ابزارها
 
-ZAP add-on: Access Control Testing
-
-Port Swigger Burp Suite
-
-Burp extension: AuthMatrix
-
+*OWASP Zed Attack Proxy (ZAP)
+*ZAP add-on: Access Control Testing
+*Port Swigger Burp Suite
+*Burp extension: AuthMatrix
 Burp extension: Autorize
