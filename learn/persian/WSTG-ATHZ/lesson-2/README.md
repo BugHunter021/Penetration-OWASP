@@ -72,7 +72,7 @@ Banking Site Roles Scenario
 این برنامه در صورتی آسیب‌پذیر در نظر گرفته خواهد شد که:
 
 • Customerبتواند وظایف و توابع مربوط به administrator، manager یا staff را اجرا کند؛
-• کاربر Staff بتواند وظایف و توابع administrator یا manager را اجرا کند؛
+* کاربر Staff بتواند وظایف و توابع administrator یا manager را اجرا کند؛
 • Manager ‌بتواند وظایف و توابع administrator را اجرا کند.
 
 فرض کنید که تابع deleteEvent بخشی از منوی حساب administrator برنامه است و دسترسی به آن با درخواست URL زیر امکان پذیر است:
