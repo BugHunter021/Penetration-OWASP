@@ -118,9 +118,16 @@ HTTP/1.1 200 OK
 {"message": "Event was deleted"}
 ```
 مهاجم ممکن است همان درخواست را امتحان و اجرا کند:
+```js
+POST /account/delete Event 
+HTTP/1.1 Host: www.example.com
+[other HTTP headers]
+Cookie: SessionID=CUSTOMER_USER_SESSION
 
+EventID=1000002
+```
 اگر پاسخ درخواست مهاجم شامل همان داده {“message”: “Event was deleted”} باشد،‏ برنامه آسیب‌پذیر است.
-Administrator Page Access
+### سناریو Administrator Page Access
 
 فرض کنید که منوی administrator در حساب کاربری مدیر برنامه در دسترس است.
 
@@ -132,7 +139,13 @@ Administrator Page Access
 www.example.com/admin/addUser
 ```
 سپس، درخواست HTTP زیر هنگام فراخوانی تابع addUser ایجاد می‌شود:
+```js
+POST /admin/addUser HTTP/1.1
+Host: www.example.com
+[...]
 
+userID=fakeuser&role=3&group=grp001
+```
 سوالات یا ملاحظات زیر باید در نظر گرفته شود:
 
 * چه اتفاقی می‌افتد اگر یک کاربر غیر مدیر تلاش کند این درخواست را اجرا کند؟
