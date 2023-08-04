@@ -163,6 +163,7 @@ userID=fakeuser&role=3&group=grp001
 نوع محدودیت کنترل دسترسی براساس URL درخواست شده می‌تواند، برای مثال، مسدود کردن دسترسی از اینترنت به یک بخش مدیریتی مثل /console یا /admin باشد.
 
 برای تشخیص پشتیبانی برای هدرهای مذکور، مراحل زیر را می‌توان اعمال کرد.
+
 **1. Send a Normal Request without Any X-Original-Url or X-Rewrite-Url Header**
 ```js
 GET / HTTP/1.1
