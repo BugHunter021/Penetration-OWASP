@@ -163,6 +163,26 @@ userID=fakeuser&role=3&group=grp001
 نوع محدودیت کنترل دسترسی براساس URL درخواست شده می‌تواند، برای مثال، مسدود کردن دسترسی از اینترنت به یک بخش مدیریتی مثل /console یا /admin باشد.
 
 برای تشخیص پشتیبانی برای هدرهای مذکور، مراحل زیر را می‌توان اعمال کرد.
+1. Send a Normal Request without Any X-Original-Url or X-Rewrite-Url Header
+```js
+GET / HTTP/1.1
+Host: www.example.com
+[...]
+```
+3. Send a Request with an X-Original-Url Header Pointing to a Non-Existing Resource
+```js
+GET / HTTP/1.1
+Host: www.example.com
+X-Original-URL: /donotexist1
+[...]
+```
+4. Send a Request with an X-Rewrite-Url Header Pointing to a Non-Existing Resource
+```js
+GET / HTTP/1.1
+Host: www.example.com
+X-Rewrite-URL: /donotexist2
+[...]
+```
 
 اگر پاسخ هر یک از این درخواست‌ها شامل شاخص‌هایی باشد که منبع پیدا نشده است، این امر نشان می‌دهد که برنامه از هدرهای درخواست خاص پشتیبانی می‌کند. این نشانگرها ممکن است شامل کد وضعیت پاسخ HTTP ۴۰۴، یا پیام ” resource not found” در بدنه پاسخ باشند.
 هنگامی که پشتیبانی برای هدر X-Original-URL یا X-Rewrite-URL تایید شد، آنگاه تست Bypass در برابر محدودیت کنترل دسترسی می‌تواند با ارسال درخواست مورد انتظار به برنامه تحت نفوذ قرار گیرد اما تعیین یک آدرس “مجاز” توسط front-end به عنوان آدرس درخواست اصلی و مشخص کردن آدرس هدف واقعی در هدرX-Original-URL یا X-Rewrite-URL وابسته به یک آدرس پشتیبانی شده است. اگر هر دو پشتیبانی شدند، یکی پس از دیگری را امتحان کنید تا بررسی کنید که Bypass برای کدام هدر موثر است.
