@@ -89,7 +89,7 @@ username=example_user
 Banking Site Roles Scenario
 
 جدول زیر نقش‌های سیستمی در یک سایت بانکی را نشان می‌دهد. هر نقش به مجوزهای خاص برای عملکرد منوی رویداد متصل می‌شود:
-
+![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHZ/lesson-2/images/wstg-ATHZ-02-04.jpg)
 این برنامه در صورتی آسیب‌پذیر در نظر گرفته خواهد شد که:
 
 • Customerبتواند وظایف و توابع مربوط به administrator، manager یا staff را اجرا کند؛
