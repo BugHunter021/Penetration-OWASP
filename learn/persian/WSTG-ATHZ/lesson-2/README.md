@@ -163,20 +163,20 @@ userID=fakeuser&role=3&group=grp001
 نوع محدودیت کنترل دسترسی براساس URL درخواست شده می‌تواند، برای مثال، مسدود کردن دسترسی از اینترنت به یک بخش مدیریتی مثل /console یا /admin باشد.
 
 برای تشخیص پشتیبانی برای هدرهای مذکور، مراحل زیر را می‌توان اعمال کرد.
-1. Send a Normal Request without Any X-Original-Url or X-Rewrite-Url Header
+**1. Send a Normal Request without Any X-Original-Url or X-Rewrite-Url Header**
 ```js
 GET / HTTP/1.1
 Host: www.example.com
 [...]
 ```
-3. Send a Request with an X-Original-Url Header Pointing to a Non-Existing Resource
+**3. Send a Request with an X-Original-Url Header Pointing to a Non-Existing Resource**
 ```js
 GET / HTTP/1.1
 Host: www.example.com
 X-Original-URL: /donotexist1
 [...]
 ```
-4. Send a Request with an X-Rewrite-Url Header Pointing to a Non-Existing Resource
+**4. Send a Request with an X-Rewrite-Url Header Pointing to a Non-Existing Resource**
 ```js
 GET / HTTP/1.1
 Host: www.example.com
