@@ -86,7 +86,7 @@ username=example_user
 * برای هر درخواست، شناسه جلسه را از شناسه جلسه اصلی به شناسه جلسه نقش دیگر تغییر داده و پاسخ‌ها را برای هر یک ارزیابی کنید.
 * یک برنامه در صورتی آسیب‌پذیر در نظر گرفته خواهد شد که جلسه دارای امتیاز ضعیف‌تر، داده‌های مشابه را شامل شود یا بیانگر عملیات موفقیت‌آمیز بر روی کارکردهای با امتیاز بالاتر است.
 
-Banking Site Roles Scenario
+### سناریو Banking Site Roles Scenario
 
 جدول زیر نقش‌های سیستمی در یک سایت بانکی را نشان می‌دهد. هر نقش به مجوزهای خاص برای عملکرد منوی رویداد متصل می‌شود:
 
@@ -103,9 +103,20 @@ Banking Site Roles Scenario
 www.example.com/account/deleteEvent
 
 سپس، درخواست HTTP زیر هنگام فراخوانی تابع deleteEvent ایجاد می‌شود:
+```js
+POST /account/deleteEvent HTTP/1.1
+Host: www.example.com
+[other HTTP headers]
+Cookie: SessionID=ADMINISTRATOR_USER_SESSION
 
+EventID=1000001
+```
 پاسخ معتبر:
-
+```js
+HTTP/1.1 200 OK
+[other HTTP headers]
+{"message": "Event was deleted"}
+```
 مهاجم ممکن است همان درخواست را امتحان و اجرا کند:
 
 اگر پاسخ درخواست مهاجم شامل همان داده {“message”: “Event was deleted”} باشد،‏ برنامه آسیب‌پذیر است.
