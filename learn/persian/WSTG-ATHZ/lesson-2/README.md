@@ -46,9 +46,23 @@ www.example.com/account/viewSettings
 ```
 
 سپس، درخواست HTTP زیر هنگام فراخوانی تابع viewSettings ایجاد می‌شود:
-
+```js
+POST /account/viewSettings HTTP/1.1
+Host: www.example.com
+[other HTTP headers]
+Cookie: SessionID=USER_SESSION
+username=example_user
+```
 پاسخ معتبر و مشروع:
-
+```js
+HTTP1.1 200 OK
+[other HTTP headers]
+{
+    "username": "example_user",
+    "email": "example@email.com",
+    "address": "Example Address"
+}
+```
 مهاجم ممکن است درخواست‌ها را با همان پارامتر username امتحان و اجرا کند:
 
 اگر پاسخ مهاجم شامل داده‌های example_user باشد، آنگاه برنامه برای حملات Lateral Movement آسیب‌پذیر است، که در آن کاربر می‌تواند داده‌های کاربر دیگر را بخواند یا آن را بازنویسی کند.
