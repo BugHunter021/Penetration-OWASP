@@ -193,7 +193,9 @@ X-Rewrite-URL: /donotexist2
 
 اغلب، پنل‌های مدیریتی یا بخش‌های مربوط به وظایف مدیریتی، تنها برای کلاینت‌ها در شبکه‌های محلی در دسترس هستند، بنابراین ممکن است بتوان از پروکسی‌های مختلف و یا هدرهای HTTP مرتبط برای دسترسی استفاده کرد. برخی از هدرها و مقادیر مورد آزمایش عبارتند از:
 
-نکته: اضافه کردن یک عنصر پورت به همراه آدرس یا نام میزبان نیز ممکن است به Bypass نمودن edge protections ها مانند فایروال برنامه‌های کاربردی وب و غیره کمک کند. برای مثال:
+![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHZ/lesson-2/images/wstg-ATHZ-02-010-768x374.jpg)
+
+**نکته:** اضافه کردن یک عنصر پورت به همراه آدرس یا نام میزبان نیز ممکن است به Bypass نمودن edge protections ها مانند فایروال برنامه‌های کاربردی وب و غیره کمک کند. برای مثال:
 
 127.0.0.4:80
 127.0.0.4:443
@@ -204,8 +206,8 @@ Remediation
 
 # ابزارها
 
-*OWASP Zed Attack Proxy (ZAP)
-*ZAP add-on: Access Control Testing
-*Port Swigger Burp Suite
-*Burp extension: AuthMatrix
-Burp extension: Autorize
+* OWASP Zed Attack Proxy (ZAP)
+* ZAP add-on: Access Control Testing
+* Port Swigger Burp Suite
+* Burp extension: AuthMatrix
+* Burp extension: Autorize
