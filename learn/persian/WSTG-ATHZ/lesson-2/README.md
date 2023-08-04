@@ -64,7 +64,14 @@ HTTP1.1 200 OK
 }
 ```
 مهاجم ممکن است درخواست‌ها را با همان پارامتر username امتحان و اجرا کند:
+```js
+POST /account/viewCCpincode HTTP/1.1
+Host: www.example.com
+[other HTTP headers]
+Cookie: SessionID-ATTACKER_SESSION
 
+username=example_user
+```
 اگر پاسخ مهاجم شامل داده‌های example_user باشد، آنگاه برنامه برای حملات Lateral Movement آسیب‌پذیر است، که در آن کاربر می‌تواند داده‌های کاربر دیگر را بخواند یا آن را بازنویسی کند.
 تست Vertical Bypassing Authorization Schema
 
