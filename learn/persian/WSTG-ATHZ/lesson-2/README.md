@@ -210,5 +210,4 @@ Remediation
 * ZAP add-on: Access Control Testing
 * Port Swigger Burp Suite
 * Burp extension: AuthMatrix
-  
 * Burp extension: Autorize
