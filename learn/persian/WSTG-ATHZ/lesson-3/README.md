@@ -35,7 +35,8 @@ Manipulation of User Profile
 پاسخ سرور زیر، یک فیلد مخفی در HTML است که به کاربر پس از احراز هویت موفق وی، بازگشت داده شده است.
 
 چه اتفاقی می‌افتد اگر تست نفوذگر مقدار متغیر profile را به SysAdmin تغییر دهد؟ آیا مدیر شدن امکان پذیر است؟
-Manipulation of Condition Value
+
+### تست Manipulation of Condition Value
 
 به عنوان مثال:
 
