@@ -67,11 +67,10 @@
 
 شناسه نشست ضعیف، دارای الگوریتمی است که ممکن است در برابر حمله Brute Force آسیب‌پذیر باشد. به عنوان مثال، یک وب سایت از MD5(Password + UserID) به عنوان sessionID استفاده می‌کند. سپس، تست نفوذگرها ممکن است برای سایر کاربران، این مدل sessionID را تولید نموده و یا حدس بزند.
 
-مراجع
+# مراجع
 
-Whitepapers
+* Whitepapers
+* Wikipedia – Privilege Escalation
+# ابزارها
 
-Wikipedia – Privilege Escalation
-ابزارها
-
-OWASP Zed Attack Proxy (ZAP)
+* OWASP Zed Attack Proxy (ZAP)
