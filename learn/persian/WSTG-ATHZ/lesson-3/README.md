@@ -72,5 +72,4 @@
 * Whitepapers
 * Wikipedia – Privilege Escalation
 # ابزارها
-
 * OWASP Zed Attack Proxy (ZAP)
