@@ -62,4 +62,4 @@ foo.bar/accessPage?menuitem=12
 در مثال‌های بالا تغییر یک پارامتر به تنهایی کافی است. با این حال، گاهی اوقات ممکن است مرجع شی بین بیش از یک پارامتر تقسیم شود و آزمایش باید براساس آن تنظیم گردد.
 مراجع
 
-[Top 10 2013-A4-Insecure Direct Object References](https://owasp.org/www-project-top-ten/2017/Release_Notes)https://owasp.org/www-project-top-ten/2017/Release_Notes
+[Top 10 2013-A4-Insecure Direct Object References](https://owasp.org/www-project-top-ten/2017/Release_Notes)
