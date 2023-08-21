@@ -1,4 +1,4 @@
-بررسی Insecure Direct Object References
+# بررسی Insecure Direct Object References
 
 در این بخش از دوره آموزشی OWASP-WSTG به پنجمین بخش از استاندارد WSTG با شناسه WSTG-ATHZ-04 می پردازیم که مربوط به بررسی Insecure Direct Object References می باشد.
 خلاصه
