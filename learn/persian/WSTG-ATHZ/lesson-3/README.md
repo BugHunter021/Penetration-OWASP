@@ -41,7 +41,25 @@ groupID=grp001&orderID=0001
 به عنوان مثال:
 
 پاسخ سرور زیر، یک فیلد مخفی در HTML است که به کاربر پس از احراز هویت موفق وی، بازگشت داده شده است.
+```js
+HTTP/1.1 200 OK
+Server: Netscape-Enterprise/6.0
+Date: Wed, 1 Apr 2006 13:51:20 GMT
+Set-Cookie: USER=aW78ryrGrTWs4MnOd32Fs51yDqp; path=/; domain=www.example.com Set-Cookie: SESSION=k+KmKeHXTgDi1J5fT7Zz; path=/; domain= www.example.com
+Cache-Control: no-cache
+Pragma: No-cache
+Content-length: 247
+Content-Type: text/html
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Connection: close
 
+<form name="autoriz" method="POST" action = "visual.jsp">
+<input type="hidden" name="profile" value="SysAdmin">\
+
+<body onload="document.forms.autoriz.submit()">
+</td>
+</tr>
+```
 چه اتفاقی می‌افتد اگر تست نفوذگر مقدار متغیر profile را به SysAdmin تغییر دهد؟ آیا مدیر شدن امکان پذیر است؟
 
 ### تست Manipulation of Condition Value
