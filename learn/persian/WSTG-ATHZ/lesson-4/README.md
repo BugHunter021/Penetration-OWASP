@@ -23,7 +23,7 @@
 
 در زیر چند سناریوی معمول برای این آسیب‌پذیری و روش‌های تست هر کدام آورده شده‌است:
 
-# روش The Value of a Parameter Is Used Directly to Retrieve a Database Record
+### روش The Value of a Parameter Is Used Directly to Retrieve a Database Record
 
 درخواست نمونه:
 ```python
@@ -36,7 +36,7 @@ foo.bar/somepage?invoice=12345
 
 برای تست این مورد، تست نفوذگر باید شناسه یک فاکتور متعلق به یک کاربر آزمایشی متفاوت را به دست آورد (‏اطمینان حاصل کند که قرار نیست این اطلاعات را در هر منطق کسب‌وکار برنامه مشاهده کند)‏ و سپس بررسی کند که آیا دسترسی به اشیا بدون مجوز امکان پذیر است یا خیر.
 
-The Value of a Parameter Is Used Directly to Perform an Operation in the System
+### روش The Value of a Parameter Is Used Directly to Perform an Operation in the System
 
 درخواست نمونه:
 
