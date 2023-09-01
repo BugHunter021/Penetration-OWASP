@@ -23,11 +23,12 @@
 
 در زیر چند سناریوی معمول برای این آسیب‌پذیری و روش‌های تست هر کدام آورده شده‌است:
 
-The Value of a Parameter Is Used Directly to Retrieve a Database Record
+# روش The Value of a Parameter Is Used Directly to Retrieve a Database Record
 
 درخواست نمونه:
-
+```js
 foo.bar/somepage?invoice=12345
+```
 
 در این مورد، مقدار پارامتر invoice به عنوان یک شاخص در جدول فاکتورهای پایگاه‌داده استفاده می‌شود. این برنامه مقدار این پارامتر را می‌گیرد و از آن در یک پرس و جو به پایگاه‌داده استفاده می‌کند. سپس برنامه اطلاعات فاکتور را به کاربر بر می‌گرداند.
 
