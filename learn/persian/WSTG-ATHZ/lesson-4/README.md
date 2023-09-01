@@ -26,7 +26,7 @@
 # روش The Value of a Parameter Is Used Directly to Retrieve a Database Record
 
 درخواست نمونه:
-```js
+```python
 foo.bar/somepage?invoice=12345
 ```
 
