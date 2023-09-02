@@ -62,4 +62,4 @@ Testing for Session Termination in Single Sign-On Environments (Single Sign-Off)
 انتظار می‌رود که فراخوانی یک تابع خروج از سیستم در یک برنامه کاربردی وب متصل به یک سیستم SSO یا در خود سیستم SSO، منجر به پایان عمومی (Global Termination) تمام جلسات شود. احراز هویت کاربر باید برای دسترسی به برنامه پس از خروج از سیستم SSO و برنامه‌های متصل، مورد نیاز باشد.
 Tools
 
-ابزار Burp Suite – قسمت Repeater
+# ابزار Burp Suite – قسمت Repeater
