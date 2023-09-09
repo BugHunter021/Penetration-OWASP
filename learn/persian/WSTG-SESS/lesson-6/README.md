@@ -63,4 +63,3 @@ Testing for Session Termination in Single Sign-On Environments (Single Sign-Off)
 Tools
 
 ### ابزار Burp Suite – قسمت Repeater
-
