@@ -1,6 +1,6 @@
 # بررسی Testing Session Timeout
 
-در این بخش از دوره آموزشی OWASP-WSTG به ششمین بخش از استاندارد WSTG با شناسه WSTG-SESS-07 می پردازیم که مربوط به بررسی Session Timeout می باشد.
+در این بخش از دوره آموزشی OWASP-WSTG به هفتمین بخش از استاندارد WSTG با شناسه WSTG-SESS-07 می پردازیم که مربوط به بررسی Session Timeout می باشد.
 
 # خلاصه
 
