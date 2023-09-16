@@ -1,7 +1,44 @@
 
 # دوره آموزشی OWASP
 ### فهرست 
-  1. [آموزش بخش WSTG-INVP](#variables)    
+  1. [آموزش بخش WSTG-INFO](#variables)    
+  
+     * [درس اول](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-1) 
+     * [درس دوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-2)  
+     * [درس سوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-3)  
+     * [درس چهارم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-4)   
+     * [درس پنجم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-5)
+     * [درس شش](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-6) 
+     * [درس هفت](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-7)  
+     * [درس هشت](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-8)  
+     * [درس نه](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-9)   
+     * [درس ده](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/OTG-INFO/leeson-10)   
+
+ 1. [آموزش بخش WSTG-INVP](#variables)    
+  
+     * [درس اول](https://github.com/BugHunter021/penetration-OWASP/tree/main/learn/persian/OTG-INFO/leeson-1) 
+     * [درس دوم](https://github.com/BugHunter021/penetration-OWASP/tree/main/learn/persian/WSTG-INVP/leeson-2)  
+     * [درس سوم](https://github.com/BugHunter021/penetration-OWASP/tree/main/learn/persian/WSTG-INVP/leeson-3)  
+     * [درس چهارم](https://github.com/BugHunter021/penetration-OWASP/tree/main/learn/persian/WSTG-INVP/leeson-4)   
+     * [درس پنجم](https://github.com/BugHunter021/penetration-OWASP/tree/main/learn/persian/WSTG-INVP/leeson-5)    
+
+ 1. [آموزش بخش WSTG-INVP](#variables)    
+  
+     * [درس اول](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1) 
+     * [درس دوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-2)  
+     * [درس سوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-3)  
+     * [درس چهارم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-4)   
+     * [درس پنجم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-5)    
+
+ 1. [آموزش بخش WSTG-INVP](#variables)    
+  
+     * [درس اول](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1) 
+     * [درس دوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-2)  
+     * [درس سوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-3)  
+     * [درس چهارم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-4)   
+     * [درس پنجم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-5)    
+
+ 1. [آموزش بخش WSTG-INVP](#variables)    
   
      * [درس اول](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-1) 
      * [درس دوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-INVP/leeson-2)  
