@@ -1,6 +1,4 @@
 
-<div dir="rtl">
-  
 # دوره آموزشی OWASP
 ### فهرست 
   1. [دوره آموزش WSTG-INVP](#variables)    
@@ -40,17 +38,17 @@
 
 لیست سرفصل های مربوط به راهنمای تست نفوذ OWASP به صورت زیر می باشد:
 
-Information Gathering (INFO)
-Configuration and Deployment Management (CONFIG)
-Identity Management (IDENT)
-Authentication (AUTHN)
-Authorization (AUTHZ
-Session Management (SESS)
-Input Validation (INPVAL)
-Error Handling (ERR)
-Cryptography (CRYPST)
-Business Logic (BUSLOGIC)
-Client Side (CLIENT)
+* Information Gathering (INFO)
+* Configuration and Deployment Management (CONFIG)
+* Identity Management (IDENT)
+* Authentication (AUTHN)
+* Authorization (AUTHZ
+* Session Management (SESS)
+* Input Validation (INPVAL)
+* Error Handling (ERR)
+* Cryptography (CRYPST)
+* Business Logic (BUSLOGIC)
+* Client Side (CLIENT)
 
 در بخش های بعدی بیشتر به این متدولوژی می پردازیم و برخی از بخش های آن را بررسی خواهیم کرد.
 
