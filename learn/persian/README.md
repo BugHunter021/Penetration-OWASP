@@ -18,3 +18,17 @@
      * [درس دوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-2)   
      * [درس سوم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-3)        
      * [درس چهارم](https://github.com/BugHunter021/penetration-test/tree/main/learn/persian/WSTG-SESS/leeson-4)        
+
+لیست سرفصل های مربوط به راهنمای تست نفوذ OWASP به صورت زیر می باشد:
+
+Information Gathering (INFO)
+Configuration and Deployment Management (CONFIG)
+Identity Management (IDENT)
+Authentication (AUTHN)
+Authorization (AUTHZ
+Session Management (SESS)
+Input Validation (INPVAL)
+Error Handling (ERR)
+Cryptography (CRYPST)
+Business Logic (BUSLOGIC)
+Client Side (CLIENT)
