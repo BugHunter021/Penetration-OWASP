@@ -75,7 +75,16 @@ http://www.example.com/product.php?id=10 AND IF (version() like ‘5%', sleep(10
 هنگام استفاده از SQL پویا در یک Stored Procedure، برنامه باید به درستی ورودی کاربر را برای از بین بردن خطر تزریق کد، Sanitize کند. اگر پاک‌سازی به درستی انجام نشود، کاربر می‌تواند دستورات SQL مورد نظر خود را وارد نماید که در Stored Procedure اجرا خواهد شد.
 
 این Stored Procedure زیر را در نظر بگیرید:
-
+```sql
+Create procedure user_login @username varchar(20), @passwd varchar(20)
+As
+Declare @sqlstring varchar(250)
+Set @sqlstring = ''
+Select 1 from users
+Where username = '+ @username + ' and passwd = ' + @passwd
+exec(@sqlstring)
+Go
+```
 ورودی کاربر:
 
 این روش ورودی را Sanitize نمی‌کند، بنابراین به مقدار بازگشت اجازه می‌دهد تا یک رکورد موجود با این پارامترها را نشان دهد.
