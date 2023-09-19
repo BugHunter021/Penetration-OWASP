@@ -107,6 +107,7 @@ exec(@sqlstring)
 Go
 ```
 ورودی کاربر:
+
 '''sql
 1 from users; update users set password = 'password'; select *
 '''
