@@ -13,11 +13,17 @@ SELECT * FROM products WHERE id_product=$id_product
 
 
 همچنین برنامه ای را در نظر بگیرید که پرس و جوی بالا را اجرا می‌کند:
-
+```url
+http://www.example.com/product.php?id=10
+```
 درخواست بدخواهانه می‌تواند (به عنوان مثال برای Oracle 10g) به شکل زیر باشد:
-
+```sql
+http://www.example.com/product.php?id=10||UTL_INADDR.GET_HOST_NAME( (SELECT user FROM DUAL) )--
+```
 در این مثال، تست نفوذگر مقدار ۱۰ را با نتیجه تابع UTL_INADDR.GET_HOST_NAMEالحاق می‌کند. این تابع در Oracle تلاش خواهد کرد تا Hostname پارامتری که به آن ارسال شده است را بازگرداند که عبارت دیگر کوئری، نام کاربر است. زمانی که پایگاه‌داده به دنبال یک نام میزبان با نام پایگاه‌داده کاربر باشد، شکست خواهد خورد و یک پیغام خطا مانند زیر نمایش می‌دهد:
-
+```text
+ORA-292257: host SCOTT unknown
+```
 سپس تست نفوذگر می‌تواند پارامتر منتقل‌شده به تابع GET_HOST_NAME() را دستکاری کند و نتیجه در پیام خطا نشان داده خواهد شد.
 
 ### تکنیک Out of Band Exploitation Technique
