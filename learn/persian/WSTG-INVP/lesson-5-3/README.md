@@ -109,7 +109,9 @@ Go
 ورودی کاربر:
 
 '''sql
+
 1 from users; update users set password = 'password'; select *
+
 '''
 
 این امر منجر به اجرای گزارش و به روز رسانی تمام گذرواژه‌های کاربران خواهد شد.
