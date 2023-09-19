@@ -81,18 +81,34 @@ As
 Declare @sqlstring varchar(250)
 Set @sqlstring = ''
 Select 1 from users
-Where username = '+ @username + ' and passwd = ' + @passwd
+Where username = '+ @username + ' and passwd = ' + @passwd '
 exec(@sqlstring)
 Go
 ```
 ورودی کاربر:
+```sql
+anyusername or 1=1' 
+anypassword
+```
 
 این روش ورودی را Sanitize نمی‌کند، بنابراین به مقدار بازگشت اجازه می‌دهد تا یک رکورد موجود با این پارامترها را نشان دهد.
 
 این مثال ممکن است به دلیل استفاده از SQL پویا برای ورود یک کاربر، غیر محتمل به نظر برسد، اما یک Dynamic Reporting Query را در نظر بگیرید که در آن کاربر ستون‌ها را برای مشاهده انتخاب می‌کند. کاربر می‌تواند کد مخرب را وارد این سناریو کرده و داده‌ها را به خطر بیاندازد.
 
 مورد Stored Procedure زیر را در نظر بگیرید:
-
+```
+Create
+procedure get_report @columnamelist varchar(7900)
+As
+Declare @sqlstring varchar(8000)
+Set @sqlstring = ‘’
+Select ‘+ @columnamelist + ‘ from ReportTable'
+exec(@sqlstring)
+Go
+```
 ورودی کاربر:
+'''sql
+1 from users; update users set password = 'password'; select *
+'''
 
 این امر منجر به اجرای گزارش و به روز رسانی تمام گذرواژه‌های کاربران خواهد شد.
