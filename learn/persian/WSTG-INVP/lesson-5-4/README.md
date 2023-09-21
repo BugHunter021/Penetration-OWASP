@@ -6,12 +6,15 @@
 
 بسیاری از شرایط و تکنیک‌های ارائه‌شده در اینجا را می‌توان به صورت خودکار و با استفاده از برخی ابزارها انجام داد. یکی از ابزارهای کاربردی در حوزه بررسی و اکسپلویت آسیب پذیری SQL Injection، ابزار SQLMap می باشد. در مقاله زیر، اطلاعاتی در مورد نحوه انجام یک بررسی خودکار با استفاده از SQLMapبیان شده است.
 
-wiki.owasp.org/index.php/Automated_Audit_using_SQLMap
-SQL Injection Signature Evasion Techniques
+https://wiki.owasp.org/index.php/Automated_Audit_using_SQLMap
+
+
+### بررسی SQL Injection Signature Evasion Techniques
 
 این تکنیک‌ها برای دور زدن سیستم‌های دفاعی مانند فایروال‌های نرم‌افزاری وب (WAF)‏ یا سیستم‌های پیش‌گیری از نفوذ (‏IPS) مورد استفاده قرار می‌گیرند که در ادامه به برخی از آن‌ها اشاره شده است. البته شما می‌توانید جهت مطالعه بیشتر به لینک زیر نیز مراجعه نمایید:
 
-owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF
+https://owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF
+
 Whitespace
 
 یکی از روش های عبور از سیستم های امنیتی، کاهش فضا یا اضافه کردن فضاهایی است که بر دستورات SQL تاثیر نخواهند گذاشت.
