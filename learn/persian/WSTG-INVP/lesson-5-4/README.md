@@ -37,7 +37,9 @@ or
 از Null Bytes (%00)‏ قبل از هر کاراکتری که برنامه (یا سیستم فیلترینگ برنامه) آن را مسدود می‌کند استفاده کنید.
 
 برای مثال، اگر مهاجم قصد تزریق SQL زیر را تزریق داشته باشد:
-
+```sql
+‘ UNION SELECT password FROM Users WHERE username='admin'--
+```
 اضافه کردن Null Bytes در آن به صورت زیر خواهد بود:
 SQL Comments
 
