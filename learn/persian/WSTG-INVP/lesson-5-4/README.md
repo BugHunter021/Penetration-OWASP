@@ -38,7 +38,7 @@ or
 
 برای مثال، اگر مهاجم قصد تزریق SQL زیر را تزریق داشته باشد:
 ```sql
-‘ UNION SELECT password FROM Users WHERE username='admin'--
+' UNION SELECT password FROM Users WHERE username='admin'--
 ```
 اضافه کردن Null Bytes در آن به صورت زیر خواهد بود:
 SQL Comments
