@@ -15,12 +15,13 @@ https://wiki.owasp.org/index.php/Automated_Audit_using_SQLMap
 
 https://owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF
 
-Whitespace
+### روش Whitespace
 
 یکی از روش های عبور از سیستم های امنیتی، کاهش فضا یا اضافه کردن فضاهایی است که بر دستورات SQL تاثیر نخواهند گذاشت.
 
 نمونه ای دیگر، اضافه کردن کاراکتر خاص مانند خط جدید یا tab است که اجرای دستورات SQL را تغییر نخواهد داد. برای مثال:
-Null Bytes
+
+### روش Null Bytes
 
 از Null Bytes (%00)‏ قبل از هر کاراکتری که برنامه (یا سیستم فیلترینگ برنامه) آن را مسدود می‌کند استفاده کنید.
 
