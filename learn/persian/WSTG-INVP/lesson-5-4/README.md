@@ -41,6 +41,10 @@ or
 ' UNION SELECT password FROM Users WHERE username='admin'--
 ```
 اضافه کردن Null Bytes در آن به صورت زیر خواهد بود:
+```sql
+%00' UNION SELECT password FROM Users WHERE username='admin'--
+```
+
 SQL Comments
 
 اضافه کردن Inline Comment ها درSQL نیز می‌تواند به معتبر ماندن دستورات SQL و دور زدن فیلتر تزریق SQL کمک کند. این تزریق SQL زیر را به عنوان مثال در نظر بگیرید:
