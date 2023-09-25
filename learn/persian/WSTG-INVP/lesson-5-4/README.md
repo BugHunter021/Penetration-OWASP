@@ -54,7 +54,7 @@ or
 
 اضافه کردن Inline Comment ها درSQL نیز می‌تواند به معتبر ماندن دستورات SQL و دور زدن فیلتر تزریق SQL کمک کند. این تزریق SQL زیر را به عنوان مثال در نظر بگیرید:
 ```sql
-‘ UNION SELECT password FROM Users WHERE name='admin'--
+' UNION SELECT password FROM Users WHERE name='admin'--
 ```
 
 اضافه کردن Inline Comment ها در آن به صورت زیر خواهد بود:
@@ -66,7 +66,7 @@ or
 
 روش دیگری که از آن می‌توان برای عبور از سیستم‌های امنیتی بهره برد، استفاده از کدگذاری URL برای کدگذاری دستورات SQL است.
 ```sql
-‘ UNION SELECT password FROM Users WHERE name='admin'--
+' UNION SELECT password FROM Users WHERE name='admin'--
 ```
 کدگذاری URL برای تزریق SQL به شکل زیر خواهد بود:
 ```sql
@@ -75,9 +75,14 @@ or
 ### روش Character Encoding
 
 از تابع char() می‌توان برای جایگزین کردن کاراکترها استفاده کرد. به عنوان مثال، char(114,111,111,116) به معنی root است.
+```sql
+' UNION SELECT password FROM Users WHERE name='root'--
+```
 
 پس از اعمال char() تزریق SQL به شکل زیر خواهد بود:
-
+```sql
+' UNION SELECT password FROM Users WHERE name=char(114,111,111,116)--
+```
 ### روش String Concatenation
 
 Concatenationیا الحاق، کلمات کلیدی SQL را شکسته (به دو یا چند قسمت تقسیم نموده) و می‌تواند منجر به عبور از مکانزیم های امنیتی شود. Syntax الحاق براساس پایگاه‌داده متفاوت خواهد بود. پایگاه‌داده MSSQL را به عنوان مثال در نظر بگیرید.
