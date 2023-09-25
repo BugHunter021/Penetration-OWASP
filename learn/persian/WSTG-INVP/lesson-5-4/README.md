@@ -61,7 +61,8 @@ or
 '/**/UNION/**/SELECT/**/password/**/FROM/**/Users/**/WHERE/**/name/**/LIKE/**/ 'admin'--
 ' /**/UNI/**/ON/**/SE/**/LECT/**/password/**/FROM/**/Users/**/WHE/**/RE/**/name/**/LIKE /**/ 'admin'--
 ```
-## روش #URL Encoding
+
+### روش URL Encoding
 
 روش دیگری که از آن می‌توان برای عبور از سیستم‌های امنیتی بهره برد، استفاده از کدگذاری URL برای کدگذاری دستورات SQL است.
 ```sql
@@ -137,7 +138,7 @@ OR 'SQLi' = N'SQLi'
 1 && 1 = 1
 ```
 
-Remediation
+### راهکار Remediation
 
 برای ایمن کردن برنامه از آسیب‌پذیری‌های تزریقSQL، می‌توانید به CheatSheet پیش‌گیری از تزریق SQL مراجعه کنید:
 
