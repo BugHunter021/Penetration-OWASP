@@ -97,10 +97,20 @@ EXEC('SEL' + 'ECT 1')
 
 تکنیک کدگذاری Hex از کدگذاری Hexadecimal برای جایگزین کردن دستور SQL اصلی استفاده می‌کند. برای مثال عبارت root می‌تواند به صورت 726F6F74 نمایش داده شود.
 
-عبارت SQL با استفاده از مقدار HEX به صورت زیر خواهد بود:
+```sql
+Select user from users where name = 'root'
+```
 
+عبارت SQL با استفاده از مقدار HEX به صورت زیر خواهد بود:
+```sql
+Select user from users where name = 726F6F74
+```
 یا
-Declare Variables
+```sql
+Select user from users where name = unhex( '726F6F74')
+```
+
+### روش Declare Variables
 
 روش دیگری که می توان از آن استفاده نمود، استفاده از Declare است. با استفاده Declare شما می توانید دستورات تزریق SQL خود را تعریف و اجرا نمایید.
 برای مثال، عبارت تزریق SQL زیر را در نظر بگیرید:
