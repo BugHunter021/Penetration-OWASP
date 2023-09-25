@@ -65,9 +65,13 @@ or
 ## روش #URL Encoding
 
 روش دیگری که از آن می‌توان برای عبور از سیستم‌های امنیتی بهره برد، استفاده از کدگذاری URL برای کدگذاری دستورات SQL است.
-
+```sql
+‘ UNION SELECT password FROM Users WHERE name='admin'--
+```
 کدگذاری URL برای تزریق SQL به شکل زیر خواهد بود:
-
+```sql
+%27%20UNION%20SELECT%20password%20FROM%20Users%20WHERE%20name%3D%27admin%27--
+```
 ### روش Character Encoding
 
 از تابع char() می‌توان برای جایگزین کردن کاراکترها استفاده کرد. به عنوان مثال، char(114,111,111,116) به معنی root است.
