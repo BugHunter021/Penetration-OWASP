@@ -142,6 +142,6 @@ Remediation
 
 برای ایمن کردن برنامه از آسیب‌پذیری‌های تزریقSQL، می‌توانید به CheatSheet پیش‌گیری از تزریق SQL مراجعه کنید:
 
-cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
-cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
-cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+* cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+* cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
+* cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
