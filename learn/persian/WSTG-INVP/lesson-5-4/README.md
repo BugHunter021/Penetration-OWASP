@@ -125,7 +125,7 @@ UNION SELECT password
 ```
 
 
-### با با متد Alternative Expression
+### متد Alternative Expression
 
 
 ```sql
