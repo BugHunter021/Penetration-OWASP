@@ -142,8 +142,8 @@ OR 'SQLi' = N'SQLi'
 ### متد Replaced Keywords
 
 در مواردی WAF با متد حذف کلمات کاربردی و دستوری در SQL از SQL Injection جلوگیری میکند،گاها این عمل را با دستوری مشابه دستور preg_replace انجام میدهند که با مثال زیر میتوان این امکان را دور زد و کوئری را تزریق کرد.
-```url
-http://victim.com/news.php?id=1+UNunionION+SEselectLECT+1,2,3--
+```sql
+ UNunionION+SEselectLECT 1,2,3--
 ```
 
 ### راهکار Remediation
