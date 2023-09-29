@@ -145,6 +145,10 @@ OR 'SQLi' = N'SQLi'
 ```sql
  UNunionION SEselectLECT 1,2,3--
 ```
+بعد از اعمال تغییرات از طرف WAF،دستورات به شکل اجرا میشود:
+```sql
+ UNION SELECT 1,2,3--
+```
 
 ### راهکار Remediation
 
