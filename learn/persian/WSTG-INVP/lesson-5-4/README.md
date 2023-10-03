@@ -149,6 +149,9 @@ OR 'SQLi' = N'SQLi'
 ```sql
  UNION SELECT 1,2,3--
 ```
+برای اطلاع از سایر روش ها به لینک زیر مراجعه گنید:
+
+https://owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF
 
 ### راهکار Remediation
 
