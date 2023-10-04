@@ -14,7 +14,7 @@
 
 این بدان معنی است که یک شرط شبه کد در فیلتر جستجو مانند این:
 ```java
-find("(&(cn=John) (userPassword=mypass))")
+find("cn=John & userPassword=mypass")
 ```
 به این شکل نمایش داده خواهد شد:
 ```java
