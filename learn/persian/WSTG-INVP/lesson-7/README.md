@@ -43,13 +43,46 @@ Password: Un6R34kb!e
 E-mail: s4tan@hell.com
 
 درخواست ایجاد شده به شکل زیر خواهد بود:
-
+```txt
 http://www.example.com/addUser.php?username=tony&password=Un6R34kb!e&email=s4tan@hell.com
+```
 
 سپس برنامه Node زیر را می‌سازد:
+```xml
+<user>
+<username>tony</username>
+<password>Un6R34kb!e</password>
+<userid>500</userid>
+<mail>s4tan@hell.com</mail>
+</user>
+```
 
 که به xmlDB اضافه خواهد شد:
-Discovery
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<users>
+<user>
+<username>gandalf</username>
+<password>!c3</password>
+<userid>0</userid>
+<mail>gandalf@middleearth.com</mail>
+</user>
+<user>
+<username>Stefan0</username>
+<password>w1s3c</password>
+<userid>500</userid>
+<mail>Stefano@whysec.hmm</mail>
+</user>
+<user>
+<username>tony</username>
+<password>Un6R34kb!e</password>
+<userid>500</userid>
+<mail>s4tan@hell.com</mail>
+</user>
+</users>
+```
+
+### مرحله Discovery
 
 اولین مرحله به منظور آزمایش یک برنامه جهت شناسایی آسیب‌پذیری تزریقXML، تلاش برای وارد کردن متاکارترهای XML است.
 
