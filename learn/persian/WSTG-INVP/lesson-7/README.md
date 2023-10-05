@@ -16,10 +16,35 @@
 
 فرض کنید محتوای فایل xmlDB شبیه به تصویر زیر باشد:
 
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<users>
+<user>
+<username>gandalf</username>
+<password>!c3</password>
+<userid>0</userid>
+<mail>gandalf@middleearth.com</mail>
+</user>
+<user>
+<username>Stefan0</username>
+<password>w1s3c</password>
+<userid>500</userid>
+<mail>Stefano@whysec.hmm</mail>
+</user>
+</users>
+```
 هنگامی که یک کاربر خودش را با پر کردن یک فرم HTML ثبت می‌کند، برنامه داده‌های کاربر را در یک درخواست استاندارد دریافت می‌کند، که به خاطر سادگی، فرض می‌کنیم که درخواست مذکور به صورت GET ارسال می‌شود.
 برای مثال، مقادیر زیر را در نظر بگیرید:
 
+Username: tony
+
+Password: Un6R34kb!e
+
+E-mail: s4tan@hell.com
+
 درخواست ایجاد شده به شکل زیر خواهد بود:
+
+http://www.example.com/addUser.php?username=tony&password=Un6R34kb! e&email=s4tan@hell.com
 
 سپس برنامه Node زیر را می‌سازد:
 
