@@ -22,6 +22,8 @@ find("(&(cn=John) (userPassword=mypass))")
 ```
 شرایط Boolean و جمع‌بندی‌های گروهی بر روی یک فیلتر جستجوی LDAP را می‌توان با استفاده از متاکارترهای زیر اعمال کرد:
 
+![alt text](https://raw.githubusercontent.com/BugHunter021/Penetration-OWASP/main/learn/persian/WSTG-INVP/lesson-6/images/WSTG-INPV-06-03.png)
+
 مثال‌های کامل‌تر در مورد چگونگی ساخت یک فیلتر جستجو را می‌توان در RFC مربوطه یافت.
 
 بهره‌برداری موفق از یک آسیب‌پذیری تزریق LDAP می‌تواند به تست نفوذگر اجازه دهد:
