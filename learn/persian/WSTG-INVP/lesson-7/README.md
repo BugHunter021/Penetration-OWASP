@@ -44,7 +44,7 @@ E-mail: s4tan@hell.com
 
 درخواست ایجاد شده به شکل زیر خواهد بود:
 
-http://www.example.com/addUser.php?username=tony&password=Un6R34kb! e&email=s4tan@hell.com
+http://www.example.com/addUser.php?username=tony&password=Un6R34kb!e&email=s4tan@hell.com
 
 سپس برنامه Node زیر را می‌سازد:
 
