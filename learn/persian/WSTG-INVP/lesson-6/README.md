@@ -70,12 +70,21 @@ searchfilter="(cn=*)"
 اگر یک برنامه کاربردی وب از LDAP برای بررسی اعتبار کاربر در طول فرآیند ورود به سیستم استفاده کند و در برابر تزریق LDAP آسیب‌پذیر باشد، عبور از بررسی احراز هویت با تزریق یک پرس و جوی همیشه درست LDAP امکان پذیر است (به روشی مشابه با تزریق SQL و XPATH)
 
 فرض کنید که یک برنامه کاربردی وب از یک فیلتر LDAP برای مطابقتuser/password استفاده می‌کند.
+```java
+searchlogin= "(&(uid="+user+") (userPassword={MD5}"+base64(pack("H*",md5(pass)))+"))";
+```
 
 با استفاده از مقادیر زیر:
+user=*)(uid=*))(|(uid=*
+pass-password
 
 فیلتر جست و جو منجر به موارد زیر خواهد شد:
+```java
+searchlogin="(&(uid=*)(uid=*))( | (uid=*) (userPassword={MD5}X03M01qnZdYdgyfeuILPmQ==))";
+```
 
 درست است و همیشه درست (Always True) است. به این ترتیب، تست نفوذگر به عنوان اولین کاربر در ساختار LDAP به سیستم وارد خواهد شد.
-ابزارها
 
-Softerra LDAP Browser
+# ابزارها
+
+* Softerra LDAP Browser
