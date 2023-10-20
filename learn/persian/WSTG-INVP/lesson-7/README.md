@@ -149,6 +149,14 @@ Comment Tag:
 Username = foo<!--
 ```
 برنامه یک Node مانند موارد زیر خواهد ساخت:
+```xml
+<user>
+<username>foo<!--</username>
+<password>Un6R34kb!e</password>
+<userid>500</userid>
+<mail>s4tan@hell.com</mail>
+</user>
+```
 
 این توالی نیز منجر به نتیجه معتبر در XML نخواهد شد.
 
@@ -157,14 +165,29 @@ Ampersand: &
 Ampersand در زبان XML برای نشان دادن Entity ها استفاده می‌شود و نمونه‌ای از آن به شکل &symbol; است. یک Entity به یک کاراکتر در مجموعه کاراکترهای Unicode نگاشت یا Map می‌شود.
 
 به عنوان مثال:
+```xml
+<tagnode>&lt;</tagnode>
+```
 
 به خوبی شکل‌گرفته و معتبر است و نشاندهنده < می‌باشد.
 
 اگر & با & کدگذاری نشده باشد، می‌توان از آن برای بررسی XML Injection استفاده نمود.
 
 در واقع، اگر یک ورودی مانند شکل زیر ارائه شود:
+```xml
+Username = &foo
+```
 
-Node جدیدی ایجاد خواهد شد:
+که Node جدیدی ایجاد خواهد شد:
+
+```xml
+<user>
+<username>&foo</username>
+<password>Un6R34kb!e</password>
+<userid>500</userid>
+<mail>s4tan@hell.com</mail>
+</user>
+```
 
 اما در عین حال، سند XML نتیجه نامعتبری خواهد داشت. $foo با سمیکالن خاتمه نیافته است.
 
