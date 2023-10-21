@@ -236,14 +236,14 @@ $HTML Code = <![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![
 و Node زیر را ایجاد کند:
 ```html
 <html>
-<![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
+    <![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
 </html>
 
 ```
 در طول پردازش، جداکننده‌های بخش CDATA حذف می‌شوند و کد HTML زیر را تولید می‌کنند:
 ```js
 <script>
-alert('XSS')
+    alert('XSS')
 </script>
 ```
 نتیجه این است که برنامه در برابر XSS آسیب‌پذیر می‌باشد.
