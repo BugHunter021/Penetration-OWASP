@@ -17,8 +17,8 @@
 
 دو نمونه از ابزارهایی که بدین منظور از آن استفاده می شود، ابزارهای Zed Attack Proxy یا ZAP و Burp Suite می باشد. شما می توانید این دو ابزار را از طریق لینک های زیر دانلود نمایید:
 
-https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-https://portswigger.net/burp
+* https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+* https://portswigger.net/burp
 
 یکی از مشکلاتی که در هنگام استفاده از Intercept proxy ها با آن روبرو می شویم، استفاده از پروتکل HTTPS توسط سایت است. در این حالت ما با یک پیام هشدار مربوط به Certificate مواجه می شویم. البته برای حل این مشکل باید Certificate ابزار پروکسی را به روی مرورگر خود اضافه نماییم.
 Fiddler
