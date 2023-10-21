@@ -30,16 +30,18 @@ Fiddler بر روی سیستم های مایکروسافتی اجرا شده و 
 پلاگین دیگر ViewState Viewver است که برای مشاهده و دستکاری ViewState طراحی شده است.
 
 پلاگین x5s نیز یک پلاگین دیگری است که به منظور تست Encoding و تغییرات کاراکترها (Character Transformation) برای یافتن مکان های مربوط به آسیب پذیری XSS از آن استفاده می شود.
+
 ![SEC542-01](https://github.com/BugHunter021/Penetration-OWASP/blob/main/SEC542/lesson-3/images/SEC542-01.jpg)
 
 
-جهت دانلود ابزارهای بالا می توانید به لینک های زیر مراجعه نمایید:
+#### جهت دانلود ابزارهای بالا می توانید به لینک های زیر مراجعه نمایید:
 
-https://www.telerik.com/download/fiddler
-https://archive.codeplex.com/?p=websecuritytool
-https://archive.codeplex.com/?p=xss
-https://labs.neohapsis.com/2009/08/03/viewstateviewer-a-gui-tool-for-deserializingreserializing-viewstate/
-ZAP
+* https://www.telerik.com/download/fiddler
+* https://archive.codeplex.com/?p=websecuritytool
+* https://archive.codeplex.com/?p=xss
+* https://labs.neohapsis.com/2009/08/03/viewstateviewer-a-gui-tool-for-deserializingreserializing-viewstate/
+
+ ### ابزار ZAP
 
 ZAP یکی از ابزارهایی است که از Paros Proxy منشعب شده است. ابزار ZAP با زبان جاوا نوشته شده است و به همین دلیل در هر سیستم عاملی قابلیت اجرا دارد. ZAP به مدت طولانی در مقایسه با ابزار Burp Suite کمتر شناخته شده می شد اما این ابزار هم دارای ویژگی هایی است که از جمله آن رایگان بودن ZAP می باشد.
 
