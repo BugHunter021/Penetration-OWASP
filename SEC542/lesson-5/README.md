@@ -1,15 +1,16 @@
 در این بخش از دوره آموزشی SEC542 از موسسه SANS به آشنایی با جمع آوری اطلاعات DNS و ابزارهای آن می پردازیم.
-پروتکل Whois
+
+### پروتکل Whois
 
 پروتکل Whois یک پروتکل کلاینت سروری می باشد که امکان دسترسی به اطلاعات در مورد دامنه های اینترنتی و بلاک های آدرس IPv4 و IPv6 را فراهم می کند. این پروتکل از پورت 43 برای ارتباطات خود استفاده می نماید و توضیحات کامل آن در RFC3912 موجود می باشد.
 
 معمولا ثبت کننده های اصلی منطقه ای (Major Regional Registrars) همانند ISPاها و برخی از سازمان های بزرگ سرورهای Whois را اجرا می کنند. سرورهای Whois ثبت کننده منطقه ای عبارتند از:
 
-whois.afrinic.net (Africa)
-whois.apnic.net (Asia Pacific, India, China and Australia)
-whois.arin.net (US and Canada)
-whois.lacnic.net (Mexico and Latin America)
-whois.ripe.net (Europe, Greenland, Russia and the Middle East)
+* whois.afrinic.net (Africa)
+* whois.apnic.net (Asia Pacific, India, China and Australia)
+* whois.arin.net (US and Canada)
+* whois.lacnic.net (Mexico and Latin America)
+* whois.ripe.net (Europe, Greenland, Russia and the Middle East)
 
 نکته: در فرآیند Whois، جست و جو ها به سرور مرکزی Whois ارسال شده و به موضوع پرس و جو یا همان تارگت مورد نظر ارسال نمی شود.
 
