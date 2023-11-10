@@ -21,6 +21,7 @@
 https://docs.microsoft.com/en-us/sysinternals/downloads/whois
 
 تصویر زیر نشان دهنده یک Whois از دامنه sans.org می باشد:
+
 ![SEC542-08](https://github.com/BugHunter021/Penetration-OWASP/assets/76444458/486f1f6f-86bb-4794-a798-02d0408c41cf)
 
 از اطلاعات به دست آمده بالا، شما می توانید به مشخصات ثبت کننده دامنه، آدرس، شماره تماس و Name Server های دامنه مورد نظر دست پیدا کنید. همچنین با استفاده Name Server های این دامنه می توان به اطلاعات دیگری در خصوص DNS آن دست پیدا نمود که برای این کار می توان از دستور dig در لینوکس استفاده کنید:
