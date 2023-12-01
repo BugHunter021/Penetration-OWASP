@@ -31,7 +31,7 @@ curl -X GET https://<cloud-storage-service>/<object>
 ```bash
 curl -X PUT -d 'test' 'https://<cloud-storage-service>/test.txt'
 ```
-تست پیکربندی نادرست باکت S3 آمازون
+### تست پیکربندی نادرست باکت S3 آمازون
 
 موارد URL های باکت S3 آمازون یکی از دو فرمت Virtual Hosted Style و Path-Style را دنبال می‌کنند.
 
@@ -79,32 +79,32 @@ https://s3.amazonaws.com/bucket-name
 ### حالت List
 
 دستور زیر تمام اشیا باکت را زمانی که پیکربندی عمومی انجام گرفته است، لیست می‌کند:
-
+```bash
 aws s3 1s s3://<bucket-name>
-
+```
 ### حالت Upload
 
 در مثال زیر نیز، فرمانی برای آپلود یک فایل آورده شده‌است:
-
+```bash
  aws s3 cp arbitrary-file s3://bucket-name/path-to-save
-
+```
 زمانی که آپلود، موفقیت آمیز باشد، پاسخی مانند مثال زیر نمایش داده می‌شود:
-
+```bash
 $ aws s3 cp test.txt s3://bucket-name/test.txt 
 upload: ./test.txt to s3://bucket-name/test.txt
-
+```
 زمانی که آپلود، با شکست مواجه شود، پاسخی مانند مثال زیر نمایش داده می‌شود:
-
+```bash
  $ aws s3 cp test.txt s3://bucket-name/test.txt
 upload failed: ./test2.txt to s3://bucket-name/test2.txt An error occurred (AccessDenied) when calling
 the PutObject operation: Access Denied
-
+```
 ### حالت Remove
 
 همچنین در مثال زیر، فرمانی برای حذف شی آورده شده‌است:
-
+```bash
  aws s3 rm s3://bucket-name/object-to-remove
-
+```
 # ابزارها
 
 AWS CLI
