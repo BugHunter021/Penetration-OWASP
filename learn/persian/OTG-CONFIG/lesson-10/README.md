@@ -82,11 +82,12 @@ Testing NS Record Subdomain Takeover
 ### روش اصلاح Remediation
 
 برای کاهش خطر تصاحب زیر دامنه، رکورد(های) آسیب پذیر DNS باید از DNS Zone حذف شوند. همچنین نظارت مستمر و بررسی‌های دوره‌ای به عنوان بهترین روش توصیه می‌شود.
-ابزارها
 
-• dig – man page
-• recon-ng – Web Reconnaissance framework
-• theHarvester – OSINT intelligence gathering tool
-• Sublist3r – OSINT subdomain enumeration tool
-• dnsrecon – DNS Enumeration Script
-• OWASP Amass DNS enumeration
+# ابزارها
+
+* dig – man page
+* recon-ng – Web Reconnaissance framework
+* theHarvester – OSINT intelligence gathering tool
+* Sublist3r – OSINT subdomain enumeration tool
+* dnsrecon – DNS Enumeration Script
+* OWASP Amass DNS enumeration
