@@ -74,7 +74,8 @@ Testing NS Record Subdomain Takeover
 
 • SERVFAIL
 • REFUSED
-تست جعبه خاکستری
+
+### تست جعبه خاکستری
 
 در این حالت تست نفوذگر اطلاعات مربوط به DNS Zone را در اخیتار دارد و این بدان معنی است که به DNS Enumeration نیازی نیست. روش تست نیز در این حالت مشابه حالت پیشین است.
 Remediation
