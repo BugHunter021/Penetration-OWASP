@@ -34,7 +34,6 @@
 
 ![SEC542-01](https://github.com/BugHunter021/Penetration-OWASP/blob/main/SEC542/lesson-3/images/SEC542-01.jpg)
 
-
 #### جهت دانلود ابزارهای بالا می توانید به لینک های زیر مراجعه نمایید:
 
 * https://www.telerik.com/download/fiddler
