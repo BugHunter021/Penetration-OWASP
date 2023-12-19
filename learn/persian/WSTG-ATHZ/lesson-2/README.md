@@ -73,7 +73,8 @@ Cookie: SessionID-ATTACKER_SESSION
 username=example_user
 ```
 اگر پاسخ مهاجم شامل داده‌های example_user باشد، آنگاه برنامه برای حملات Lateral Movement آسیب‌پذیر است، که در آن کاربر می‌تواند داده‌های کاربر دیگر را بخواند یا آن را بازنویسی کند.
-تست Vertical Bypassing Authorization Schema
+
+### تست Vertical Bypassing Authorization Schema
 
 یک vertical authorization bypass مخصوص موردی است که مهاجم نقشی بالاتر از نقش خود به دست می‌آورد. آزمایش برای این مدل Bypass بر بررسی این موضوع تمرکز دارد که چگونه vertical authorization schema برای هر نقش اجرا شده‌است. برای هر تابع، صفحه، نقش خاص یا درخواستی که برنامه اجرا می‌کند، لازم است تا موارد زیر بررسی شود:
 
