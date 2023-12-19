@@ -194,7 +194,27 @@ X-Rewrite-URL: /donotexist2
 
 اغلب، پنل‌های مدیریتی یا بخش‌های مربوط به وظایف مدیریتی، تنها برای کلاینت‌ها در شبکه‌های محلی در دسترس هستند، بنابراین ممکن است بتوان از پروکسی‌های مختلف و یا هدرهای HTTP مرتبط برای دسترسی استفاده کرد. برخی از هدرها و مقادیر مورد آزمایش عبارتند از:
 
-![alt text](https://github.com/BugHunter021/penetration-OWASP/blob/main/learn/persian/WSTG-ATHZ/lesson-2/images/wstg-ATHZ-02-010-768x374.jpg)
+*   **Headers**:
+```txt
+    X-Forwarded-For
+    X-Forward-For
+    X-Remote-IP
+    X-Originating-IP
+    X-Remote-Addr
+    X-Client-IP
+```
+
+*   **Values**:
+```txt
+        127.0.0.1 (or anything in the 127.0.0.0/8 or ::1/128 address spaces)
+        localhost
+        Any RFC1918 address:
+            10.0.0.0/8
+            172.16.0.0/12
+            192.168.0.0/16
+        Link local addresses: 169.254.0.0/16
+```
+
 
 **نکته:** اضافه کردن یک عنصر پورت به همراه آدرس یا نام میزبان نیز ممکن است به Bypass نمودن edge protections ها مانند فایروال برنامه‌های کاربردی وب و غیره کمک کند. برای مثال:
 
