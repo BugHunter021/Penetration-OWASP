@@ -1,5 +1,3 @@
-
-<div dir="rtl">
        
 # بررسی Session Management Schema
 
