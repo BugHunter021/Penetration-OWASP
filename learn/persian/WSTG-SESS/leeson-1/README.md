@@ -221,4 +221,3 @@ Set-Cookie: cookie=data; path=/; domain=.aaa.it; HttpOnly
 * DMA[2005-0614a] – ‘Global Hauri ViRobot Server cookie overflow’
 * Gunter Ollmann: “Web Based Session Management”
 * OWASP Code Review Guide
-
