@@ -169,3 +169,4 @@ Content-Type: text/plain
                                                              
 **برای انجام اقدامات پیش‌گیرانه به [OWASP CSRF Prevention Cheat Sheet ](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)مراجعه کنید.**
 
+
