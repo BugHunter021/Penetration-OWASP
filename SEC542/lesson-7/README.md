@@ -75,3 +75,4 @@ https://www.paterva.com/web7/
 توجه داشته باشید که بروزرسانی نسخه 4.x تغییرات قابل توجهی را در ساختار ابزار ایجاد نمود. این بروزرسانی ماژول هایی را به وجود آورد که هدف آن ها درک راحت تر اساس کار ماژول بود . به عنوان مثال ماژول recon/contacts-creds/pwnedist که از مسیر این ماژول مشخص می شود که اشاره به استفاده از Contact ها به عنوان ورودی و تلاش برای شناسایی Credential ها به عنوان خروجی می باشد. 
 
 ![TheHarvester](https://github.com/BugHunter021/Penetration-OWASP/blob/main/SEC542/lesson-7/images/recon-ng.png)
+
