@@ -77,6 +77,7 @@ Site:gov intitle:”index of” “last modified”
 
 http://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=directory
 
+
 علاوه بر موارد مذکور، ابزارهایی نیز برای جست و جوی لیست دایرکتوری ها و همچنین وجود آسیب پذیری Directory Browsing در دسترسی هستند که برخی آن ها عبارتند از:
 
 Dirb
