@@ -107,4 +107,3 @@ the PutObject operation: Access Denied
 # ابزارها
 
 AWS CLI
-
