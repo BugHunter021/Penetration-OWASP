@@ -167,5 +167,4 @@ https://github.com/darkoperator/dnsrecon
     و قابلیت های دیگر
 
 برای به دست آوردن اطلاعات DNS از طریق ابزار DNSRecon از دستور زیر استفاده می شود:
-
 dnsrecon -d sans.org
