@@ -110,7 +110,6 @@ https://github.com/sensepost/heartbleed-poc/blob/master/heartbleed-poc.py
 ### بررسی CHS Heartbleed Compromise
 
 سیستم Community Health System (CHS) که سیستم های بهداشت عمومی هستند، از طریق یک دستگاه Juniper VPN که دارای آسیب پذیری Heartbleed بود مورد نفوذ قرار گرفت. در این مورد نفوذگران توانسته بودند که اطلاعات کاربری را از حافظه یک دستگاه CHS Juniper که در آن زمان از آسیب پذیری Heartbleed رنج می برد، به دست آورند و از طریق VPN وارد سیستم شوند. لازم به ذکر است که در این حمله حدود 4 و نیم میلیون پرونده سلامت به سرقت رفت.
-
 خبر مربوط به این حمله در سایت Trustsec نیز منتشر شده است که برای مطالعه آن می توانید به لینک زیر مراجعه نمایید:
 
 https://www.trustedsec.com/2014/08/chs-hacked-heartbleed-exclusive-trustedsec/
